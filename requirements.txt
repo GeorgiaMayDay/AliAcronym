@@ -1,0 +1,4 @@
+slackbot<=1.0.5
+slack_sdk==3.39.0
+flask==3.1.2
+slack-bolt==1.27.0
