@@ -10,6 +10,8 @@ from slack_bolt.adapter.flask import SlackRequestHandler
 from slack_sdk import WebClient
 from slack_sdk.errors import SlackApiError
 
+from acronym_analysis.acronym_identifier import identify_acronym
+
 slack_token = os.environ["SLACKBOT_API_TOKEN"]
 slack_signing_secret = os.environ["SLACK_SIGNING_SECRET"]
 
@@ -25,9 +27,13 @@ handler = SlackRequestHandler(bolt_app)
 
 @bolt_app.event("app_mention")
 def handle_app_mentions(body, say, logger):
-    logger.info(body)
-    app.logger.info(body[''])
-    say("What's up?")
+    app.logger.info(body["event"]["text"])
+    text = body["event"]["text"]
+    acronyms = identify_acronym(text)
+    if acronyms:
+        say(f"I've identified:{acronyms} \n That's a nice acronym")
+    else:
+        say(f"I'm sorry I couldn't find an acronym in the string you sent me")
 
 @bolt_app.command("/ali_explain")
 def handle_acronym_command(ack, respond, command):
