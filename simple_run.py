@@ -22,22 +22,46 @@ client = WebClient(token=slack_token)
 
 handler = SlackRequestHandler(bolt_app)
 
-@bolt_app.message("hello ali")
-def greetings(payload: dict, say: Say):
-    """ This will check all the message and pass only those which has 'hello ali' in it """
-    user = payload.get("user")
-    say(f"Hi <@{user}>")
 
-@bolt_app.message(re.compile("(hi|hello|hey) ali"))
-def reply_in_thread(payload: dict):
-    """ This will reply in thread instead of creating a new thread """
-    response = client.chat_postMessage(channel=payload.get('channel'),
-                                     thread_ts=payload.get('ts'),
-                                     text=f"Hi<@{payload['user']}>")
+@bolt_app.event("app_mention")
+def event_test(body, say, logger):
+    logger.info(body)
+    say("What's up?")
+
+@bolt_app.event("user_typing")
+def handle_message_events(body, say, logger):
+    logger.info(body)
+    say(f"Hi I'm listening :)")
+
+
+@bolt_app.command("/ali_explain")
+def handle_acronym_command(ack, respond, command):
+    ack()
+    user_query = command['text']
+    thread_ts = command.get('thread_ts', command['ts'])
+
+    # Process the query (we'll implement this next)
+    # response = generate_response(user_query, thread_ts)
+    respond("TESTING", thread_ts=thread_ts)
+
+
+@bolt_app.event("message")
+def handle_message_events(body, say, logger):
+    logger.info(body)
+    say(f"Hi I don't know you")
 
 @app.route("/ali_acronym/events", methods=["POST"])
 def slack_events():
     """ Declaring the route where slack will post a request """
+    return handler.handle(request)
+
+@app.route("/ali_acronym/install", methods=["GET"])
+def install():
+    return handler.handle(request)
+
+
+@app.route("/ali_acronym/oauth_redirect", methods=["GET"])
+def oauth_redirect():
     return handler.handle(request)
 
 
