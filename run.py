@@ -24,30 +24,29 @@ handler = SlackRequestHandler(bolt_app)
 
 
 @bolt_app.event("app_mention")
-def event_test(body, say, logger):
+def handle_app_mentions(body, say, logger):
     logger.info(body)
+    app.logger.info(body[''])
     say("What's up?")
-
-@bolt_app.event("user_typing")
-def handle_message_events(body, say, logger):
-    logger.info(body)
-    say(f"Hi I'm listening :)")
-
 
 @bolt_app.command("/ali_explain")
 def handle_acronym_command(ack, respond, command):
     ack()
     user_query = command['text']
-    thread_ts = command.get('thread_ts', command['ts'])
+    # thread_ts = command.get('thread_ts', command['ts'])
+    print(user_query)
+    app.logger.info(command)
+    app.logger.info("Cheese")
 
     # Process the query (we'll implement this next)
     # response = generate_response(user_query, thread_ts)
-    respond("TESTING", thread_ts=thread_ts)
+    respond("TESTING")
 
 
 @bolt_app.event("message")
 def handle_message_events(body, say, logger):
     logger.info(body)
+    app.logger.info(body)
     say(f"Hi I don't know you")
 
 @app.route("/ali_acronym/events", methods=["POST"])
