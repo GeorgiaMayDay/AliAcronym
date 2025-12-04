@@ -1,8 +1,21 @@
+import string
 from typing import List
 import re
 # Check tests for this
 # Should accept as acronym: Any all capital string, and
-acronym_pattern = r"\b(?:[A-Z]{2,}[:alpha:]*)|(?:[A-Z][a-z][A-Z][:alpha:]*)|(?:[a-zA-Z]\.){2|(?:[a-zA-Z]\.){2,}[a-zA-Z]"
+acronym_pattern = r"\b(?:[A-Z]{2,}[:alpha:]*)|(?:[A-Z][a-z][A-Z][A-Za-z]*)|(?:[a-zA-Z]\.){2|(?:[a-zA-Z]\.){2,}[a-zA-Z]"
+
+def findWholeWord(w, s):
+    for p in [*string.whitespace, *string.punctuation]:
+        if (' ' + w + p) in (' ' + s + p):
+            return True
+    return None
+
 
 def identify_acronym(acronym: str) -> List[str]:
-    return re.findall(acronym_pattern, acronym)
+    final_acronyms = []
+    initial_acronym_scan = re.findall(acronym_pattern, acronym)
+    for acr in initial_acronym_scan:
+        if findWholeWord(acr, acronym):
+            final_acronyms.append(acr)
+    return final_acronyms
