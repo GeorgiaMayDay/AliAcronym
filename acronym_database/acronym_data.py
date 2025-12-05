@@ -91,12 +91,7 @@ database = {
     },
     "AA": {
         "meaning": "Administrative Assistants",
-        "description": "in context of PVB",
-        "department": ""
-    },
-    "AA (civil service grade)": {
-        "meaning": "Administrative Assistants",
-        "description": "",
+        "description": "A Grade within the Civil Service",
         "department": "Civil Service Wide"
     },
     "AAC": {
@@ -219,20 +214,21 @@ database = {
         "description": "",
         "department": "MoJ"
     },
-    "ACE": {
+    'ACE' :{"ACE": {
         "meaning": "Arts Council England",
         "description": "DCMS ALB, investing in arts and culture",
         "department": "DCMS"
     },
-    "ACE (childhood)": {
-        "meaning": "Adverse Childhood Experiences",
-        "description": "Source: {GOV.UK|https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/755135/Mental_health_and_behaviour_in_schools__.pdf} accessed 2019-08-15",
-        "department": "DfE"
-    },
-    "ACE (communication)": {
-        "meaning": "Aiding Communication in Education",
-        "description": "Source: The Knowledge accessed 2019-06-03",
-        "department": "DfE"
+        "ACE (childhood)": {
+            "meaning": "Adverse Childhood Experiences",
+            "description": "Source: {GOV.UK|https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/755135/Mental_health_and_behaviour_in_schools__.pdf} accessed 2019-08-15",
+            "department": "DfE"
+        },
+        "ACE (communication)": {
+            "meaning": "Aiding Communication in Education",
+            "description": "Source: The Knowledge accessed 2019-06-03",
+            "department": "DfE"
+        },
     },
     "ACEG": {
         "meaning": "Association for Careers and Education Guidance",
@@ -394,32 +390,41 @@ database = {
         "description": "",
         "department": "MoJ"
     },
-    "ADR": {
-        "meaning": "Alternative dispute resolution; Architectural design record",
-        "description": "Method to solve a dispute with the help of a third party.",
-        "department": "HMCTS; MoJ"
-    },
-    "ADR UK": {
-        "meaning": "Administrative Data Research UK",
-        "description": "ADR UK (Administrative Data Research UK) is a partnership transforming the way researchers access the UK's wealth of public sector data, to enable better informed policy decisions that improve people's lives.Source: ADR UK website accessed 2021-03-30",
-        "department": "DfE"
+    "ADR":
+        {"ADR": {
+            "meaning": "Alternative dispute resolution",
+            "description": "Method to solve a dispute with the help of a third party.",
+            "department": "HMCTS; MoJ"
+        },
+        "ADR (tech)": {
+            "meaning": "Architectural design record",
+            "description": "A document that captures an important architectural decision made along with its context and consequences.",
+            "department": "MadeTech; tech"
+        },
+        "ADR UK": {
+            "meaning": "Administrative Data Research UK",
+            "description": "ADR UK (Administrative Data Research UK) is a partnership transforming the way researchers access the UK's wealth of public sector data, to enable better informed policy decisions that improve people's lives.Source: ADR UK website accessed 2021-03-30",
+            "department": "DfE"
+        },
     },
     "ADS": {
         "meaning": "Advice Direct Scotland",
         "description": "",
         "department": "Not Limited to CS"
     },
-    "AE (civil service grade)": {
+    "AE": {"AE (civil service grade)": {
         "meaning": "Assistant Economists",
         "description": "",
         "department": "Civil Service Wide"
     },
-    "AE (education)": {
-        "meaning": "Adult education",
-        "description": "",
-        "department": "DfE"
+        "AE (education)": {
+            "meaning": "Adult education",
+            "description": "",
+            "department": "DfE"
+        }
     },
-    "AEB (board)": {
+    "AEB":{
+        "AEB (board)": {
         "meaning": "Associated Examining Board",
         "description": "Source: The Knowledge accessed 2019-06-03",
         "department": "DfE"
@@ -428,6 +433,7 @@ database = {
         "meaning": "Adult education budget",
         "description": "",
         "department": "DfE"
+    }
     },
     "AEC": {
         "meaning": "Association of Education Committees",
@@ -594,15 +600,16 @@ database = {
         "description": "",
         "department": "MoJ"
     },
-    "AL": {
+    "AL":{"AL": {
         "meaning": "Annual Leave",
         "description": "",
-        "department": "Civil Service Wide"
+        "department": ""
     },
-    "AL (civil service grade)": {
-        "meaning": "Assistant Librarian",
-        "description": "",
-        "department": "Civil Service Wide"
+        "AL (civil service grade)": {
+            "meaning": "Assistant Librarian",
+            "description": "",
+            "department": "Civil Service Wide"
+        },
     },
     "ALA": {
         "meaning": "Association of London Authorities",
@@ -659,20 +666,21 @@ database = {
         "description": "The Adult Literacy and Basic Skills Unit (formerly the Adult Literacy Unit and Adult Literacy Resource Agency) was a government-funded unit of NIACE, which remained in London when NIACE moved to Leicester. It became independent in 1990 as the Basic Skills Agency. In 2007, NIACE and the BSA merged together as one organisation.Source: {Learning and Work Institute website|https://www.learningandwork.org.uk/about-us/our-history/} accessed 2019-06-14",
         "department": "DfE"
     },
-    "ALS": {
+    "ALS": {"ALS": {
         "meaning": "Action Learning Set",
         "description": "",
         "department": "Civil Service Wide"
     },
-    "ALS (learning)": {
-        "meaning": "Additional learning support",
-        "description": "",
-        "department": "DfE"
-    },
-    "ALS (literacy)": {
-        "meaning": "Additional Literacy Support",
-        "description": "",
-        "department": "DfE"
+        "ALS (learning)": {
+            "meaning": "Additional learning support",
+            "description": "",
+            "department": "DfE"
+        },
+        "ALS (literacy)": {
+            "meaning": "Additional Literacy Support",
+            "description": "",
+            "department": "DfE"
+        },
     },
     "ALT": {
         "meaning": "Association for Learning Technology",
@@ -684,20 +692,17 @@ database = {
         "description": "",
         "department": "Cabinet Office"
     },
-    "AMA (accelerated)": {
-        "meaning": "Accelerated Modern Apprenticeships",
-        "description": "",
-        "department": "DfE"
-    },
-    "AMA (advanced)": {
-        "meaning": "Advanced Modern Apprenticeships",
-        "description": "",
-        "department": "DfE"
-    },
-    "AMA (authorities)": {
-        "meaning": "Association of Metropolitan Authorities",
-        "description": "Merged with the Association of County Councils and the Association of District Councils to form the Local Government Association.Source: {NBS website (supported by the RIBA)|https://www.thenbs.com/PublicationIndex/documents?Pub=AMA} accessed 2019-06-04",
-        "department": "DfE"
+    "AMA":{
+        "AMA (accelerated/advanced)": {
+            "meaning": "Accelerated Modern Apprenticeships",
+            "description": "8-month apprenticeships in Leadership and Management in England",
+            "department": "DfE"
+        },
+        "AMA (authorities)": {
+            "meaning": "Association of Metropolitan Authorities",
+            "description": "Merged with the Association of County Councils and the Association of District Councils to form the Local Government Association.Source: {NBS website (supported by the RIBA)|https://www.thenbs.com/PublicationIndex/documents?Pub=AMA} accessed 2019-06-04",
+            "department": "DfE"
+        },
     },
     "AMC": {
         "meaning": "Advanced Market Commitment",
@@ -749,30 +754,31 @@ database = {
         "description": "",
         "department": "DfE"
     },
-    "AO": {
-        "meaning": "Accommodation and Occupancy (also known as A&O); Accounting Officer; Administrative Officer",
+    "AO" : {"AO": {
+        "meaning": "; Accounting Officer; Administrative Officer",
         "description": "Grade with in the UK Civil Service; The personal accountability of the Accounting Officer forms the foundation of Parliament's ability to hold the Executive to account for public spending. Ministers are answerable to Parliament for policy decisions and the actions of the departments and their executive agencies. The Accounting Officer, normally the Permanent Secretary in the department, is personally responsible for the regularity and propriety of expenditure, robust evaluation of different mechanisms for delivering\npolicy objectives, value for money, the management of risk, and accurate accounting for the use of resources.",
         "department": "Civil Service Wide"
     },
-    "AO (adjudication)": {
-        "meaning": "Adjudication Officers",
-        "description": "Source: Department for Education and Employment and Office for Standards in Education., (1998). Departmental Report: The Government's Expenditure Plans for 1998-99 Cm 3910. London: The Stationery Office [ISBN 0101391021]",
-        "department": "DfE"
-    },
-    "AO (awarding)": {
-        "meaning": "Awarding organisations",
-        "description": "",
-        "department": "DfE"
-    },
-    "AO (initial teacher training)": {
-        "meaning": "Assessment only (route to qualified teacher status)",
-        "description": "If you're an experienced teacher with a degree, you can achieve qualified teacher status (QTS) without having to do any further training. Assessment Only allows you to demonstrate that you already meet all of the standards for QTS. To achieve QTS via the AO route, you'll need to present detailed evidence that you meet the standards. Your teaching will be assessed in a school by an accredited and approved AO provider.",
-        "department": "DfE"
-    },
-    "AO/AA": {
-        "meaning": "Administrative Office/Administrative Assistant",
-        "description": "A Grade within the Civil Service",
-        "department": "Civil Service Wide"
+        "AO (adjudication)": {
+            "meaning": "Adjudication Officers",
+            "description": "Source: Department for Education and Employment and Office for Standards in Education., (1998). Departmental Report: The Government's Expenditure Plans for 1998-99 Cm 3910. London: The Stationery Office [ISBN 0101391021]",
+            "department": "DfE"
+        },
+        "AO (awarding)": {
+            "meaning": "Awarding organisations",
+            "description": "",
+            "department": "DfE"
+        },
+        "AO (initial teacher training)": {
+            "meaning": "Assessment only (route to qualified teacher status)",
+            "description": "If you're an experienced teacher with a degree, you can achieve qualified teacher status (QTS) without having to do any further training. Assessment Only allows you to demonstrate that you already meet all of the standards for QTS. To achieve QTS via the AO route, you'll need to present detailed evidence that you meet the standards. Your teaching will be assessed in a school by an accredited and approved AO provider.",
+            "department": "DfE"
+        },
+        "A&O": {
+            "meaning": "Accommodation and Occupancy (also known as A&O)",
+            "description": "Rates of rooms and beds sold/occupied",
+            "department": ""
+        }
     },
     "AOB": {
         "meaning": "Any Other Business",
@@ -799,30 +805,36 @@ database = {
         "description": "",
         "department": "DfE"
     },
-    "AP": {
+    "AP": {"AP": {
         "meaning": "Alternative provision; Approved Premises",
         "description": "Education outside of school, when it is arranged by LAs or schools, is called alternative provision. It can range from pupil referral units (PRUs) and further education colleges to voluntary or private sector projects.Source: DfE website as at 2012-05-08",
         "department": "DfE"
     },
-    "AP (associate)": {
-        "meaning": "Associate Pool",
-        "description": "",
-        "department": "DfE"
+        "AP (associate)": {
+            "meaning": "Associate Pool",
+            "description": "The pool is made up of over 160 independent academics and researchers, and they can be\ncommissioned to carry out small-scale data analysis, rapid literature reviews, primary\nresearch and peer review. They also provide training, quality assurance and expert\nadvice on an ad-hoc basis. Most projects cost less than £15,000, and more than 80\nprojects have been commissioned since the pool opened in September 2014. ",
+            "department": "DfE"
+        },
     },
     "APA": {
-        "meaning": "Advanced Purchase Agreement; Asset Protection Agency",
-        "description": "",
-        "department": "APA; BEIS"
+        "APA": {
+        "meaning": "Advanced Purchase Agreement",
+        "description": "An advance or deferred purchase agreement if the agreement is in respect of the supply of assets or services and payment in the normal course of business with credit periods which are normal for the relevant type of project contracts \n Think buying Covid vaccines before they were made",
+        "department": "BEIS"
     },
-    "APA (Ofsted)": {
-        "meaning": "Annual Performance Assessment (Ofsted)",
-        "description": "Annual Performance Assessment (APA) is an annual process undertaken by Ofsted (and, until 2006, by CSCI) to provide a performance rating for each local authority children's services. It also assesses capacity to improve services and identifies strengths and weaknesses, and acts as a risk assessment to focus any future Joint Area Review inspection. The APA performance rating forms the children and young people's services block of the Audit Commission's annual Comprehensive Performance Assessment of Local Authorities (LA).",
-        "department": "DfE"
-    },
-    "APA (performance)": {
-        "meaning": "Annual Performance Agreement",
-        "description": "Source: Department for Education and Employment and Office for Standards in Education., (1998). Departmental Report: The Government's Expenditure Plans for 1998-99 Cm 3910. London: The Stationery Office [ISBN 0101391021]",
-        "department": "DfE"
+        "APA (department)": {"meaning": "Asset Protection Agency",
+                             "description": "The APA was part of the Treasury and was established as an executive agency to operate the Asset Protection Scheme. APA ceased operations in October 2012.",
+                             "department": "APA"},
+        "APA (Ofsted)": {
+            "meaning": "Annual Performance Assessment (Ofsted)",
+            "description": "Annual Performance Assessment (APA) is an annual process undertaken by Ofsted (and, until 2006, by CSCI) to provide a performance rating for each local authority children's services. It also assesses capacity to improve services and identifies strengths and weaknesses, and acts as a risk assessment to focus any future Joint Area Review inspection. The APA performance rating forms the children and young people's services block of the Audit Commission's annual Comprehensive Performance Assessment of Local Authorities (LA).",
+            "department": "DfE"
+        },
+        "APA (performance)": {
+            "meaning": "Annual Performance Agreement",
+            "description": "Source: Department for Education and Employment and Office for Standards in Education., (1998). Departmental Report: The Government's Expenditure Plans for 1998-99 Cm 3910. London: The Stationery Office [ISBN 0101391021]",
+            "department": "DfE"
+        },
     },
     "APAD": {
         "meaning": "Appeals against Admissions",
@@ -869,6 +881,7 @@ database = {
         "description": "APPGs are informal cross-party groups that have no official status within Parliament. They are run by and for Members of the Commons and Lords, though many choose to involve individuals and organisations from outside Parliament in their administration and activities.",
         "department": "Not Limited to CS"
     },
+    "APS":{
     "APS": {
         "meaning": "Assistant Private Secretary",
         "description": "A role in a Private Office.",
@@ -888,6 +901,7 @@ database = {
         "meaning": "Annual Population Survey",
         "description": "",
         "department": "ONS"
+    },
     },
     "APU (departmental organisational unit)": {
         "meaning": "Assessment of Performance Unit",
@@ -954,6 +968,7 @@ database = {
         "description": "ARNOLD is the Ministerial and Public Communications Division Artificial Intelligence (AI) robot to speed up correspondence logging in Iris. 2018-",
         "department": "DfE"
     },
+    "AS":{
     "AS (analytical)": {
         "meaning": "Analytical Services",
         "description": "Source: Department for Education and Employment and Office for Standards in Education., (1998). Departmental Report: The Government's Expenditure Plans for 1998-99 Cm 3910. London: The Stationery Office [ISBN 0101391021]",
@@ -974,15 +989,18 @@ database = {
         "description": "AS (Advanced Subsidiary) level qualifications can be studied either as a free standing qualification, or they can be the first half of the full A level. At the end of the AS year, there are two options (depending on the preference of the school or college): take the AS level as the final qualification or continue to the second year and go for the full A level.Source: Directgov website as at 2012-05-08",
         "department": "DfE"
     },
-    "ASB (actual)": {
+    },
+    "ASB": {
+        "ASB (actual)": {
         "meaning": "Actual Schools Budget",
         "description": "Source: The Knowledge accessed 2019-06-04",
         "department": "DfE"
-    },
-    "ASB (aggregated)": {
-        "meaning": "Aggregated Schools Budget",
-        "description": "Source: The Knowledge accessed 2019-06-04",
-        "department": "DfE"
+        },
+        "ASB (aggregated)": {
+            "meaning": "Aggregated Schools Budget",
+            "description": "Source: The Knowledge accessed 2019-06-04",
+            "department": "DfE"
+        },
     },
     "ASBO": {
         "meaning": "Anti-social behaviour orders",
@@ -990,19 +1008,21 @@ database = {
         "department": "DfE"
     },
     "ASC": {
-        "meaning": "Adult Social Care",
-        "description": "",
-        "department": "DHSC"
-    },
-    "ASC (schools)": {
-        "meaning": "Annual Schools Census",
-        "description": "Every school is required to supply information to the Department for Education each January through the Annual Schools Census (ASC), formerly known as Form 7\".",
-        "department": "DfE"
-    },
-    "ASC (skills)": {
-        "meaning": "Adult Skills College",
-        "description": "",
-        "department": "DfE"
+        "ASC": {
+            "meaning": "Adult Social Care",
+            "description": "",
+            "department": "DHSC"
+        },
+        "ASC (schools)": {
+            "meaning": "Annual Schools Census",
+            "description": "Every school is required to supply information to the Department for Education each January through the Annual Schools Census (ASC), formerly known as Form 7\".",
+            "department": "DfE"
+        },
+        "ASC (skills)": {
+            "meaning": "Adult Skills College",
+            "description": "",
+            "department": "DfE"
+        },
     },
     "ASCEL": {
         "meaning": "Association of Senior Childrens and Education Librarians",
@@ -1059,6 +1079,7 @@ database = {
         "description": "",
         "department": "DfE"
     },
+    "AST":{
     "AST (departmental organisational unit)": {
         "meaning": "Audit Support Team",
         "description": "Year(s) active (where known): 2013",
@@ -1073,6 +1094,7 @@ database = {
         "meaning": "Advanced skills teachers",
         "description": "A teacher who has passed a national assessment and been appointed to an AST post. The AST grade is designed to strengthen teaching and learning through better leadership, better rewards, better training and better support.",
         "department": "DfE"
+    },
     },
     "ASTO": {
         "meaning": "Adult Skills Training Organisations",
@@ -1089,7 +1111,7 @@ database = {
         "description": "The assessed and supported year in employment (ASYE) is a programme that gives newly qualified social workers extra support during their first year of employment. The programme aims to help them develop their skills, knowledge and professional confidence. Source: {GOV.UK|https://www.gov.uk/government/publications/assessed-and-supported-year-in-employment-asye/assessed-and-supported-year-in-employment} accessed 2016-02-12",
         "department": "DfE"
     },
-    "AT": {
+    "AT" : {"AT": {
         "meaning": "Assisted Technology",
         "description": "",
         "department": ""
@@ -1113,6 +1135,7 @@ database = {
         "meaning": "Administrative Trainee",
         "description": "Source: The Knowledge accessed 2019-06-04",
         "department": "DfE"
+    },
     },
     "ATA": {
         "meaning": "Apprenticeship Training Agencies",
@@ -1144,15 +1167,17 @@ database = {
         "description": "",
         "department": "BEIS"
     },
-    "ATO (operate)": {
-        "meaning": "Authority to Operate",
-        "description": "",
-        "department": "DfE"
-    },
-    "ATO (training)": {
-        "meaning": "Approved Training Organisation",
-        "description": "Source: The Knowledge accessed 2019-06-03",
-        "department": "DfE"
+    "ATO":{
+        "ATO (operate)": {
+            "meaning": "Authority to Operate",
+            "description": "A formal declaration by a Designated Approving Authority (DAA) that grants permission for an IT system or product to operate with other existing systems or networks",
+            "department": "CS Wide"
+        },
+        "ATO (training)": {
+            "meaning": "Approved Training Organisation",
+            "description": "Source: The Knowledge accessed 2019-06-03",
+            "department": "DfE"
+        },
     },
     "ATOS": {
         "meaning": "Occupational Services",
@@ -1164,6 +1189,7 @@ database = {
         "description": "",
         "department": "DWP"
     },
+    "ATR": {
     "ATR (recruitment)": {
         "meaning": "Authority to Recruit",
         "description": "",
@@ -1173,6 +1199,7 @@ database = {
         "meaning": "Approved Technology Register",
         "description": "",
         "department": "DfE"
+    },
     },
     "ATSTN": {
         "meaning": "Advanced Therapies Skills Training Network",
@@ -1369,15 +1396,27 @@ database = {
         "description": "",
         "department": "Defra"
     },
-    "BC": {
-        "meaning": "Benefit Centre; Business Case; Business Continuity",
-        "description": "An office where processing of benefits takes place - usually not open to the public; Justifying the cost of doing something by showing the benefits, see HMT Green Book for details.",
+    "BC":{
+    "BC (building)": {
+        "meaning": "Benefit Centre",
+        "description": "An office where processing of benefits takes place - usually not open to the public.",
+        "department": "DWP"
+    },
+    "BC (business)": {
+        "meaning": "Business Case",
+        "description": "Justifying the cost of doing something by showing the benefits",
         "department": "Civil Service Wide; DWP"
+    },
+    "BC (managed services)": {
+        "meaning": "Business Continuity",
+        "description": "That a business should be able to continue despite diaster, requires making a system of prevention and recovery from potential threats to a company.",
+        "department": "Not Limited to CS"
     },
     "BC (borough)": {
         "meaning": "Borough Council",
         "description": "Source: The Knowledge accessed 2019-04-12",
         "department": "Not Limited to CS"
+    },
     },
     "BCC": {
         "meaning": "British Chambers of Commerce",
@@ -1479,6 +1518,7 @@ database = {
         "description": "",
         "department": "DfE"
     },
+    "BEC": {
     "BEC (British)": {
         "meaning": "British Education Council",
         "description": "This study accounts for the formation in England of the Business Education Council (BEC) in 1974, and its development and transitions into the Business and Technology Education Council (BTEC) in 1983, and Edexcel Foundation in 1996. The article outlines the background and response to the 1969 report from the Committee on Technician Courses and Examinations (the Haslegrave Report), paying attention to its conceptualisation of the notion of 'technician'.",
@@ -1488,6 +1528,7 @@ database = {
         "meaning": "Branch Executive Committee",
         "description": "Common name for the part of a Trade Union that looks after a part of the civil service.",
         "department": "Civil Service Wide"
+    },
     },
     "BEIS": {
         "meaning": "Department for Business, Energy and Industrial Strategy",
@@ -1609,41 +1650,41 @@ database = {
         "description": "Professor Gerry Simon set up BILD in 1971 because he was convinced there could be better support in the community for people with disabilities. We have been championing the human rights of people with disabilities ever since. We work to develop the skills and culture necessary to understand people's needs and improve their quality of life. Our approach applies a rigorous evidence base, broad expertise and long-standing experience to find and enable both short and long-term solutions that bring about lasting change.Source: {BILD|https://www.bild.org.uk/about-bild/aboutbild/} accessed 2019-03-28",
         "department": "DfE"
     },
-    "BIP": {
-        "meaning": "Business Intelligence Platform",
-        "description": "",
-        "department": ""
-    },
-    "BIP (behaviour)": {
-        "meaning": "Behaviour Improvement Programme",
-        "description": "July 2002-2006? Was part of the Street Crime Initiative aimed at improving poor behaviour and attendance in schools in key areas.",
-        "department": "DfE"
-    },
-    "BIP (departmental organisational unit)": {
-        "meaning": "Business Improvement Project [Team]",
-        "description": "",
-        "department": "DfE"
+    "BIP":{
+        "BIP": {
+            "meaning": "Business Intelligence Platform",
+            "description": "",
+            "department": ""
+        },
+        "BIP (behaviour)": {
+            "meaning": "Behaviour Improvement Programme",
+            "description": "July 2002-2006? Was part of the Street Crime Initiative aimed at improving poor behaviour and attendance in schools in key areas.",
+            "department": "DfE"
+        },
+        "BIP (departmental organisational unit)": {
+            "meaning": "Business Improvement Project [Team]",
+            "description": "",
+            "department": "DfE"
+        },
     },
     "BIR": {
         "meaning": "Business Incident Report",
         "description": "",
         "department": ""
     },
-    "BIS": {
-        "meaning": "Department for Business, Innovation and Skills",
-        "description": "Created in June 2009 by the merger of the Department for Business, Enterprise and Regulatory Reform and the Department for Innovation, Universities and Skills. Disbanded in July 2016 when Higher Education remit moved to Department for Education and Business remit moved to the Department for Business, Energy and Industrial Strategy.",
-        "department": "Civil Service Wide"
+    "BIS":{
+        "BIS": {
+            "meaning": "Department for Business, Innovation and Skills",
+            "description": "Created in June 2009 by the merger of the Department for Business, Enterprise and Regulatory Reform and the Department for Innovation, Universities and Skills. Disbanded in July 2016 when Higher Education remit moved to Department for Education and Business remit moved to the Department for Business, Energy and Industrial Strategy.",
+            "department": "Civil Service Wide"
+        },
+        "BIS (briefings)": {
+            "meaning": "Briefing Information System",
+            "description": "",
+            "department": "DfE"
+        },
     },
-    "BIS (briefings)": {
-        "meaning": "Briefing Information System",
-        "description": "",
-        "department": "DfE"
-    },
-    "BIS (government department)": {
-        "meaning": "Department for Business Innovation and Skills",
-        "description": "Created in June 2009 by the merger of the Department for Business, Enterprise and Regulatory Reform and the Department for Innovation, Universities and Skills. Disbanded in July 2016 when Higher Education remit moved to Department for Education and Business remit moved to the Department for Business, Energy and Industrial Strategy.",
-        "department": "Civil Service Wide"
-    },
+    "BL":{
     "BL (business)": {
         "meaning": "Business Link",
         "description": "1994-2011. Originally a national network of regional advisory services offering advice and support to small firms to help them compete in world markets. From November 2011 the regional services closed and the website became the primary source of information. Now operates as a telephone helpline.Source: {GOV.UK|https://www.gov.uk/business-support-helpline} accessed 2015-06-02",
@@ -1653,6 +1694,7 @@ database = {
         "meaning": "British Library",
         "description": "The UK's legal deposit library responsible for keeping a copy of every book ever published in Britain",
         "department": "Civil Service Wide"
+    },
     },
     "BLACC": {
         "meaning": "Bank Liaison Automation and Customer Contact",
@@ -1809,21 +1851,24 @@ database = {
         "description": "",
         "department": "DLUHC"
     },
-    "BRG (reduction)": {
-        "meaning": "Bureaucracy Reduction Group",
-        "description": "2005-11. The FE and Training Bureaucracy Reduction Group (BRG) worked to tackle bureaucracy and reduce unnecessary administrative burdens within the learning and skills sector. Source: {The National Archives|https://webarchive.nationalarchives.gov.uk/+/https://www.bis.gov.uk/policies/further-education-skills/reforms/reducing-bureacracy} accessed 2015-06-02",
-        "department": "DfE"
-    },
-    "BRG (reference)": {
-        "meaning": "Bureaucracy Reference Group",
-        "description": "Source: The Knowledge accessed 2019-04-12",
-        "department": "DfE"
+    "BRG": {
+        "BRG (reduction)": {
+            "meaning": "Bureaucracy Reduction Group",
+            "description": "2005-11. The FE and Training Bureaucracy Reduction Group (BRG) worked to tackle bureaucracy and reduce unnecessary administrative burdens within the learning and skills sector. Source: {The National Archives|https://webarchive.nationalarchives.gov.uk/+/https://www.bis.gov.uk/policies/further-education-skills/reforms/reducing-bureacracy} accessed 2015-06-02",
+            "department": "DfE"
+        },
+        "BRG (reference)": {
+            "meaning": "Bureaucracy Reference Group",
+            "description": "Source: The Knowledge accessed 2019-04-12",
+            "department": "DfE"
+        },
     },
     "BRM": {
         "meaning": "Business Relationship Manager",
         "description": "",
         "department": "Defra"
     },
+    "BSA":{
     "BSA (schools)": {
         "meaning": "Boarding Schools Association",
         "description": "Source: The Knowledge accessed 2019-04-12",
@@ -1839,11 +1884,16 @@ database = {
         "description": "Merged with NIACE in 2007.",
         "department": "DfE"
     },
+    "BSA (law)": {
+        "meaning": "Building Safety Act",
+        "description": "Passed in 2022, this Act makes ground-breaking reforms to give residents and homeowners more rights, powers, and protections – so homes across the country are safer.",
+        "department": ""
+    },
     "BSA/NHSBSA": {
         "meaning": "Business Support Authority",
-        "description": "",
-        "department": "DHSC"
-    },
+        "description": "The NHS Business Services Authority is an Arm’s Length Body of the Department of Health and Social Care, responsible for providing platforms and delivering services that support the priorities of the NHS, Government and local health economies. (Website)[https://www.nhsbsa.nhs.uk/]",
+        "department": "DHSC; NHS"
+    },},
     "BSAS": {
         "meaning": "British Social Attitudes Survey",
         "description": "",
@@ -2025,9 +2075,25 @@ database = {
         "department": "Defra"
     },
     "CAB": {
-        "meaning": "Citizens Advice Bureau; Commercial Assurance Board; Conformity Assessment Body; Corporate Acting Body",
-        "description": "Charity, funded largely by central and local government, that provides a one-stop non-specialist advice on many different issues.They have their own triage process on the front desk, which will help you get an appointment - possibly a fortnight away.Some are first-come-first-served, so there are big queues outside each morning.",
-        "department": "Civil Service Wide; Not Limited to CS"
+        "CAB": {
+            "meaning": "Citizens Advice Bureau",
+            "description": "Charity, funded largely by central and local government, that provides a one-stop non-specialist advice on many different issues.They have their own triage process on the front desk, which will help you get an appointment - possibly a fortnight away.Some are first-come-first-served, so there are big queues outside each morning.",
+            "department": "Not Limited to CS"
+        },
+    "CAB (board)": {
+        "meaning": "Commercial Assurance Board",
+        "description": "An Assurance board for the commercial and digital and technology spend controls processes.",
+        "department": "Civil Service Wide"
+    },
+    "CAB (medical)": {
+        "meaning": "Conformity Assessment Body",
+        "description": "Conformity assessment bodies (CABs) are the bodies performing conformity assessment, which includes testing laboratories, calibration laboratories, medical laboratories, inspection bodies, and certification bodies.",
+        "department": "Civil Service Wide"
+    },
+    "CAB (organisation)": {
+        "meaning": "Corporate Acting Body",
+        "description": "An organisation which acts on behalf of a claimant",
+        "department": "Civil Service Wide"
     },
     "CAB (change)": {
         "meaning": "Change Advisory Board",
@@ -2038,6 +2104,7 @@ database = {
         "meaning": "Citizens Advice Bureau",
         "description": "Source: The Knowledge accessed 2019-04-11",
         "department": "DfE"
+    },
     },
     "CACS": {
         "meaning": "Carer\u2019s Allowance Computer System",
@@ -2129,21 +2196,22 @@ database = {
         "description": "CARAT workers are intermediaries between drug treatments providers and the prisoners themselves",
         "department": "MoJ"
     },
-    "CAS": {
+    "CAS":{"CAS": {
         "meaning": "Case Allocation System",
         "description": "Used after sentencing to assign offender as NPS or CRC",
         "department": "MoJ"
     },
-    "CAS (career)": {
-        "meaning": "Careers Advice Service",
-        "description": "",
-        "department": "DfE"
-    },
-    "CAS (credit)": {
-        "meaning": "Credit Accumulation Service",
-        "description": "",
-        "department": "DfE"
-    },
+        "CAS (career)": {
+            "meaning": "Careers Advice Service",
+            "description": "",
+            "department": "DfE"
+        },
+        "CAS (credit)": {
+            "meaning": "Credit Accumulation Service",
+            "description": "",
+            "department": "DfE"
+        }, },
+    "CASE":{
     "CASE (education)": {
         "meaning": "Campaign for State Education",
         "description": "Source: The Knowledge accessed 2019-04-11",
@@ -2153,7 +2221,8 @@ database = {
         "meaning": "Campaign for Science and Engineering",
         "description": "Source: The Knowledge accessed 2019-04-11",
         "department": "DfE"
-    },
+    },},
+    "CAT":{
     "CAT": {
         "meaning": "Central Activities Team; Central Admin Team",
         "description": "",
@@ -2168,7 +2237,7 @@ database = {
         "meaning": "Consortium for Assessment and Training in Schools",
         "description": "Source: The Knowledge accessed 2019-05-30",
         "department": "DfE"
-    },
+    },},
     "CATE": {
         "meaning": "Council for Accreditation of Teacher Education",
         "description": "",
@@ -2179,6 +2248,7 @@ database = {
         "description": "",
         "department": ""
     },
+    "CATS":{
     "CATS": {
         "meaning": "Case Assessment and Tracking System",
         "description": ".NET application written and used by CFO at Daresbury Park in Warrington for managing ESF funded projects",
@@ -2193,12 +2263,13 @@ database = {
         "meaning": "Credit Accumulation and Transfer Scheme (points)",
         "description": "The credit system used by the OU is aligned to the national Credit Accumulation and Transfer Scheme (CATS). The CATS system helps you to move the credits you accumulate from one institution to another. So if you have completed some previous study at another institution, you may be able to count it towards your OU qualification. The Scheme equates one credit (or credit point) with 10 hours of notional learning time (the time, on average, a learner takes to achieve the specified learning outcomes). A module allocated 30 credits or CATS points should require students to commit approximately 300 hours of work to achieving the learning outcomes for the module at a particular level.",
         "department": "DfE"
-    },
+    },},
     "CATTS": {
         "meaning": "See ATSTN",
         "description": "",
         "department": "BEIS"
     },
+    "CAU":{
     "CAU": {
         "meaning": "Carer\u2019s Allowance Unit",
         "description": "",
@@ -2208,7 +2279,7 @@ database = {
         "meaning": "Central Analysis Unit",
         "description": "Year(s) active (where known): 2019?-",
         "department": "DfE"
-    },
+    },},
     "CB": {
         "meaning": "Contributory Benefit",
         "description": "",
@@ -2249,6 +2320,7 @@ database = {
         "description": "",
         "department": "DfE"
     },
+    "CC":{
     "CC": {
         "meaning": "Carer\u2019s Credit; Case Control; Contact Centre; County Court",
         "description": "A court dealing with civil (not criminal) matters.",
@@ -2278,7 +2350,7 @@ database = {
         "meaning": "Competence Centre",
         "description": "Source: The Knowledge accessed 2019-05-30",
         "department": "DfE"
-    },
+    },},
     "CCA": {
         "meaning": "Combined County Authority; Consumer Credit Act",
         "description": "Legislation that protects consumers by setting out how creditors should lend and collect money.",
@@ -2444,6 +2516,7 @@ database = {
         "description": "Source: The Knowledge accessed 2019-04-02",
         "department": "DfE"
     },
+    "CCTA":{
     "CCTA (college)": {
         "meaning": "City College for the Technology of the Arts",
         "description": "Source: The Knowledge accessed 2019-04-11",
@@ -2453,7 +2526,7 @@ database = {
         "meaning": "Central Computer and Telecommunications Agency",
         "description": "Source: The Knowledge accessed 2019-04-11",
         "department": "DfE"
-    },
+    },},
     "CCTE": {
         "meaning": "Chambers of Commerce Training and Enterprise",
         "description": "Source: The Knowledge accessed 2019-04-02",
@@ -2490,6 +2563,7 @@ database = {
         "department": "MoJ"
     },
     "CDC": {
+    "CDC": {
         "meaning": "Change Data Capture; Change Directorate Committee",
         "description": "",
         "department": "MoJ"
@@ -2503,7 +2577,7 @@ database = {
         "meaning": "Curriculum Development Centre",
         "description": "Source: The Knowledge accessed 2019-04-11",
         "department": "DfE"
-    },
+    },},
     "CDCS": {
         "meaning": "Change Data Capture Staging",
         "description": "LAA Oracle database for capturing data from remote databases.Receives data from CCMS which it captures within CDCS and then pulls the relevant information in to EDW.",
@@ -2539,6 +2613,7 @@ database = {
         "description": "The CDI is the single UK-wide professional body for everyone working in the fields of career education; career information, advice and guidance; career coaching, career consultancy and career management. Established 2 April 2013.Source: {CDI website|https://www.thecdi.net/About} accessed 2019-12-24",
         "department": "DfE"
     },
+    "CDL":{
     "CDL": {
         "meaning": "Chancellor of the Duchy of Lancaster",
         "description": "Chancellor of the Duchy of Lancaster - Cabinet Position",
@@ -2553,7 +2628,7 @@ database = {
         "meaning": "Committee of Departmental Librarians",
         "description": "",
         "department": "DfE"
-    },
+    },},
     "CDMO": {
         "meaning": "Contract Development and Manufacturing Organisation",
         "description": "",
@@ -2564,22 +2639,12 @@ database = {
         "description": "The Chief Dental Officers in the United Kingdom are the most senior advisors for dentistry in each of the four nations",
         "department": "Civil Service Wide"
     },
-    "CDO CU (departmental organisational unit)": {
-        "meaning": "Chief Data Office Central Unit",
-        "description": "Year(s) active (where known): c2020-",
-        "department": "DfE"
-    },
     "CDR": {
         "meaning": "Critical Design Review",
         "description": "",
         "department": ""
     },
     "CDS": {
-        "meaning": "Central Delivery Service",
-        "description": "",
-        "department": "DfE"
-    },
-    "CDS (customs)": {
         "meaning": "Customs Declaration Service",
         "description": "Platform developed by HMRC to replace the previous system (CHIEF) to allow importers/exporters to declare their goods for customs.",
         "department": "HMRC"
@@ -2594,15 +2659,17 @@ database = {
         "description": "",
         "department": "Not Limited to CS"
     },
-    "CEC (Commonwealth)": {
-        "meaning": "Council for Education in the Commonwealth",
-        "description": "Source: The Knowledge accessed 2019-04-03",
-        "department": "DfE"
-    },
-    "CEC (careers)": {
-        "meaning": "Careers and Enterprise Company",
-        "description": "Education Secretary Nicky Morgan has announced the creation of a new careers and enterprise company for schools, to transform the provision of careers education and advice for young people and inspire them about the opportunities offered by the world of work. The new company is designed to support the government's long-term economic plan by helping young people consider all the options available to them when they leave school and ensure they leave school fully prepared for life in modern Britain. The government is determined that schools, colleges and employers should work in partnership to spread outstanding careers advice, guidance and inspiration to every young person across the country, regardless of their background or location. Source: {GOV.UK|https://www.gov.uk/governmentewsew-careers-and-enterprise-company-for-schools} accessed 2016-11-01 We inspire and prepare young people for the fast-changing world of work. We are the national network that connects schools and colleges, employers and career programme providers to create high-impact careers opportunities for young people. Source: {Careers and Enterprise Company|https://www.careersandenterprise.co.uk/} accessed 2018-02-20",
-        "department": "DfE"
+    "CEC":{
+        "CEC (Commonwealth)": {
+            "meaning": "Council for Education in the Commonwealth",
+            "description": "Source: The Knowledge accessed 2019-04-03",
+            "department": "DfE"
+        },
+        "CEC (careers)": {
+            "meaning": "Careers and Enterprise Company",
+            "description": "Education Secretary Nicky Morgan has announced the creation of a new careers and enterprise company for schools, to transform the provision of careers education and advice for young people and inspire them about the opportunities offered by the world of work. The new company is designed to support the government's long-term economic plan by helping young people consider all the options available to them when they leave school and ensure they leave school fully prepared for life in modern Britain. The government is determined that schools, colleges and employers should work in partnership to spread outstanding careers advice, guidance and inspiration to every young person across the country, regardless of their background or location. Source: {GOV.UK|https://www.gov.uk/governmentewsew-careers-and-enterprise-company-for-schools} accessed 2016-11-01 We inspire and prepare young people for the fast-changing world of work. We are the national network that connects schools and colleges, employers and career programme providers to create high-impact careers opportunities for young people. Source: {Careers and Enterprise Company|https://www.careersandenterprise.co.uk/} accessed 2018-02-20",
+            "department": "DfE"
+        },
     },
     "CED": {
         "meaning": "Claim Effective Date",
@@ -2619,6 +2686,7 @@ database = {
         "description": "Source: The Knowledge accessed 2019-04-03",
         "department": "DfE"
     },
+    "CEE":{
     "CEE (certificate)": {
         "meaning": "Certificate of Extended Education",
         "description": "",
@@ -2628,7 +2696,7 @@ database = {
         "meaning": "Centre for the Economics of Education",
         "description": "The Centre for the Economics of Education (CEE) is dedicated to combining the fields of economics education, and statistics in an interdisciplinary approach to research. The CEE is a research centre based at Centre for Economic Performance in partnership with the Institute for Fiscal Studies and the Institute of Education. The CEE is sponsored by the Department for Education. Links. Source: {CEE Website|https://cee.lse.ac.uk} accessed 2021-03-01Source: The Knowledge accessed 2019-04-03",
         "department": "DfE"
-    },
+    },},
     "CEF": {
         "meaning": "Colleges Employers Forum",
         "description": "Source: The Knowledge accessed 2019-04-03",
@@ -2665,7 +2733,8 @@ database = {
         "department": "DLUHC"
     },
     "CEO": {
-        "meaning": "Chief Executive Officer; Court enforcement officer",
+    "CEO": {
+        "meaning": "Court enforcement officer",
         "description": "",
         "department": "MoJ; Not Limited to CS"
     },
@@ -2678,7 +2747,7 @@ database = {
         "meaning": "Chief Executive Officer",
         "description": "Source: The Knowledge accessed 2019-05-30",
         "department": "DfE"
-    },
+    },},
     "CEOP": {
         "meaning": "Child Exploitation and Online Protection Centre",
         "description": "The Child Exploitation and Online Protection Centre (CEOP), formed in April 2006, is a cross agency and cross business department of the Serious Organised Crime Agency, which is tasked to work both nationally and internationally to bring online child sex offenders, including those involved in the production, distribution and viewing of child pornography to the UK courts. CEOP is dedicated to protecting children from sexual abuse wherever they may be. That means building intelligence around the risks, tracking and bringing offenders to account either directly or with local and international forces and working with children and parents to deliver their unique ThinkuKnow educational programme.  Working across the UK and maximising international links, CEOP delivers what is termed a \"holistic\" approach that combines police powers with the dedicated expertise of business sectors, government, specialist charities and other interested organisations all focused on tackling child sex abuse.Source: The Knowledge accessed 2019-04-11",
@@ -2719,6 +2788,7 @@ database = {
         "description": "The Association of Chief Education Officers, the Society of Education Officers and the Society of Chief Inspectors and Advisers merged to form the Confederation of Education Service Managers (ConfEd). Source Education Journal issue 63 2002. Source: The Knowledge accessed 2019-05-30",
         "department": "DfE"
     },
+    "CET":{
     "CET": {
         "meaning": "Client Engagement Team",
         "description": "",
@@ -2733,12 +2803,13 @@ database = {
         "meaning": "Council for Education and Training",
         "description": "In March 1967 Anthony Crosland as Secretary of State for Education and Science announced that as a result of the Brynmor Jones Report Audio-Visual Aids in Higher Scientific Education (Jones, 1965) he was planning to set up a body to \"advise educational services and industrial training organisations on the use of audio visual aids and media\". It [NCET] was formally set up under the terms of a trust deed dated 5 December 1967 and funded by government through the Department for Education and Science. It [government] set up in 1970 a working party chaired by JH Hudson of the DES, which published a report \"Central Arrangements for promoting Educational Technology in the United Kingdom \"(HMSO, 1972) and from this the Council for Educational Technology was created on 1 October 1973.Source: {EDTech history website|https://www.edtechhistory.org.uk/history/the_1980scet.html} accessed 2019-06-19",
         "department": "DfE"
-    },
+    },},
     "CETL": {
         "meaning": "Centres for Excellence in Teaching and Learning",
         "description": "The Centres for Excellence in Teaching and Learning (CETL) initiative has two main aims: to reward excellent teaching practice, and to further invest in that practice so that CETLs funding delivers substantial benefits to students, teachers and institutions. HEFCE Initiative  The CETLs initiative arose from a consultation held by HEFCE in 2003 and there are 74 in existence. The funds received by CETLs will be used to recognise and reward excellent teachers and enable institutions to invest in staff, buildings and equipment to support and enhance successful learning in new and challenging ways. Funding  Funding of CETLs will total 315 million over five years from 2005-06 to 2009-10. Each CETL will receive recurrent funding, ranging from 200,000 to 500,000 per annum for five years, and a capital sum ranging from 0.8 million to 2 million. This initiative represents HEFCE's largest ever single funding initiative in teaching and learning. Source: The Knowledge accessed 2019-05-30",
         "department": "DfE"
     },
+    "CF":{
     "CF (challenge)": {
         "meaning": "Challenge Funding",
         "description": "Source: The Knowledge accessed 2019-05-29",
@@ -2748,7 +2819,7 @@ database = {
         "meaning": "Children's Fund",
         "description": "The Association of Chief Education Officers, the Society of Education Officers and the Society of Chief Inspectors and Advisers merged to form the Confederation of Education Service Managers (ConfEd). Source Education Journal issue 63 2002. Source: The Knowledge accessed 2019-05-30",
         "department": "DfE"
-    },
+    },},
     "CFCD": {
         "meaning": "Counter Fraud and Compliance Department",
         "description": "",
@@ -2759,6 +2830,7 @@ database = {
         "description": "?2019",
         "department": "DfE"
     },
+    "CFE":{
     "CFE": {
         "meaning": "Check Financial Eligibility",
         "description": "A non-user facing service which calculates an applicant\u2019s financial eligibility using data entered through Apply. This includes information on an applicant\u2019s income and outgoings, and calculations include a range of different things in accordance with legal aid regulation based on what information is entered.",
@@ -2773,6 +2845,7 @@ database = {
         "meaning": "Colleges of Further Education",
         "description": "Source: The Knowledge accessed 2019-05-29",
         "department": "DfE"
+    },
     },
     "CFER": {
         "meaning": "Consolidated Fund Extra Receipts",
@@ -2854,6 +2927,7 @@ database = {
         "description": "",
         "department": "DWP"
     },
+    "CHE":{
     "CHE (Chronicle)": {
         "meaning": "Chronicle of Higher Education",
         "description": "Source: The Knowledge accessed 2019-05-29",
@@ -2868,7 +2942,7 @@ database = {
         "meaning": "Community Home with Education on the Premises",
         "description": "Source: The Knowledge accessed 2019-05-29",
         "department": "DfE"
-    },
+    },},
     "CHED": {
         "meaning": "",
         "description": "",
@@ -2939,15 +3013,17 @@ database = {
         "description": "Founded in 2005 as part of the Qualifications and Curriculum Authority (QCA), the Institute gained a Royal Charter in 2007. CIEA transferred to the Qualifications and Curriculum Development Agency (QCDA) in 2010 when QCA was split into two organisations: QCDA and Ofqual (the Office of Qualifications and Examinations Regulation). The CIEA received an annual grant from QCA/QCDA to cover operational expenditure and had its offices in QCDAs Coventry headquarters. From 31 March 2011 the closure of QCDA meant the termination of the relationship between QCDA and the CIEA. Grants from QCDA ceased and the Institute became a fully independent membership organisation on that date.Source: The Knowledge accessed 2019-05-30",
         "department": "DfE"
     },
-    "CIF": {
-        "meaning": "Condition Improvement Fund",
-        "description": "CIF is an annual bidding round to which academies and sixth-form colleges can apply for capital funding. The core priority for CIF is to address significant condition need, keeping academy and sixth-form college buildings safe and in good working order. This includes funding projects to address health and safety issues, building compliance and poor building condition. CIF also supports a small proportion of expansion projects for Ofsted-rated good or outstanding academies and sixth-form colleges that need to expand their existing facilities and/or floor space.Source: {GOV.UK|https://www.gov.uk/guidance/condition-improvement-fund} accessed 2016-12-13",
-        "department": "DfE"
-    },
-    "CIF (inspection)": {
-        "meaning": "Common Inspection Framework",
-        "description": "Source: The Knowledge accessed 2019-05-29",
-        "department": "DfE"
+    "CIF":{
+        "CIF": {
+            "meaning": "Condition Improvement Fund",
+            "description": "CIF is an annual bidding round to which academies and sixth-form colleges can apply for capital funding. The core priority for CIF is to address significant condition need, keeping academy and sixth-form college buildings safe and in good working order. This includes funding projects to address health and safety issues, building compliance and poor building condition. CIF also supports a small proportion of expansion projects for Ofsted-rated good or outstanding academies and sixth-form colleges that need to expand their existing facilities and/or floor space.Source: {GOV.UK|https://www.gov.uk/guidance/condition-improvement-fund} accessed 2016-12-13",
+            "department": "DfE"
+        },
+        "CIF (inspection)": {
+            "meaning": "Common Inspection Framework",
+            "description": "Source: The Knowledge accessed 2019-05-29",
+            "department": "DfE"
+        },
     },
     "CIHE": {
         "meaning": "Council for Industry and Higher Education",
@@ -3064,35 +3140,39 @@ database = {
         "description": "",
         "department": "Civil Service Wide; DWP"
     },
-    "CLA": {
-        "meaning": "Civil Legal Advice; Civil Legal Aid",
-        "description": "CLA is a service provided to the general public in England and Wales where users can obtain free legal advice from specialist legal providers relating to a range of Civil matters. This is subject to the user\u2019s matter being within scope of the service and the user passing the means eligibility test. The advice can either be given via telephone or in person depending upon the client\u2019s unique circumstances.",
-        "department": "MoJ"
-    },
-    "CLA (children)": {
-        "meaning": "Children Looked After",
-        "description": "",
-        "department": "DfE"
-    },
-    "CLA (copyright)": {
-        "meaning": "Copyright Licensing Agency",
-        "description": "",
-        "department": "DfE"
+    "CLA":{
+        "CLA": {
+            "meaning": "Civil Legal Advice; Civil Legal Aid",
+            "description": "CLA is a service provided to the general public in England and Wales where users can obtain free legal advice from specialist legal providers relating to a range of Civil matters. This is subject to the user\u2019s matter being within scope of the service and the user passing the means eligibility test. The advice can either be given via telephone or in person depending upon the client\u2019s unique circumstances.",
+            "department": "MoJ"
+        },
+        "CLA (children)": {
+            "meaning": "Children Looked After",
+            "description": "",
+            "department": "DfE"
+        },
+        "CLA (copyright)": {
+            "meaning": "Copyright Licensing Agency",
+            "description": "",
+            "department": "DfE"
+        },
     },
     "CLAIT": {
         "meaning": "Computer Literacy and Information Technology",
         "description": "",
         "department": "DfE"
     },
-    "CLC (care leavers)": {
-        "meaning": "Care Leaver Covenant",
-        "description": "The Care Leaver Covenant (CLC) is part of the government's keep on caring strategy to support people leaving care to become independent. It allows public, private and voluntary sector organisations to pledge support, including: apprenticeships work experience free or discounted goods and services All support given through CLC will help care leavers to make a transition to independence. This ranges from CV training to accommodation for care leavers in higher education. Every care leaver has a personal adviser who can provide information on CLC offers.Source: {GOV.UK|https://www.gov.uk/government/collections/care-leaver-covenant--2} accessed 2018-10-31",
-        "department": "DfE"
-    },
-    "CLC (learning centres)": {
-        "meaning": "City Learning Centres",
-        "description": "City Learning Centres (CLCs) are a key element of the Excellence in Cities (EiC) programme. They are located mainly on secondary school sites and provide state of the art information and communication technology-based learning opportunities across the curriculum for pupils and teachers at a network of local schools and for the wider community. The first CLC opened in October 2000. There are currently [date unknown] 105 Centres operating in EIC areas around the country. All EiC partnerships have at least one CLC. The aim of CLCs is to enhance teaching and learning across the whole curriculum for pupils and teachers in our major cities, particularly in secondary schools, and to provide access to education to the wider community. Their aim should also be to provide additionality to what is already available in an area. CLCs are a shared resource for the host school and all the other schools in the CLC partnership, although legal ownership will usually lies with the Local Authority or the host school. This is usually achieved by establishing a management board including representatives from some or all of the partnership schools, and often from local primary schools and the wider community as well.Source: The Knowledge accessed 2019-05-30",
-        "department": "DfE"
+    "CLC":{
+        "CLC (care leavers)": {
+            "meaning": "Care Leaver Covenant",
+            "description": "The Care Leaver Covenant (CLC) is part of the government's keep on caring strategy to support people leaving care to become independent. It allows public, private and voluntary sector organisations to pledge support, including: apprenticeships work experience free or discounted goods and services All support given through CLC will help care leavers to make a transition to independence. This ranges from CV training to accommodation for care leavers in higher education. Every care leaver has a personal adviser who can provide information on CLC offers.Source: {GOV.UK|https://www.gov.uk/government/collections/care-leaver-covenant--2} accessed 2018-10-31",
+            "department": "DfE"
+        },
+        "CLC (learning centres)": {
+            "meaning": "City Learning Centres",
+            "description": "City Learning Centres (CLCs) are a key element of the Excellence in Cities (EiC) programme. They are located mainly on secondary school sites and provide state of the art information and communication technology-based learning opportunities across the curriculum for pupils and teachers at a network of local schools and for the wider community. The first CLC opened in October 2000. There are currently [date unknown] 105 Centres operating in EIC areas around the country. All EiC partnerships have at least one CLC. The aim of CLCs is to enhance teaching and learning across the whole curriculum for pupils and teachers in our major cities, particularly in secondary schools, and to provide access to education to the wider community. Their aim should also be to provide additionality to what is already available in an area. CLCs are a shared resource for the host school and all the other schools in the CLC partnership, although legal ownership will usually lies with the Local Authority or the host school. This is usually achieved by establishing a management board including representatives from some or all of the partnership schools, and often from local primary schools and the wider community as well.Source: The Knowledge accessed 2019-05-30",
+            "department": "DfE"
+        },
     },
     "CLCA": {
         "meaning": "Criminal Law Consolidation Act",
@@ -3189,20 +3269,17 @@ database = {
         "description": "",
         "department": ""
     },
+    "CMS":{
     "CMS": {
         "meaning": "Case Management System; Customer Management System",
         "description": "",
         "department": "Civil Service Wide"
     },
     "CMS (service)": {
-        "meaning": "Content Management Service",
+        "meaning": "Content Management Service; Content management systems",
         "description": "Content Management Service is an application service that manages reference data.",
         "department": "DfE"
     },
-    "CMS (system)": {
-        "meaning": "Content management systems",
-        "description": "An interface that allows the management, editing and maintenance of web pages",
-        "department": "Not limited to CS"
     },
     "CMSP": {
         "meaning": "Core Maths Support Programme (2014-2017)",
@@ -3344,9 +3421,20 @@ database = {
         "description": "A Government strategy to ensure that GB's electricity comes from predominantly clean sources by 2030. The Clean Power 2030 Action Plan was published in December 2024.",
         "department": "DESNZ"
     },
+    "CPA":{
+    "CPA (health)": {
+        "meaning": "Care Programme Approach",
+        "description": "A package of care for people with mental health problems.",
+        "department": "NHS"
+    },
     "CPA": {
-        "meaning": "Care Programme Approach; Contract Package Area; Crown Proceedings Act",
-        "description": "Legislation that allows proceedings to be brought against the Crown, in the same manner as any other party.; Refers to the geographic area a CRC is responsible for",
+        "meaning": "Contract Package Area",
+        "description": "Refers to the geographic area a CRC is responsible for",
+        "department": "Civil Service Wide"
+    },
+    "CPA (justice)": {
+        "meaning": "Crown Proceedings Act",
+        "description": "Legislation that allows proceedings to be brought against the Crown, in the same manner as any other party.",
         "department": "HMCTS; MoJ"
     },
     "CPA (accounts)": {
@@ -3359,6 +3447,7 @@ database = {
         "description": "Source: The Knowledge accessed 2019-05-30",
         "department": "DfE"
     },
+    },
     "CPAB": {
         "meaning": "Corporate Personal Acting Body",
         "description": "",
@@ -3369,6 +3458,7 @@ database = {
         "description": "",
         "department": ""
     },
+    'CPC':{
     "CPC (poverty)": {
         "meaning": "Child Poverty Commission",
         "description": "Established by the Child Poverty Act 2010.",
@@ -3378,6 +3468,7 @@ database = {
         "meaning": "Child Protection Committee",
         "description": "Source: The Knowledge accessed 2019-05-30",
         "department": "DfE"
+    },
     },
     "CPCE": {
         "meaning": "Charities, Public Bodies and Complex Employment",
@@ -3434,6 +3525,7 @@ database = {
         "description": "",
         "department": "MoJ"
     },
+    "CPR":{
     "CPR": {
         "meaning": "Civil Procedure Rules; Civil procedure rules; Criminal Procedure Rules",
         "description": "Directions for how civil cases should be processed and handled.",
@@ -3444,15 +3536,23 @@ database = {
         "description": "",
         "department": "DfE"
     },
+    },
     "CPS": {
-        "meaning": "Central Payment System; Crown Prosecution Service",
-        "description": "(A software commonly used to process payments in the Civil Service); The organisation that is responsible for providing the prosecution in criminal cases in England and Wales.",
-        "department": "DWP; MoJ"
+    "CPS": {
+        "meaning": "Central Payment System",
+        "description": "(A software commonly used to process payments in the Civil Service)",
+        "department": "DWP"
+    },
+    "CPS (justice)": {
+        "meaning": "Crown Prosecution Service",
+        "description": "The organisation that is responsible for providing the prosecution in criminal cases in England and Wales.",
+        "department": "MoJ"
     },
     "CPS LP": {
         "meaning": "Central Payment System Local Payment",
         "description": "",
         "department": ""
+    },
     },
     "CPT": {
         "meaning": "Central Prosecution Team (Scotland)",
@@ -3564,15 +3664,17 @@ database = {
         "description": "",
         "department": ""
     },
-    "CRM": {
-        "meaning": "Client Relationship Manager / Customer Relations Manager",
-        "description": "",
-        "department": ""
-    },
-    "CRM systems": {
-        "meaning": "Customer relationship management systems",
-        "description": "",
-        "department": "DfE"
+    "CRM":{
+        "CRM": {
+            "meaning": "Client Relationship Manager / Customer Relations Manager",
+            "description": "",
+            "department": ""
+        },
+        "CRM systems": {
+            "meaning": "Customer relationship management systems",
+            "description": "",
+            "department": "DfE"
+        },
     },
     "CRM12": {
         "meaning": "",
@@ -3619,19 +3721,25 @@ database = {
         "description": "",
         "department": "BEIS; Civil Service Wide; MoJ; Not Limited to CS"
     },
+    "CSA":{
     "CSA": {
-        "meaning": "Chief Scientific Advisor; Child Support Agency; Customer Service Agent",
+        "meaning": "Chief Scientific Advisor",
         "description": "",
-        "department": "Civil Service Wide; DWP; MoJ"
+        "department": "Civil Service Wide"
+    },
+    "CSA (department)": {
+        "meaning": "Child Support Agency",
+        "description": "he CSA was abolished and replaced in 2008 by its successor, the Child Maintenance and Enforcement Commission (CMEC), which in turn was replaced by the Child Maintenance Service (CMS) in 2012.",
+        "department": "DWP"
+    },
+    "CSA (customer)": {
+        "meaning": "Customer Service Agent",
+        "description": "",
+        "department": "Civil Service Wide"
     },
     "CSA (abuse)": {
         "meaning": "Child sexual abuse",
         "description": "",
-        "department": "DfE"
-    },
-    "CSA (agency)": {
-        "meaning": "Child Support Agency",
-        "description": "Source: The Knowledge accessed 2019-05-30",
         "department": "DfE"
     },
     "CSA (assistant)": {
@@ -3639,21 +3747,22 @@ database = {
         "description": "Source: The Knowledge accessed 2019-05-30",
         "department": "DfE"
     },
+    },
     "CSAR (departmental organisational unit)": {
         "meaning": "Children's Services Analysis and Research",
         "description": "",
         "department": "DfE"
     },
-    "CSC": {
-        "meaning": "Close Supervision Centre",
-        "description": "Also known as Segregation unit, Seg, Solitary Confinement & SCU",
-        "department": "MoJ"
-    },
-    "CSC (departmental organisational unit)": {
-        "meaning": "Children's Social Care",
-        "description": "Year(s) active (where known): 2013",
-        "department": "DfE"
-    },
+    "CSC":    {"CSC": {
+            "meaning": "Close Supervision Centre",
+            "description": "Also known as Segregation unit, Seg, Solitary Confinement & SCU",
+            "department": "MoJ"
+        },
+            "CSC (departmental organisational unit)": {
+                "meaning": "Children's Social Care",
+                "description": "Year(s) active (where known): 2013",
+                "department": "DfE"
+            }, },
     "CSCF": {
         "meaning": "Civil Service Competency Framework",
         "description": "",
@@ -3689,16 +3798,16 @@ database = {
         "description": "Year(s) active (where known): 2013",
         "department": "DfE"
     },
-    "CSE (examinations)": {
+    "CSE:": {"CSE (examinations)": {
         "meaning": "Certificate of Secondary Education",
         "description": "",
         "department": "DfE"
     },
-    "CSE (exploitation)": {
-        "meaning": "Child sexual exploitation",
-        "description": "A consultation seeking views on a new definition of child sexual exploitation was launched on Friday, 12 February 2016. There are currently a number of definitions of child sexual exploitation in use by voluntary organisations and agencies. This has led to some confusion and additional challenges for practitioners working with children and families, creating inconsistencies in risk assessment and data collection. The government aims to provide clarity so all professionals are using the same definition of child sexual exploitation in their work to prevent abuse and investigate offending. The proposed definition is: Child sexual exploitation is a form of child abuse. It occurs where anyone under the age of 18 is persuaded, coerced or forced into sexual activity in exchange for, amongst other things, money, drugs/alcohol, gifts, affection or status. Consent is irrelevant, even where a child may believe they are voluntarily engaging in sexual activity with the person who is exploiting them. Child sexual exploitation does not always involve physical contact and may occur online. Source: {GOV.UK|https://www.gov.uk/governmentews/consultation-on-a-new-child-sexual-exploitation-definition} accessed 2016-02-16",
-        "department": "DfE"
-    },
+        "CSE (exploitation)": {
+            "meaning": "Child sexual exploitation",
+            "description": "A consultation seeking views on a new definition of child sexual exploitation was launched on Friday, 12 February 2016. There are currently a number of definitions of child sexual exploitation in use by voluntary organisations and agencies. This has led to some confusion and additional challenges for practitioners working with children and families, creating inconsistencies in risk assessment and data collection. The government aims to provide clarity so all professionals are using the same definition of child sexual exploitation in their work to prevent abuse and investigate offending. The proposed definition is: Child sexual exploitation is a form of child abuse. It occurs where anyone under the age of 18 is persuaded, coerced or forced into sexual activity in exchange for, amongst other things, money, drugs/alcohol, gifts, affection or status. Consent is irrelevant, even where a child may believe they are voluntarily engaging in sexual activity with the person who is exploiting them. Child sexual exploitation does not always involve physical contact and may occur online. Source: {GOV.UK|https://www.gov.uk/governmentews/consultation-on-a-new-child-sexual-exploitation-definition} accessed 2016-02-16",
+            "department": "DfE"
+        }, },
     "CSEC (departmental organisational unit)": {
         "meaning": "Children's Services, Equalities and Communications",
         "description": "",
@@ -3729,16 +3838,16 @@ database = {
         "description": "Part of MOJ led by director general Matthew Coats which includes Estates, ICT, HR, Shared Services and Digital Services.",
         "department": "DfE; MoJ"
     },
-    "CSHR": {
+    "CSHR":{"CSHR": {
         "meaning": "Civil Service Human Resources",
         "description": "",
         "department": "BEIS"
     },
-    "CSHR Profession": {
-        "meaning": "Civil Service Human Resources Profession",
-        "description": "The Civil Service Human Resources (CSHR) Profession is building a strong, vibrant HR community with a reputation for high performance and good professional development.Source accessed 2021-05-17",
-        "department": "DfE"
-    },
+        "CSHR Profession": {
+            "meaning": "Civil Service Human Resources Profession",
+            "description": "The Civil Service Human Resources (CSHR) Profession is building a strong, vibrant HR community with a reputation for high performance and good professional development.Source accessed 2021-05-17",
+            "department": "DfE"
+        }, },
     "CSIE": {
         "meaning": "Certificate for Studies on Inclusive Education",
         "description": "",

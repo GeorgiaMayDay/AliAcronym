@@ -1,8 +1,8 @@
 import string
-from typing import List
+from typing import List, Dict
 import re
 
-from acronym_database.acronym_data_struct import AcronymDataStruct
+from acronym_database.acronym_data_struct import AcronymDataStruct, MultiAcronymDataStruct
 
 # Check tests for this
 # Should accept as acronym: Any all capital string, and
@@ -23,6 +23,11 @@ def identify_acronym(acronym: str) -> List[str]:
             final_acronyms.append(acr)
     return final_acronyms
 
-def fetch_acronym_description(acronym: str) -> AcronymDataStruct:
-    return AcronymDataStruct(meaning="cheese", description='delicious', department=acronym)
+
+def fetch_acronym_description(acronym: str, database: Dict[str, str | Dict[str, str]]) -> AcronymDataStruct | MultiAcronymDataStruct:
+    acronym_data: Dict = database[acronym]
+    try:
+        return AcronymDataStruct(acronym, **acronym_data)
+    except TypeError:
+        return MultiAcronymDataStruct(acronym_data)
 

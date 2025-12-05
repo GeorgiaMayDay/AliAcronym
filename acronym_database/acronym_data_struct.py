@@ -1,5 +1,5 @@
 from dataclasses import dataclass, asdict
-from typing import List
+from typing import Dict
 
 
 @dataclass
@@ -13,4 +13,4 @@ class AcronymDataStruct:
 @dataclass
 class MultiAcronymDataStruct:
     __slots__ = "acronym_data"
-    acronym_data: List[AcronymDataStruct]
+    acronym_data: Dict[str, AcronymDataStruct]
