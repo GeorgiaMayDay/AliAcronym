@@ -11124,9 +11124,15 @@ database = {
         "department": "DfE"
     },
     "MOG": {
-        "meaning": "Machinery of Government (change); Machinery of government",
-        "description": "A Machinery of Government (MoG) change is a transfer of functions between Ministers, either: a. between Ministers in charge of Departments or other Cabinet Ministers, or b. between a Minister and a Non-Departmental Public Body (NDPB). It can affect functions carried out by the Ministers Department or a public body such as an Executive Agency under the Ministers control, or by other public bodies. The transfer of a function takes effect immediately unless specifically provided to the contrary.",
-        "department": "BEIS; DfE; MoJ"
+    "MOG": {
+            "meaning": "Machinery of Government (change)",
+            "description": "A Machinery of Government (MoG) change is a transfer of functions between Ministers, either: a. between Ministers in charge of Departments or other Cabinet Ministers, or b. between a Minister and a Non-Departmental Public Body (NDPB). It can affect functions carried out by the Ministers Department or a public body such as an Executive Agency under the Ministers control, or by other public bodies. The transfer of a function takes effect immediately unless specifically provided to the contrary.",
+            "department": "BEIS"
+        },
+        "MOG (government??)": {
+            "meaning": "Machinery of government",
+            "description": "",
+        }
     },
     "MOJ": {
         "meaning": "Ministry of Justice",
