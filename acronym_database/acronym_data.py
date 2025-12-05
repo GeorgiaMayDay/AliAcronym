@@ -89,11 +89,6 @@ database = {
         "description": "",
         "department": "MoJ"
     },
-    "AA": {
-        "meaning": "Administrative Assistants",
-        "description": "A Grade within the Civil Service",
-        "department": "Civil Service Wide"
-    },
     "AAC": {
         "AAC (justice)": {
             "meaning": "Administrative Appeals Court",
@@ -534,11 +529,6 @@ database = {
         "meaning": "Action for Governors Information and Training",
         "description": "Source: The Knowledge accessed 2019-06-03",
         "department": "DfE"
-    },
-    "AGO": {
-        "meaning": "Attorney General's Office",
-        "description": "",
-        "department": "MoJ"
     },
     "AHDC": {
         "meaning": "Aiming High for Disabled Children",
@@ -1001,11 +991,6 @@ database = {
             "description": "Source: The Knowledge accessed 2019-06-04",
             "department": "DfE"
         },
-    },
-    "ASBO": {
-        "meaning": "Anti-social behaviour orders",
-        "description": "",
-        "department": "DfE"
     },
     "ASC": {
         "ASC": {
@@ -2196,21 +2181,6 @@ database = {
         "description": "CARAT workers are intermediaries between drug treatments providers and the prisoners themselves",
         "department": "MoJ"
     },
-    "CAS":{"CAS": {
-        "meaning": "Case Allocation System",
-        "description": "Used after sentencing to assign offender as NPS or CRC",
-        "department": "MoJ"
-    },
-        "CAS (career)": {
-            "meaning": "Careers Advice Service",
-            "description": "",
-            "department": "DfE"
-        },
-        "CAS (credit)": {
-            "meaning": "Credit Accumulation Service",
-            "description": "",
-            "department": "DfE"
-        }, },
     "CASE":{
     "CASE (education)": {
         "meaning": "Campaign for State Education",
@@ -2406,11 +2376,6 @@ database = {
         "description": "Aimed to increase the skill levels of individuals to enable them to act as inspirational figures, community entrepreneurs, community mentors and community leaders.",
         "department": "DfE"
     },
-    "CCG": {
-        "meaning": "Clinical Commissioning Group; Community Care Grant",
-        "description": "",
-        "department": "NHSx"
-    },
     "CCH": {
         "meaning": "Customer Care Helpline",
         "description": "",
@@ -2551,11 +2516,6 @@ database = {
         "meaning": "Chartered College of Teaching",
         "description": "An independent chartered organisation for the teaching profession.Source: {Chartered College of Teaching|https://www.collegeofteaching.org/} accessed 2017-05-18",
         "department": "DfE"
-    },
-    "CD": {
-        "meaning": "Crown Dependency",
-        "description": "",
-        "department": ""
     },
     "CDA": {
         "meaning": "Court data adaptor",
@@ -3320,11 +3280,6 @@ database = {
         "meaning": "Customer Notification Process",
         "description": "",
         "department": ""
-    },
-    "CO": {
-        "meaning": "Cabinet office",
-        "description": "",
-        "department": "DLUHC"
     },
     "COA": {
         "meaning": "Change of Address",
@@ -4888,11 +4843,6 @@ database = {
         "description": "",
         "department": "DWP"
     },
-    "DLA": {
-        "meaning": "Disability Living Allowance",
-        "description": "",
-        "department": "DWP"
-    },
     "DLACS": {
         "meaning": "Disability Living Allowance Computer System",
         "description": "",
@@ -4937,11 +4887,6 @@ database = {
         "meaning": "Department for Levelling Up, Housing and Communities",
         "description": "In September 2021, Boris Johnson renamed the department yet again, calling it the Department for Levelling Up, Housing and Communities (DLUHC), being more powers outside of just England to manage funds across the United Kingdom.",
         "department": "DLUHC"
-    },
-    "DM": {
-        "meaning": "Debt Management; Decision Maker; Delivery Manager",
-        "description": "",
-        "department": "DWP; DfE"
     },
     "DMA": {
         "meaning": "Decision Making and Appeals",
@@ -5406,17 +5351,12 @@ database = {
     "DWP": {
         "meaning": "Department for Work and Pensions",
         "description": "Government organisation - administrates ESF budget ellocation",
-        "department": "DWP; MoJ"
+        "department": "DWP"
     },
     "DX": {
         "meaning": "Document Exchange",
         "description": "DX, or Direct Exchange, is a private business-to-business mail and packaging network in the United Kingdom. Direct Exchange is cheaper than standard first class mail. Subscriptions are necessary to use this service.",
         "department": "MoJ"
-    },
-    "Defra": {
-        "meaning": "Department for Environment, Food and Rural Affairs",
-        "description": "",
-        "department": "Defra"
     },
     "DevOps": {
         "meaning": "Development Operations",
@@ -5447,11 +5387,6 @@ database = {
         "meaning": "Department for International Development",
         "description": "",
         "department": "FCDO"
-    },
-    "DfT": {
-        "meaning": "Department for Transport",
-        "description": "",
-        "department": "DfT"
     },
     "DiSSCo": {
         "meaning": "Distributed System of Scientific Collections",
@@ -5732,11 +5667,6 @@ database = {
         "meaning": "European Convention Social and Media Assistance",
         "description": "",
         "department": ""
-    },
-    "ED": {
-        "meaning": "Department of Employment",
-        "description": "1969-1995 In July 1995 merged with the Department for Education to become the Department for Education and Employment.",
-        "department": "DfE"
     },
     "EDAP (education)": {
         "meaning": "Education Data Advisory Panel",
@@ -6402,11 +6332,6 @@ database = {
         "meaning": "Employment Service",
         "description": "",
         "department": "DfE"
-    },
-    "ESA": {
-        "meaning": "Employment and Support Allowance; End of Scheme Assessment",
-        "description": "",
-        "department": "Cabinet Office; DWP"
     },
     "ESA (C)": {
         "meaning": "Employment and Support Allowance (Contributory)",
@@ -7273,11 +7198,6 @@ database = {
         "description": "",
         "department": "DWP"
     },
-    "FOI": {
-        "meaning": "Freedom of Information",
-        "description": "",
-        "department": "DLUHC"
-    },
     "FOIA": {
         "meaning": "Freedom of Information Act",
         "description": "",
@@ -7738,11 +7658,6 @@ database = {
         "description": "",
         "department": "BEIS; Civil Service Wide"
     },
-    "GDPR": {
-        "meaning": "General Data Protection Regulation; General Data Protection Regulations",
-        "description": "",
-        "department": "BEIS; DfE"
-    },
     "GDS": {
         "meaning": "Government Digital Service",
         "description": "",
@@ -8002,11 +7917,6 @@ database = {
         "meaning": "General Osteopathic Council",
         "description": "The regulator for Osteopaths in the UK",
         "department": "DHSC"
-    },
-    "GP": {
-        "meaning": "General Practitioner; General Practitioners",
-        "description": "",
-        "department": "DfE; Not Limted to CS"
     },
     "GPA": {
         "meaning": "Government Property Agency",
@@ -8595,13 +8505,8 @@ database = {
     },
     "HMRC": {
         "meaning": "HM Revenue and Customs; Her/His Majesty's Revenue and Customs",
-        "description": "",
-        "department": "DfE; HMRC"
-    },
-    "HMT": {
-        "meaning": "HM Treasury; Her/His Majesty's Treasury; Her/His Majesty's Treasury (also known as \u2018The Treasury)",
-        "description": "",
-        "department": "DLUHC; DfE; HMT; NHSx"
+        "description": "UK tax authority.",
+        "department": "HMRC"
     },
     "HMTC": {
         "meaning": "HER/HIS MAJESTY'S TRADE COMMISSIONER",
@@ -8697,11 +8602,6 @@ database = {
         "meaning": "High Priority Work Available Report",
         "description": "",
         "department": ""
-    },
-    "HR": {
-        "meaning": "Higher Rate; Human Resources",
-        "description": "",
-        "department": "DWP; Not Limited to CS"
     },
     "HR and OD": {
         "meaning": "Human Resources and Organisational Development",
@@ -9353,11 +9253,6 @@ database = {
         "description": "",
         "department": ""
     },
-    "IP": {
-        "meaning": "Intellectual property; Investment Panel (VTF)",
-        "description": "",
-        "department": "BEIS; DfE"
-    },
     "IPA": {
         "meaning": "Infrastructure and Projects Authority",
         "description": "The Infrastructure and Projects Authority (IPA) was, between 2016 and April 2025, the United Kingdom government's centre of expertise for infrastructure and major projects. See NISTA for current infomation",
@@ -9923,11 +9818,6 @@ database = {
         "description": "Computer code used predominantly in Web browsers to provide enhance user interaction.",
         "department": "MoJ"
     },
-    "JSA": {
-        "meaning": "Job Seekers Allowance; Jobseekers Allowance",
-        "description": "",
-        "department": "DWP; DfE"
-    },
     "JSAPS": {
         "meaning": "Jobseekers Allowance Computer System",
         "description": "",
@@ -10057,11 +9947,6 @@ database = {
         "meaning": "Key Performance Groups",
         "description": "",
         "department": ""
-    },
-    "KPI": {
-        "meaning": "Key Performance Indicator",
-        "description": "",
-        "department": "DLUHC"
     },
     "KS1": {
         "meaning": "Key stage 1",
@@ -10752,11 +10637,6 @@ database = {
         "meaning": "Life Sciences Organisation",
         "description": "DIT Team",
         "department": "BEIS"
-    },
-    "LSP": {
-        "meaning": "Local strategic partnerships",
-        "description": "Non-statutory, multi-agency partnerships which match local authority boundaries. LSPs bring together at a local level the different parts of the public, private, community and voluntary sectors allowing different initiatives and services to support one another so they can work together more effectively.",
-        "department": "DfE"
     },
     "LST": {
         "meaning": "Land Securities Trillium",
@@ -11458,11 +11338,6 @@ database = {
         "description": "Source: The Knowledge accessed 2019-04-16",
         "department": "DfE"
     },
-    "MoD": {
-        "meaning": "Ministry of Defence",
-        "description": "",
-        "department": "MoD"
-    },
     "MoJ": {
         "meaning": "Ministry of Justice",
         "description": "Created 9 May 2007, replaced Department for Constitutional Affairs.",
@@ -11622,11 +11497,6 @@ database = {
         "meaning": "National Association for Managers of Student Services",
         "description": "NAMSS (National Association for Managers of Student Services), is a not-for-profit organisation established in 1987 as a registered charity with the Charity Commission and is a key stakeholder for Government department consultations including safeguarding, funding, learner wellbeing etc. NAMSS provides support and professional development for managers and colleagues who work in student services roles in post-16 education and training.Source: {NAMSS website|https://www.namss.ac.uk/about-namss} accessed 2019-06-06",
         "department": "DfE"
-    },
-    "NAO": {
-        "meaning": "National Audit Office",
-        "description": "",
-        "department": "DLUHC"
     },
     "NAP": {
         "meaning": "National Adaptation Programme",
@@ -12208,20 +12078,15 @@ database = {
         "description": "",
         "department": "DLUHC"
     },
-    "NHS": {
-        "meaning": "National Health Service",
-        "description": "",
-        "department": "DfE; NHS; NHSx"
-    },
     "NHS D": {
         "meaning": "NHS Digital",
         "description": "",
-        "department": "NHSx"
+        "department": "NHS"
     },
     "NHS E/I": {
         "meaning": "NHS England and NHS Improvement",
         "description": "",
-        "department": "NHSx"
+        "department": "NHS"
     },
     "NHS FDP": {
         "meaning": "NHS Federated Data Platform",
@@ -14408,11 +14273,6 @@ database = {
         "description": "A Primary Learning Support Unit (PLSU) is a resource centre providing positive learning experiences for Year 6 children who are underachieving. Children attend every morning for two and half terms, returning to their home school for afternoon sessions. It aims to provide intensive learning support, raise self-esteem and develop positive learning behaviour. Each unit is for a maximum of 10 children. The PLSUs are for: -Children who are not working to their full potential, yet have the cognitive ability to achieve at least Level 4. -Children must be working at a minimum of National Curriculum Level 3c. -Children who may display negative learning behaviour, manifesting itself disruptively or by withdrawal. Unlike the Pupil Referral Unit, it is not the function of the PLSU to work with those children whose behaviour is so disruptive that it prevents learning from taking place. Content Sessions include: -Regular setting and reviewing of individual targets, encouraging the children to become independent and reflective learners. -Intense literacy and numeracy sessions to secure knowledge and key skills needed for SATs. -Using ICT as a tool to motivate and stimulate children's interest. -Circle time sessions to raise self esteem and promote positive behaviour management. -Understanding that we all learn in different ways and becoming aware of how we learn best.Source: The Knowledge accessed 2019-04-15",
         "department": "DfE"
     },
-    "PM": {
-        "meaning": "Performance Manager; Prime Minister",
-        "description": "",
-        "department": "No 10"
-    },
     "PMDU": {
         "meaning": "Prime Minister's Delivery Unit",
         "description": "",
@@ -14738,11 +14598,7 @@ database = {
         "description": "A role in a Private Office.; New name (June 2021) for what was the National Probation Service.; The civil service head of the department",
         "department": "Civil Service Wide; DLUHC; MoJ"
     },
-    "PSA": {
-        "meaning": "Professional Standards Authority for Health and Social Care; Public Service Agreement; Public service agreements",
-        "description": "PSAs set out what government departments aim to deliver in return for the investment being made. Abolished by the Coalition Government 2010.; The UK\u2019s independent regulatory oversight body improving the quality of regulation and registration of people working in health and social care",
-        "department": "Civil Service Wide; DHSC; DfE"
-    },
+
     "PSB": {
         "meaning": "Potential Schools Budget",
         "description": "Source: The Knowledge accessed 2019-04-15",
@@ -15798,11 +15654,6 @@ database = {
         "description": "Evidence that someone is eligible to rent a property in England",
         "department": "Home Office"
     },
-    "RTT": {
-        "meaning": "READY TO TRADE",
-        "description": "",
-        "department": "DIT"
-    },
     "RTW": {
         "meaning": "Right To Work",
         "description": "Evidence that someone is eligible to work lawfully in the UK.",
@@ -16794,10 +16645,10 @@ database = {
         "department": "DfE"
     },
     "SLA (service)": {
-        "meaning": "Service Level Agreements",
-        "description": "",
-        "department": "DfE"
-    },
+    "meaning": "Service Level Agreement",
+    "description": "Contractual agreement on service standards.",
+    "department": "Universal"
+  },
     "SLAQ": {
         "meaning": "Series Level Appraisal Questionnaire",
         "description": "",
@@ -18463,11 +18314,6 @@ database = {
         "description": "",
         "department": "Not Limited to CS"
     },
-    "UC": {
-        "meaning": "Universal Credit",
-        "description": "",
-        "department": "DWP"
-    },
     "UCAS": {
         "meaning": "Universities and Colleges Admissions Service",
         "description": "",
@@ -19148,11 +18994,6 @@ database = {
         "description": "",
         "department": ""
     },
-    "WHO": {
-        "meaning": "World Health Organisation",
-        "description": "",
-        "department": "Not Limited to CS"
-    },
     "WIP": {
         "meaning": "Work in progress",
         "description": "",
@@ -19617,5 +19458,295 @@ database = {
         "meaning": "Activities for Young People Programme",
         "description": "The Activities for Young People Programme for 16-year-olds, also known as the u-project, was aimed at young people in England who were coming to the end of compulsory education (at the end of school year 11), with no real idea of what they wanted to do next. Those young people were more likely than others of drifting out of learning and into long-term disaffection. The aim of the u-project was to aid the transition from secondary school to adult life, by providing a structured programme of challenging activity and high-quality advice and guidance to encourage participants to remain in education or to take up training or employment. Activities on the programme were designed to offer the young people personal challenges, an opportunity to reflect, and a sense of achievement.Funding from the Big Lottery Fund ended in December 2004.",
         "department": "DfE"
+    },
+  "A&E": {
+    "meaning": "Accident and Emergency",
+    "description": "Medical and surgical treatment provided mainly in hospitals.",
+    "department": "NHS"
+  },
+  "AA": {
+    "AA (Civil Service)": {
+      "meaning": "Administrative officer/administrative assistant",
+      "description": "Civil service grade.",
+      "department": "Civil Service"
+    },
+    "AA (Benefits)": {
+      "meaning": "Attendance Allowance",
+      "description": "As defined in Reg 2 of the UC Regs.",
+      "department": "DWP"
     }
+  },
+  "AGO": {
+    "meaning": "Attorney General's Office",
+    "description": "Law officers department.",
+    "department": "AGO"
+  },
+  "ASBO": {
+    "meaning": "Anti-Social Behaviour Order",
+    "description": "Order to address anti-social behaviour.",
+    "department": "Local Government"
+  },
+  "CAS": {
+    "CAS (Healthcare Safety)": {
+      "meaning": "Central Alert System",
+      "description": "For issuing medicine or medical devices alerts.",
+      "department": "NHS"
+    },
+    "CAS (Clinical Service)": {
+      "meaning": "Clinical Assessment Service",
+      "description": "Service for clinical assessment.",
+      "department": "NHS"
+    },
+    "CAS (System)": {
+      "meaning": "Clinical Assessment System",
+      "description": "System for clinical assessment.",
+      "department": "NHS"
+    }
+  },
+  "CCG": {
+    "meaning": "Clinical Commissioning Group",
+    "description": "Groups that plan and buy services for their local population.",
+    "department": "NHS"
+  },
+  "CD": {
+    "CD (Role)": {
+      "meaning": "Clinical Director",
+      "description": "Senior medical leadership role.",
+      "department": "NHS"
+    },
+    "CD (Substance)": {
+      "meaning": "Controlled Drugs",
+      "description": "Regulation of drugs.",
+      "department": "Health"
+    },
+  "CD": {
+      "meaning": "Crown Dependency",
+      "description": "",
+      "department": ""
+  },
+  },
+  "CO": {
+    "meaning": "Cabinet Office",
+    "description": "Government department role.",
+    "department": "Home"
+  },
+  "Defra": {
+    "meaning": "Department for Environment, Food and Rural Affairs",
+    "description": "Government department.",
+    "department": "Defra"
+  },
+  "DfT": {
+    "meaning": "Department for Transport",
+    "description": "Government department.",
+    "department": "DfT"
+  },
+  "DLA": {
+    "meaning": "Disability Living Allowance",
+    "description": "Social security benefit.",
+    "department": "DWP"
+  },
+  "DM": {
+    "DM (Benefits)": {
+      "meaning": "Decision Maker",
+      "description": "Official who makes decisions on benefit claims.",
+      "department": "DWP"
+    },
+    "DM (Management)": {
+      "meaning": "Divisional Manager",
+      "description": "Management role.",
+      "department": "NHS"
+    }
+  },
+  "DNA": {
+    "meaning": "Did Not Attend",
+    "description": "Missed an outpatient appointment.",
+    "department": "NHS"
+  },
+  "ED": {
+    "ED (Hospital)": {
+      "meaning": "Emergency Department",
+      "description": "Hospital department for acute care.",
+      "department": "NHS"
+    },
+    "ED (Role)": {
+      "meaning": "Executive Director",
+      "description": "Senior board level role.",
+      "department": "NHS"
+    }
+  },
+  "ESA": {
+    "meaning": "Employment and Support Allowance",
+    "description": "Benefit for people with limited capability for work.",
+    "department": "DWP"
+  },
+  "FOI": {
+    "meaning": "Freedom of Information",
+    "description": "Right to access information held by public authorities.",
+    "department": "Government"
+  },
+  "GDPR": {
+    "meaning": "General Data Protection Regulations",
+    "description": "Data protection legislation.",
+    "department": "Government"
+  },
+  "GP": {
+    "meaning": "General Practitioner",
+    "description": "Primary care doctor.",
+    "department": "NHS"
+  },
+  "HMT": {
+    "meaning": "Her Majesty's Treasury",
+    "description": "Government economic and finance ministry.",
+    "department": "HMT"
+  },
+  "HR": {
+    "meaning": "Human Resources",
+    "description": "Workforce management.",
+    "department": "Universal"
+  },
+  "ICU": {
+    "meaning": "Intensive Care Unit",
+    "description": "Specialised hospital ward.",
+    "department": "NHS"
+  },
+  "IP": {
+    "IP (Legal)": {
+      "meaning": "Intellectual Property Rights",
+      "description": "Legal rights to creations of the mind (Cited as IP in table, defined as Intellectual Property Rights).",
+      "department": "Legal"
+    },
+    "IP (Hospital)": {
+      "meaning": "In-patient",
+      "description": "Patient admitted to hospital.",
+      "department": "NHS"
+    },
+  "IP": {
+      "meaning": "Investment Panel (VTF)",
+      "description": "",
+      "department": "DfE"
+  },
+  },
+  "JSA": {
+    "meaning": "Jobseeker's Allowance",
+    "description": "Unemployment benefit.",
+    "department": "DWP"
+  },
+  "KPI": {
+    "meaning": "Key Performance Indicator",
+    "description": "Key measures of performance, quality, or outcomes.",
+    "department": "Universal"
+  },
+  "LSP": {
+    "LSP (Planning)": {
+      "meaning": "Local Strategic Partnership",
+      "description": "A single body that brings together different parts of the public sector.",
+      "department": "Local Government"
+    },
+    "LSP (IT)": {
+      "meaning": "Local Service Provider",
+      "description": "IT service provider.",
+      "department": "NHS"
+    }
+  },
+  "MoD": {
+    "meaning": "Ministry of Defence",
+    "description": "Government department.",
+    "department": "MoD"
+  },
+  "MRI": {
+    "meaning": "Magnetic Resonance Imaging",
+    "description": "A diagnostic test.",
+    "department": "NHS"
+  },
+  "NAO": {
+    "meaning": "National Audit Office",
+    "description": "Independent parliamentary body for auditing central government.",
+    "department": "Parliament"
+  },
+  "NHS": {
+    "meaning": "National Health Service",
+    "description": "Publicly funded healthcare system.",
+    "department": "NHS"
+  },
+  "NICE": {
+    "meaning": "National Institute for Health and Care Excellence",
+    "description": "Provides national guidance and advice to improve health and social care.",
+    "department": "NHS"
+  },
+  "OT": {
+    "OT (Clinical)": {
+      "meaning": "Occupational Therapy / Therapist",
+      "description": "Healthcare profession.",
+      "department": "NHS"
+    },
+    "OT (Finance)": {
+      "meaning": "Outturn",
+      "description": "Financial results at the end of a period.",
+      "department": "Finance"
+    }
+  },
+  "PALS": {
+    "meaning": "Patient Advice & Liaison Service",
+    "description": "Offers confidential advice, support and information on health-related matters.",
+    "department": "NHS"
+  },
+  "PM": {
+    "PM (Government)": {
+      "meaning": "Prime Minister",
+      "description": "Head of government.",
+      "department": "Government"
+    },
+    "PM (Healthcare)": {
+      "meaning": "Practice Manager",
+      "description": "Manager of a GP practice.",
+      "department": "NHS"
+    }
+  },
+  "PPE": {
+    "meaning": "Personal Protective Equipment",
+    "description": "Protective clothing or equipment.",
+    "department": "Universal"
+  },
+  "PSA": {
+    "PSA": {
+        "meaning": "Professional Standards Authority for Health and Social Care; ",
+        "description": "The UK\u2019s independent regulatory oversight body improving the quality of regulation and registration of people working in health and social care",
+        "department": "Civil Service Wide;"
+    },
+    "PSA (Government)": {
+      "meaning": "Public Service Agreement",
+      "description": "Agreement on public service performance.",
+      "department": "Government"
+    }
+  },
+  "QIPP": {
+    "meaning": "Quality, Innovation, Productivity and Prevention",
+    "description": "The NHS efficiency programme.",
+    "department": "NHS"
+  },
+  "RTT": {
+    "meaning": "Referral to Treatment",
+    "description": "The NHS Constitution's 18 Weeks waiting time standard.",
+    "department": "NHS"
+  },
+  "STP": {
+    "meaning": "Sustainability and Transformation Plan",
+    "description": "NHS plan for sustainable services.",
+    "department": "NHS"
+  },
+  "UC": {
+    "meaning": "Universal Credit",
+    "description": "Social security payment.",
+    "department": "DWP"
+  },
+  "WHO": {
+    "meaning": "World Health Organisation",
+    "description": "UN agency responsible for international public health.",
+    "department": "International"
+  },
+  "YTD": {
+    "meaning": "Year to Date",
+    "description": "Period starting from the beginning of the current year.",
+    "department": "Finance"
+  }
 }
