@@ -1,5 +1,5 @@
 """ Basic operations using Slack_sdk """
-
+import logging
 import os
 import re
 
@@ -11,7 +11,7 @@ from slack_sdk import WebClient
 from slack_sdk.errors import SlackApiError
 
 from acronym_database.acronym_data import database
-from formatters.slack_formatter import extract_acronym_description_text
+from formatters.slack_formatter import extract_acronym_description_text, extract_acronym_and_get_definition
 
 slack_token = os.environ["SLACKBOT_API_TOKEN"]
 slack_signing_secret = os.environ["SLACK_SIGNING_SECRET"]
@@ -20,6 +20,7 @@ client = WebClient(token=slack_token)
 
 bolt_app = App(token=slack_token, signing_secret=slack_signing_secret)
 app = Flask(__name__)
+app.logger.setLevel(logging.INFO)
 # # Creating an instance of the Webclient class
 client = WebClient(token=slack_token)
 
@@ -30,7 +31,7 @@ handler = SlackRequestHandler(bolt_app)
 def handle_app_mentions(body, say, logger):
     app.logger.info(body["event"]["text"])
     text = body["event"]["text"]
-    say(extract_acronym_description_text(text, database=database))
+    say(extract_acronym_description_text(text, database=database, logger=app.logger))
 
 @bolt_app.command("/ali_explain")
 def handle_acronym_command(ack, respond, command):
@@ -39,11 +40,11 @@ def handle_acronym_command(ack, respond, command):
     # thread_ts = command.get('thread_ts', command['ts'])
     print(user_query)
     app.logger.info(command)
-    app.logger.info("Cheese")
+    for acronym_details in extract_acronym_and_get_definition(user_query, database, logger=app.logger):
+        respond(acronym_details)
 
     # Process the query (we'll implement this next)
     # response = generate_response(user_query, thread_ts)
-    respond("TESTING")
 
 
 @bolt_app.event("message")
