@@ -18,12 +18,15 @@ Now need to figure out to present/how to word the commands
 
 Current thoughts:
 
+So working on /ali_explian (though I put it in the mention functionality)
+need to create a test for extract_acronym_and_get_defination
+
 /ali_explain takes one or a list of acronyms and returns what they could/do mean
 
 meantion is used in a thread to collect the parent message so you can break down the acronym in it
 Outside of a thread it delivers a help message explaining how it used, and what /ali_explain does
 
-
+Make a spy logger
 
 Will probably also want to add a jargon command
 

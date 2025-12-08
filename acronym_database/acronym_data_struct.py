@@ -12,5 +12,6 @@ class AcronymDataStruct:
 
 @dataclass
 class MultiAcronymDataStruct:
-    __slots__ = "acronym_data"
+    __slots__ = ("acronym", "acronym_data")
+    acronym: str
     acronym_data: Dict[str, AcronymDataStruct]

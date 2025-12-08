@@ -20,36 +20,25 @@ def extract_acronym_and_get_definition(text: str, database: Dict[str, str | Dict
     returning_text = []
 
     acronyms = identify_acronym(text)
-
-    acronyms = get_acronyms_from_text()
     if not acronyms:
-        acronyms = check_whole_string_for_acronym(text, database, logger)
-    acronym_details = get_acronyms_from_database()
-
-
-    if not acronyms:
-        acronyms = check_whole_string_for_acronym(text, database, logger)
-
+        acronyms = clean_str_to_potential_acronyms(text)
         if not acronyms:
-            return ["Sorry I couldn't find an acronym in the string you sent me"]
+            return [f"Sorry, I don't get sent a string"]
 
+    acronym_details = get_acronyms_from_database(acronyms, database, logger)
     acronym_str = ",".join(acronyms)
-    for acronym in acronyms:
-        acronym_details = fetch_acronym_description(acronym, database=database)
-
-
-
-        output: str| List[str] = determine_output_from_acronym_result(acronym, acronym_details, acronym_str)
+    if not acronym_details:
+        return [f"Sorry, I find any acronyms in the string you sent in my database. You sent: {text}"]
+    for acronym in acronym_details:
+        output: str| List[str] = determine_output_from_acronym_result(acronym, acronym_str)
         if isinstance(output, str):
             returning_text.append(output)
         else:
             returning_text = returning_text + output
-
     return returning_text
 
 
-def determine_output_from_acronym_result(acronym: str,
-                                         acronym_details: None | AcronymDataStruct | MultiAcronymDataStruct,
+def determine_output_from_acronym_result(acronym_details: None | AcronymDataStruct | MultiAcronymDataStruct,
                                          acronym_str: str):
     if not acronym_details:
         return f"Sorry, {acronym_str} is not in this database"
@@ -62,14 +51,14 @@ def determine_output_from_acronym_result(acronym: str,
             details.append(acronym_data_string(acronym_detail_struct))
         return details
     else:
-        return f"That was weirdly hard: {acronym}, {acronym_details}"
+        return f"That was weirdly hard: {acronym_details}"
 
 
 def extract_acronym_description_text(text: str, database: Dict[str, str | Dict[str, str]], logger: Logger) -> str:
     return '\n'.join(extract_acronym_and_get_definition(text, database, logger))
 
 
-def clean(text: str) -> List[str]:
+def clean_str_to_potential_acronyms(text: str) -> List[str]:
     # 1. Remove all punctuation
     text = text.translate(str.maketrans('', '', string.punctuation))
     # 2. Upper everything
@@ -84,8 +73,7 @@ def acronym_data_string(acronym_data: AcronymDataStruct) -> str:
     return answer
 
 
-def check_whole_string_for_acronym(text: str, database: Dict[str, str | Dict[str, str]], logger: Logger) -> List[AcronymDataStruct | MultiAcronymDataStruct]:
-    potential_acronyms = clean(text)
+def get_acronyms_from_database(potential_acronyms: List[str], database: Dict[str, str | Dict[str, str]], logger: Logger) -> List[AcronymDataStruct | MultiAcronymDataStruct]:
     acronyms_in_database = []
 
     for acronym in potential_acronyms:

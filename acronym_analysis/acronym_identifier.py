@@ -32,7 +32,8 @@ def fetch_acronym_description(acronym: str, database: Dict[str, str | Dict[str, 
     try:
         return AcronymDataStruct(acronym, **acronym_data)
     except TypeError:
-        return MultiAcronymDataStruct(acronym_data)
+        print(acronym_data)
+        return MultiAcronymDataStruct(acronym=acronym, acronym_data=acronym_data)
 
 def count_of_database(database: Dict[str, str | Dict[str, str]]) -> int:
     return len(database)

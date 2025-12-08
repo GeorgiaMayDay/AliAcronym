@@ -4,10 +4,15 @@ from acronym_database.acronym_data import database
 from acronym_database.acronym_data_struct import AcronymDataStruct, MultiAcronymDataStruct
 
 test_database = {
-    "MOD": {
+    "MoD": {
         "meaning": "Ministry of Defence",
         "description": "",
         "department": "MoD"
+    },
+    "NHS":{
+        "meaning": "National Health Service",
+        "description": "",
+        "department": "NHS"
     },
     "AE": {
     "AE (civil service grade)": {
@@ -42,8 +47,6 @@ bad_acronyms = [
 
 gov_acronyms = [
     ("MoD", "Ministry of Defence"),
-    ("MOD", "Ministry of Defence"),
-    ("BIS", "Department for Business, Innovation and Skills"),
     ("NHS", "National Health Service"),
 ]
 
@@ -60,8 +63,12 @@ def test_identify_acronym_identify_return_nothing_when_no_recognised_acronym(acr
 
 @pytest.mark.parametrize("acronym_str, expected", gov_acronyms)
 def test_fetch_acronym_description_simple_use(acronym_str, expected):
-    actual = fetch_acronym_description(acronym_str, database=database)
+    actual = fetch_acronym_description(acronym_str, database=test_database)
     assert actual.meaning == expected
+
+def test_fetch_acronym_description_and_no_result_found():
+    actual = fetch_acronym_description("BIS", database=test_database)
+    assert actual is None
 
 @pytest.mark.parametrize("acronym_str, expected_length, expected_set", gov_multi_part_acronyms)
 def test_fetch_acronym_description_multi_depth(acronym_str, expected_length, expected_set):

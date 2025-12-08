@@ -3,7 +3,8 @@ from logging import Logger
 import pytest
 
 from acronym_database.acronym_data_struct import AcronymDataStruct
-from formatters.slack_formatter import extract_acronym_and_get_definition, check_whole_string_for_acronym
+from formatters.slack_formatter import extract_acronym_and_get_definition, \
+    clean_str_to_potential_acronyms, get_acronyms_from_database
 
 test_database = {
     "MOD": {
@@ -34,8 +35,8 @@ test_database = {
 gov_acronyms = [
     ("MoD", " Name: Ministry of defence "),
     ("MOD", " Name: Ministry of Defence "),
-    ("BIS", "Sorry, BIS is not in this database"),
-    ("NHS", "Sorry, NHS is not in this database"),
+    ("BIS", "Sorry, I find any acronyms in the string you sent in my database. You sent: BIS"),
+    ("NHS", "Sorry, I find any acronyms in the string you sent in my database. You sent: NHS"),
 ]
 
 gov_multi_part_acronyms = [
@@ -49,10 +50,11 @@ sentences_with_acronyms = [
     ]
 
 @pytest.mark.parametrize("acronym_str, expected", gov_acronyms)
-def test_identify_acronym_identify_and_passes_back_acronyms(acronym_str, expected):
-    actual = extract_acronym_and_get_definition(acronym_str, database=test_database, logger=Logger("test"))[0].split('\n')
+def test_identify_acronym_and_passes_back_acronyms_details(acronym_str, expected):
+    actual = extract_acronym_and_get_definition(acronym_str, database=test_database, logger=Logger("test"))
+    actual_broken_down = actual[0].split('\n')
 
-    assert expected in actual
+    assert expected in actual_broken_down
 
 @pytest.mark.parametrize("acronym_str, length, meaning", gov_multi_part_acronyms)
 def test_identify_acronym_identify_and_passes_back_acronyms_multi_part(acronym_str, length, meaning):
@@ -64,7 +66,8 @@ def test_identify_acronym_identify_and_passes_back_acronyms_multi_part(acronym_s
 
 @pytest.mark.parametrize("acronym_str, length, expected_meaning", sentences_with_acronyms)
 def test_check_whole_string_for_acronym(acronym_str, length, expected_meaning):
-    actual = check_whole_string_for_acronym(acronym_str, database=test_database, logger=Logger("test"))
+    cleaned_sentence = clean_str_to_potential_acronyms(acronym_str)
+    actual = get_acronyms_from_database(cleaned_sentence, database=test_database, logger=Logger("test"))
 
     assert len(actual) == length
     for x in actual:
