@@ -2,8 +2,8 @@ import pandas as pd
 import json
 
 # Configuration
-input_file = "Acronym Buster Data - adata - DO NOT MOVE.csv"
-output_file = "acronyms.json"
+input_file = "../Acronym Buster Data - adata - DO NOT MOVE.csv"
+output_file = "../acronyms.json"
 
 
 def create_acronym_json():
