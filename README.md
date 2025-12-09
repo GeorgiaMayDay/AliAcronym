@@ -18,19 +18,39 @@ Now need to figure out to present/how to word the commands
 
 Current thoughts:
 
-So working on /ali_explian (though I put it in the mention functionality)
-need to create a test for extract_acronym_and_get_defination
+/ali_explain works logically how I want it to but it needs some friendliness and human nicety
+That's the next thing and then get mention working - hopefully can demo
 
-/ali_explain takes one or a list of acronyms and returns what they could/do mean
-
-meantion is used in a thread to collect the parent message so you can break down the acronym in it
+mention is used in a thread to collect the parent message so you can break down the acronym in it
+- May allow a toggle for if you want it to reply privately or publically
 Outside of a thread it delivers a help message explaining how it used, and what /ali_explain does
 
 Make a spy logger
 
 Will probably also want to add a jargon command
 
-# Database structure
+## Script
+
+/ali_explain
+- If it recognises 1 acronym and has 1 definition in the database (ex: MOD)
+  - "I recognise MOD as {meaning}. {description}. And it belong to the {department}"
+- If it recognises 1 acronym and has multiple definitions in the database (ex: AE)
+  - "I recognise AE as having multiple meanings. They are:
+    - {meaning}. {description}. And it belongs to the {department}"
+    - Repeat list til meaning done
+- If it gets sent multiple acronyms it sends each script as a separate message
+- If it gets sent "help":
+  - It sends back a help message
+
+IM:
+Acts like ali_explain command but with some extra easter eggs
+
+@Ali_Acronym
+- "Here are the acronyms I've found, {acronyms}"
+- And then explains them in individual order
+    
+
+## Database structure
 
 You can refer to `acronym_database/acronym_data_struct.py` but it's a key:value store,
 which contains either 

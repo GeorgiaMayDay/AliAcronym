@@ -1,4 +1,5 @@
 from logging import Logger
+import re
 
 import pytest
 
@@ -33,14 +34,14 @@ test_database = {
 
 
 gov_acronyms = [
-    ("MoD", " Name: Ministry of defence "),
-    ("MOD", " Name: Ministry of Defence "),
-    ("BIS", "Sorry, I find any acronyms in the string you sent in my database. You sent: BIS"),
-    ("NHS", "Sorry, I find any acronyms in the string you sent in my database. You sent: NHS"),
+    ("MoD", "Ministry of defence"),
+    ("MOD", "Ministry of Defence"),
+    ("BIS", "Sorry"),
+    ("NHS", "Sorry"),
 ]
 
 gov_multi_part_acronyms = [
-    ("AE", 2, ["AE (civil service grade)", "AE (education)"])
+    ("AE", ["AE (civil service grade)", "AE (education)"])
 ]
 
 sentences_with_acronyms = [
@@ -52,17 +53,15 @@ sentences_with_acronyms = [
 @pytest.mark.parametrize("acronym_str, expected", gov_acronyms)
 def test_identify_acronym_and_passes_back_acronyms_details(acronym_str, expected):
     actual = extract_acronym_and_get_definition(acronym_str, database=test_database, logger=Logger("test"))
-    actual_broken_down = actual[0].split('\n')
 
-    assert expected in actual_broken_down
+    assert re.findall(expected, actual[0])
 
-@pytest.mark.parametrize("acronym_str, length, meaning", gov_multi_part_acronyms)
-def test_identify_acronym_identify_and_passes_back_acronyms_multi_part(acronym_str, length, meaning):
+@pytest.mark.parametrize("acronym_str, meaning", gov_multi_part_acronyms)
+def test_identify_acronym_identify_and_passes_back_acronyms_multi_part(acronym_str, meaning):
     actual = extract_acronym_and_get_definition(acronym_str, database=test_database, logger=Logger("test"))
     print(actual)
-    assert len(actual) == length
     assert meaning[0] in actual[0]
-    assert meaning[1] in actual[1]
+    assert meaning[1] in actual[0]
 
 @pytest.mark.parametrize("acronym_str, length, expected_meaning", sentences_with_acronyms)
 def test_check_whole_string_for_acronym(acronym_str, length, expected_meaning):

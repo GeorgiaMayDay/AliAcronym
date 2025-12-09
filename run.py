@@ -1,14 +1,11 @@
 """ Basic operations using Slack_sdk """
 import logging
 import os
-import re
 
 from flask import Flask, request
-from slack_sdk import WebClient
 from slack_bolt import App, Say
 from slack_bolt.adapter.flask import SlackRequestHandler
 from slack_sdk import WebClient
-from slack_sdk.errors import SlackApiError
 
 from acronym_database.acronym_data import database
 from formatters.slack_formatter import extract_acronym_description_text, extract_acronym_and_get_definition
@@ -21,37 +18,40 @@ client = WebClient(token=slack_token)
 bolt_app = App(token=slack_token, signing_secret=slack_signing_secret)
 app = Flask(__name__)
 app.logger.setLevel(logging.INFO)
-# # Creating an instance of the Webclient class
-client = WebClient(token=slack_token)
-
 handler = SlackRequestHandler(bolt_app)
+
+greetings = ["Hi", "hi", "hello", "Hello", "help", "Help"]
 
 
 @bolt_app.event("app_mention")
 def handle_app_mentions(body, say, logger):
     app.logger.info(body["event"]["text"])
     text = body["event"]["text"]
+    parent_comment = body["event"]["ts"]
+    channel = body["event"]["channel"]
     say(extract_acronym_description_text(text, database=database, logger=app.logger))
 
 @bolt_app.command("/ali_explain")
 def handle_acronym_command(ack, respond, command):
     ack()
     user_query = command['text']
-    # thread_ts = command.get('thread_ts', command['ts'])
     print(user_query)
     app.logger.info(command)
     for acronym_details in extract_acronym_and_get_definition(user_query, database, logger=app.logger):
         respond(acronym_details)
-
-    # Process the query (we'll implement this next)
-    # response = generate_response(user_query, thread_ts)
 
 
 @bolt_app.event("message")
 def handle_message_events(body, say, logger):
     logger.info(body)
     app.logger.info(body)
-    say(f"Hi I don't know you")
+    user_msg = body["event"]["text"]
+    if user_msg in greetings:
+        say(f"Hi, I'm Ali Acronym, feel free to shoot me over some acronyms or jargon-landed paragraph and I'll try and decode it for you! \n You can also use the command /ali_explain for the same thing in any channel I'm in (sent only for your eyes :eyes:) or @ me in a thread and I'll give a public explanation of acronyms of jargon in the comment that spawned the thread")
+    else:
+        for acronym_details in extract_acronym_and_get_definition(user_msg, database, logger=app.logger):
+            say(acronym_details)
+
 
 @app.route("/ali_acronym/events", methods=["POST"])
 def slack_events():

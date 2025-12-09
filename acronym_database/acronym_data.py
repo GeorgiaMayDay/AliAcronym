@@ -315,7 +315,7 @@ database = {
         "ACS (size??)": {
             "meaning": "Average Class Size",
             "description": "System of healthcare provision which is intended to be integrated. In particular, to merge the funding of primary care with that for hospital care",
-            "department": "NHSx"
+            "department": "NHS"
         }
     },
     "ACSES": {
@@ -1863,7 +1863,7 @@ database = {
     "BMS": {
         "meaning": "Business Management System (DHSC)",
         "description": "",
-        "department": "NHSx"
+        "department": "NHS"
     },
     "BN": {
         "meaning": "Basic need (school places)",
@@ -2223,25 +2223,30 @@ database = {
             "description": "The Contributions Agency was an executive agency of the United Kingdom government. It was set up in 1991 to administer National Insurance and was part of the Department of Social Security. It was absorbed into the Inland Revenue in 1999, when it ceased to be an executive agency.",
             "department": "DWP"
         },
-        "CA (admin??)": {
+        "CA (Role)": {
             "meaning": "Case Admin",
             "description": "",
             "department": "HMRC"
         },
-        "CA (assistant??)": {
+        "CA (Role - Legal)": {
             "meaning": "Clerical Assistant",
             "description": "",
             "department": "MoJ"
         },
-        "CA (authority??)": {
+        "CA (Local Gov)": {
             "meaning": "Combined Authority",
-            "description": "",
-            "department": ""
+            "description": "A legal structure in England where a group of two or more councils collaborate and take collective decisions across council boundaries (e.g., GMCA for Greater Manchester, WMCA for West Midlands).",
+            "department": "DLUHC"
         },
-        "CA (agency??)": {
+        "CA (Country)": {
+            "meaning": "Canada",
+            "description": "A Commonwealth realm and major trading partner. 'CA' is the standard ISO 2-digit country code.",
+            "department": "FCDO"
+        },
+        "CA (ex-Department)": {
             "meaning": "Contributions Agency",
-            "description": "",
-            "department": ""
+            "description": " It was set up in 1991 to administer National Insurance and was part of the Department of Social Security. It was absorbed into the Inland Revenue in 1999, when it ceased to be an executive agency.",
+            "department": "N/A"
         }
     },
     "CAA": {
@@ -2636,7 +2641,7 @@ database = {
     "CCIO": {
         "meaning": "Chief Clinical Information Officer",
         "description": "",
-        "department": "NHSx"
+        "department": "NHS"
     },
     "CCJ": {
         "meaning": "County court judgment",
@@ -3345,7 +3350,7 @@ database = {
     "CIO": {
         "meaning": "Chief Information Officer",
         "description": "",
-        "department": "NHSx"
+        "department": "NHS"
     },
     "CIOG (departmental organisational unit)": {
         "meaning": "Chief Information Officer's Group",
@@ -3359,8 +3364,8 @@ database = {
     },
     "CIPD": {
         "meaning": "Chartered Institute of Personnel and Development",
-        "description": "",
-        "department": "BEIS"
+        "description": "The professional body for HR and people development in the UK. Often used to refer to the qualification itself.",
+        "department": "Business"
     },
     "CIPFA": {
         "meaning": "Chartered Institute of Public Finance and Accountancy",
@@ -3616,14 +3621,14 @@ database = {
         "department": ""
     },
     "CMS": {
-        "CMS": {
-            "meaning": "Case Management System; Customer Management System",
-            "description": "",
-            "department": "Civil Service Wide"
-        },
+            "CMS (Technology)": {
+              "meaning": "Content Management System",
+              "description": "Software used to manage the creation and modification of digital content (e.g., WordPress, Drupal).",
+              "department": "CS Wide"
+            },
         "CMS (service)": {
-            "meaning": "Content Management Service; Content management systems",
-            "description": "Content Management Service is an application service that manages reference data.",
+            "meaning": "Child Maintenance Service",
+            "description": "set up for all parents across the UK in order to provide for child living costs. This includes parents who are divorced, separated or who were never in a relationship.",
             "department": "DfE"
         }
     },
@@ -3660,7 +3665,7 @@ database = {
     "CNIO": {
         "meaning": "Chief Nursing Information Officer",
         "description": "",
-        "department": "NHSx"
+        "department": "NHS"
     },
     "CNP": {
         "meaning": "Customer Notification Process",
@@ -3832,20 +3837,13 @@ database = {
     },
     "CPCS": {
         "meaning": "Customer Payment Computer System",
-        "description": "",
+        "description": "Often referred to as an electronic payment system (EPS) or a Point of Sale (POS) system, is a digital infrastructure that enables the electronic transfer of funds between a customer and a business for goods or services.",
         "department": ""
     },
     "CPD": {
-        "CPD": {
-            "meaning": "Continuing professional development",
-            "description": "The expectation that staff will improve their capabilities/expertise through a mixture of doing their regular work, plus on-the-job training, plus formal courses, plus informal sources such as reading/subscribing to relevant books / magazines / online blogs, listening to relevant podcasts, attend sector-relevant events/talks. Sometimes there is an attempt to quantify different types of activity in terms of \"points\" but there is no agreed standard as to what those points might signify.",
-            "department": "Civil Service Wide"
-        },
-        "CPD (development??)": {
-            "meaning": "Continuous Professional Development",
-            "description": "",
-            "department": "DfE"
-        }
+        "meaning": "Continuing professional development",
+        "description": "The expectation that staff will improve their capabilities/expertise through a mixture of doing their regular work, plus on-the-job training, plus formal courses, plus informal sources such as reading/subscribing to relevant books / magazines / online blogs, listening to relevant podcasts, attend sector-relevant events/talks. Sometimes there is an attempt to quantify different types of activity in terms of \"points\" but there is no agreed standard as to what those points might signify.",
+        "department": "Civil Service Wide"
     },
     "CPDS": {
         "meaning": "Central Provider Data Service",
@@ -3855,13 +3853,18 @@ database = {
     "CPI": {
         "CPI": {
             "meaning": "Centre for Process Innovation",
-            "description": "Source: The Knowledge accessed 2019-05-30",
+            "description": "Helps small and medium enterprises, entrepreneurs and companies to develop, prove, prototype and scale-up new products and processes by providing access to facilities, expertise and networks of public and private funders. Funded by the Uk government",
             "department": "BEIS"
         },
-        "CPI (issue??)": {
+        "CPI (Children)": {
             "meaning": "Child Protection Issue",
             "description": "UK technology & innovation centre with six innovation facilities in northern England and Scotland. Established by HMG",
             "department": "DfE"
+        },
+        "CPI (payment)": {
+            "meaning": "Card Payment Industry",
+            "description": "Refers to the global network of entities handling payment cards (like Visa, Mastercard, Amex), focused on securing transactions through the Payment Card Industry Data Security Standard (PCI DSS), a set of rules created by the PCI Security Standards Council (PCI SSC) to protect cardholder data from theft and fraud.",
+            "department": "Business"
         }
     },
     "CPIA": {
@@ -4070,16 +4073,16 @@ database = {
         "department": ""
     },
     "CRM": {
-        "CRM": {
+          "CRM": {
+            "meaning": "Customer Relationship Management",
+            "description": "A technology for managing all your company's relationships and interactions with customers and potential customers.",
+            "department": "CS Wide"
+          },
+        "CRM (role)": {
             "meaning": "Client Relationship Manager / Customer Relations Manager",
             "description": "",
             "department": ""
         },
-        "CRM systems": {
-            "meaning": "Customer relationship management systems",
-            "description": "",
-            "department": "DfE"
-        }
     },
     "CRM12": {
         "meaning": "",
@@ -4297,7 +4300,7 @@ database = {
     "CSF": {
         "meaning": "Critical Success Factor",
         "description": "",
-        "department": "NHSx"
+        "department": "NHS"
     },
     "CSG": {
         "CSG": {
@@ -4478,7 +4481,7 @@ database = {
     "CSU": {
         "meaning": "Commissioning Support Unit",
         "description": "",
-        "department": "NHSx"
+        "department": "NHS"
     },
     "CSV (volunteers)": {
         "meaning": "Community Service Volunteers",
@@ -4597,15 +4600,17 @@ database = {
         "description": "Centre for the Use of Research and Evidence in Education (CUREE) works at the leading edge of research and evidence-informed educational policy and practice. Our mission centres on promoting the use of evidence by building bridges between academic research and professional practice. CUREE support practice-driven action research, develop tools for Continuing Professional Development (CPD), for organisational leadership and for teaching and learning. They believe in modelling good practice in everything they do and their work in consultancy, advice, development and training in the use of research and evidence is consistently informed by the principles underpinning effective coaching and mentoring in education. CUREE work in collaboration with a range of individuals and organisations. Their clients include national organisations such as the General Teaching Council for England (GTC), the government, in particular the Department for Education and the Department for Business, Innovation and Skills, the National College for School Leadership (NCSL), the Quality Improvement Agency (QIA) and Qualifications and Curriculum Development Agency (QCDA). They also work with schools, networks and Local Authorities across the country.Source: The Knowledge accessed 2019-04-12",
         "department": "DfE"
     },
-    "CV": {
+    "CV"
+    :{"CV": {
         "meaning": "Contract Variation",
         "description": "",
         "department": "Civil Service Wide"
     },
-    "CV (curriculum vitae)": {
-        "meaning": "Curriculum vitae",
-        "description": "",
-        "department": "Not Limited to CS"
+    "CV (business)": {
+        "meaning": "Curriculum Vitae",
+        "description": "A document used when applying for jobs. In the UK, 'CV' is the standard term, whereas 'Resume' is rarely used.",
+        "department": "Business"
+    },
     },
     "CVA": {
         "meaning": "Cerebro-vascular Accident",
@@ -4800,11 +4805,11 @@ database = {
             "description": "Until devolution in 1999, civil servants in all parts of the UK reported to UK Government ministers. Today, around one in ten civil servants is accountable to ministers in the three devolved administrations. Northern Ireland has the largest civil service, partly because it runs its own social security system. The Scottish and Welsh administrations expanded substantially after 1999, to meet the demands of the new era of devolution. But most civil servants employed in Scotland and Wales are still part of UK Government departments.",
             "department": "Civil Service Wide"
         },
-        "DA (administrations??)": {
-            "meaning": "Devolved administrations",
-            "description": "",
-            "department": ""
-        }
+        "DA (administrations)": {
+            "meaning": "Devolved Administrations",
+            "description": "Refers collectively to the governments of Scotland, Wales, and Northern Ireland, which have legislative powers devolved from the UK Parliament.",
+            "department": "DLUHC"
+        },
     },
     "DAAT": {
         "meaning": "Decision Appeals and Assurance Team",
@@ -5120,7 +5125,7 @@ database = {
     "DDB": {
         "meaning": "Digital Delivery Board (superseded by TFPB)",
         "description": "",
-        "department": "NHSx"
+        "department": "NHS"
     },
     "DDC": {
         "DDC": {
@@ -5583,7 +5588,7 @@ database = {
     "DOAB": {
         "meaning": "Digital Oversight and Approvals Board",
         "description": "",
-        "department": "NHSx"
+        "department": "NHS"
     },
     "DOB": {
         "meaning": "Date of Birth",
@@ -5692,7 +5697,7 @@ database = {
     "DPIA": {
         "meaning": "Data Protection Impact Assessment",
         "description": "",
-        "department": "Defra; NHSx"
+        "department": "Defra; NHS"
     },
     "DPLO": {
         "meaning": "Data Protection Liaison Officer",
@@ -6028,7 +6033,7 @@ database = {
     "DTP": {
         "meaning": "Digital Transformation Portfolio",
         "description": "",
-        "department": "NHSx"
+        "department": "NHS"
     },
     "DTR": {
         "meaning": "Database of Teacher Records",
@@ -6150,7 +6155,7 @@ database = {
     "DvH": {
         "meaning": "Delivery Hub (formerly known as the Portfolio Office)",
         "description": "",
-        "department": "NHSx"
+        "department": "NHS"
     },
     "E": {
         "meaning": "Ephemeral",
@@ -6525,8 +6530,8 @@ database = {
     },
     "EEA": {
         "meaning": "European Economic Area",
-        "description": "",
-        "department": "DfE; Not Limited to CS"
+        "description": "An area established to extend the EU's single market to non-EU members (Iceland, Liechtenstein, and Norway). Relevant for understanding UK trade access rights post-Brexit.",
+        "department": "DBT"
     },
     "EEC": {
         "meaning": "Early Excellence Centres",
@@ -6651,7 +6656,7 @@ database = {
     "EHRSG": {
         "meaning": "Executive HR Sub Group",
         "description": "",
-        "department": "NHSx"
+        "department": "NHS"
     },
     "EI (30 hours free childcare)": {
         "meaning": "Early implementers (30 hours free childcare)",
@@ -6849,7 +6854,7 @@ database = {
     "EMR": {
         "meaning": "Electronic medical record",
         "description": "",
-        "department": "NHSx"
+        "department": "NHS"
     },
     "EMS": {
         "meaning": "Environment Management Systems",
@@ -6966,7 +6971,7 @@ database = {
     "EPMA": {
         "meaning": "Electronic Prescribing and Medicines Administration",
         "description": "",
-        "department": "NHSx"
+        "department": "NHS"
     },
     "EPMO": {
         "meaning": "Electronic Project Management Office (PMO reporting tool)",
@@ -7253,7 +7258,7 @@ database = {
     "ESR": {
         "meaning": "Electronic Staff Record (NHSE/I)",
         "description": "",
-        "department": "NHSx"
+        "department": "NHS"
     },
     "ESRC": {
         "meaning": "Economic and Social Research Council",
@@ -7653,7 +7658,7 @@ database = {
     "FCAP": {
         "meaning": "Finance and Commercial Assurance Panel",
         "description": "",
-        "department": "NHSx"
+        "department": "NHS"
     },
     "FCDO": {
         "meaning": "Foreign, Commonwealth and Development Office",
@@ -7948,7 +7953,7 @@ database = {
     },
     "FL": {
         "meaning": "Flexible learning",
-        "description": "",
+        "description": "A concept for adaptable education, often involving part-time study, online/distance learning, or blended models",
         "department": "DfE"
     },
     "FLA": {
@@ -7958,7 +7963,7 @@ database = {
     },
     "FLC": {
         "meaning": "Flexible Learning Centre",
-        "description": "Source: The Knowledge accessed 2019-05-07",
+        "description": "",
         "department": "DfE"
     },
     "FLO": {
@@ -8000,7 +8005,7 @@ database = {
     },
     "FM (marriage)": {
         "meaning": "Forced marriage",
-        "description": "A marriage conducted without the valid consent of both people, where pressure or abuse is used.Source: {GOV.UK|https://www.gov.uk/forced-marriage} accessed 2015-06-04",
+        "description": "A marriage conducted without the valid consent of both people, where pressure or abuse is used. Source: {GOV.UK|https://www.gov.uk/forced-marriage} accessed 2015-06-04",
         "department": "DfE"
     },
     "FMA": {
@@ -8086,7 +8091,7 @@ database = {
     "FOT": {
         "meaning": "First Of Type",
         "description": "",
-        "department": "NHSx"
+        "department": "NHS"
     },
     "FPA": {
         "meaning": "Fraud Partnership Agreement",
@@ -8121,7 +8126,7 @@ database = {
     "FRA": {
         "meaning": "Full Roll-Out Approval",
         "description": "",
-        "department": "NHSx"
+        "department": "NHS"
     },
     "FRAIMS": {
         "meaning": "Fraud Referral and Intervention Management System",
@@ -8501,15 +8506,17 @@ database = {
         "description": "A public\u2013private global health partnership committed to increasing access to immunisation in poor countries. Once a vaccine is ready, GAVI will work to make it available in low income countries.",
         "department": "BEIS"
     },
+    "GB":{
     "GB": {
         "meaning": "Great Britain",
-        "description": "",
-        "department": "Not Limted to CS"
+        "description": "The geographic island comprising England, Scotland, and Wales. Crucially, this excludes Northern Ireland. Often used in 'GB-only' regulations versus 'UK-wide' ones.",
+        "department": "ONS"
     },
     "GB (governing)": {
         "meaning": "Governing Bodies",
         "description": "",
         "department": "DfE"
+    },
     },
     "GBE": {
         "meaning": "Great British Energy",
@@ -9257,7 +9264,7 @@ database = {
     "HEE": {
         "meaning": "Health Education England",
         "description": "",
-        "department": "NHSx"
+        "department": "NHS"
     },
     "HEFCE": {
         "meaning": "Higher Education Funding Council for England",
@@ -9509,16 +9516,9 @@ database = {
         "department": "MoJ"
     },
     "HMRC": {
-        "HMRC": {
-            "meaning": "HM Revenue and Customs",
-            "description": "",
-            "department": "DfE"
-        },
-        "HMRC (customs??)": {
-            "meaning": "Her/His Majesty's Revenue and Customs",
-            "description": "",
-            "department": "HMRC"
-        }
+        "meaning": "HM Revenue and Customs",
+        "description": "The non-ministerial department of the UK Government responsible for the collection of taxes, the payment of some forms of state support, and the administration of other regulatory regimes.",
+        "department": "HMRC"
     },
     "HMTC": {
         "meaning": "HER/HIS MAJESTY'S TRADE COMMISSIONER",
@@ -9618,7 +9618,7 @@ database = {
     "HR and OD": {
         "meaning": "Human Resources and Organisational Development",
         "description": "",
-        "department": "NHSx"
+        "department": "NHS"
     },
     "HRA": {
         "HRA": {
@@ -9719,7 +9719,7 @@ database = {
     "HSCIC": {
         "meaning": "Health and Social Care Information Centre",
         "description": "",
-        "department": "NHSx"
+        "department": "NHS"
     },
     "HSCP": {
         "meaning": "Health or Social Care Professional",
@@ -9868,7 +9868,7 @@ database = {
     "IAA": {
         "meaning": "Information Asset Administrator",
         "description": "",
-        "department": "NHSx"
+        "department": "NHS"
     },
     "IAAA": {
         "meaning": "Immigration and Asylum Act",
@@ -9933,7 +9933,7 @@ database = {
     "IAMS": {
         "meaning": "Information Asset Management System",
         "description": "",
-        "department": "NHSx"
+        "department": "NHS"
     },
     "IAN": {
         "meaning": "Indicated Admissions Number",
@@ -9959,7 +9959,7 @@ database = {
         "IAO (4)": {
             "meaning": "",
             "description": "",
-            "department": "NHSx"
+            "department": "NHS"
         }
     },
     "IAPS": {
@@ -10065,7 +10065,7 @@ database = {
         "ICS (system??)": {
             "meaning": "Integrated Care System",
             "description": "The Institute of Customer Service is the independent, professional membership body for customer service. Founded in 1996, and formally incorporated in February 1997, we help our members improve their customers experience and their own business performance.Source: {ICS website|https://www.instituteofcustomerservice.com/about-us} accessed 2019-06-11",
-            "department": "NHSx"
+            "department": "NHS"
         },
         "ICS (ics??)": {
             "meaning": "Integrated Corporate Services (ICS)",
@@ -10247,7 +10247,7 @@ database = {
     "IG": {
         "meaning": "Information Governance",
         "description": "",
-        "department": "NHSx"
+        "department": "NHS"
     },
     "IGLO": {
         "meaning": "Impact Group Liaison Officer",
@@ -11170,7 +11170,7 @@ database = {
         "KIT (touch??)": {
             "meaning": "Keeping In Touch",
             "description": "",
-            "department": "NHSx"
+            "department": "NHS"
         },
         "KIT (day??)": {
             "meaning": "Keeping in touch (day)",
@@ -12018,10 +12018,17 @@ database = {
         "description": "",
         "department": "DLUHC"
     },
-    "LTD": {
-        "meaning": "Late Transfer Date",
-        "description": "",
-        "department": "MoJ"
+    "LTD":{
+        "LTD": {
+            "meaning": "Late Transfer Date",
+            "description": "",
+            "department": "MoJ"
+        },
+        "LTD (Business)": {
+            "meaning": "Private Limited Company",
+            "description": "A company structure where the owners' liability is limited to the value of their shares. It is a distinct legal entity separate from its owners.",
+            "department": "Business"
+        },
     },
     "LTHSE": {
         "meaning": "Long Term High Security Estates",
@@ -12041,7 +12048,7 @@ database = {
     "LTP": {
         "meaning": "(NHS) Long Term Plan",
         "description": "",
-        "department": "NHSx"
+        "department": "NHS"
     },
     "LTSN": {
         "meaning": "Learning and Teaching Support Network",
@@ -12772,7 +12779,7 @@ database = {
     "MaST": {
         "meaning": "Mandatory and Statutory Training",
         "description": "",
-        "department": "NHSx"
+        "department": "NHS"
     },
     "MiC": {
         "meaning": "Mathematics in Context",
@@ -13094,19 +13101,21 @@ database = {
         "department": "DfE"
     },
     "NCA": {
-        "meaning": "National Crime Agency",
-        "description": "",
-        "department": "NCA"
-    },
-    "NCA (capacity)": {
-        "meaning": "Net Capacity Assessment",
-        "description": "The capacity of a school is the number of pupil places available. The Net Capacity Assessment (NCA) is intended to provide a single, robust and consistent method of assessing the capacity of schools. The guidance document Assessing the Net Capacity of Schools is available from DfE publications. The document describes the net capacity assessment method, which replaces all previous methods of assessing the capacity of maintained mainstream schools in England. The guidance explains why the new method has been introduced, how it works, and what needs to be measured. It also gives examples of completed net capacity assessment forms for both primary and secondary schools and answers some frequently asked questions. Indicated Admissions Limit Dividing the NCA by the number of year groups and rounding down gives the Indicated Admissions Limit (IAL). Comparing the NCA with the Number on Roll (NOR - the number of children in the school at a specific time) can indicate the number of places that are surplus or the number of additional places that are needed in a school.Source: The Knowledge accessed 2019-06-19",
-        "department": "DfE"
-    },
-    "NCA (childminding)": {
-        "meaning": "National Childminding Association",
-        "description": "",
-        "department": "DfE"
+        "NCA (crime)":{
+            "meaning": "National Crime Agency",
+            "description": "",
+            "department": "NCA"
+        },
+        "NCA (capacity)": {
+            "meaning": "Net Capacity Assessment",
+            "description": "The capacity of a school is the number of pupil places available. The Net Capacity Assessment (NCA) is intended to provide a single, robust and consistent method of assessing the capacity of schools. The guidance document Assessing the Net Capacity of Schools is available from DfE publications. The document describes the net capacity assessment method, which replaces all previous methods of assessing the capacity of maintained mainstream schools in England. The guidance explains why the new method has been introduced, how it works, and what needs to be measured. It also gives examples of completed net capacity assessment forms for both primary and secondary schools and answers some frequently asked questions. Indicated Admissions Limit Dividing the NCA by the number of year groups and rounding down gives the Indicated Admissions Limit (IAL). Comparing the NCA with the Number on Roll (NOR - the number of children in the school at a specific time) can indicate the number of places that are surplus or the number of additional places that are needed in a school.Source: The Knowledge accessed 2019-06-19",
+            "department": "DfE"
+        },
+        "NCA (childminding)": {
+            "meaning": "National Childminding Association",
+            "description": "",
+            "department": "DfE"
+        },
     },
     "NCATE": {
         "meaning": "National Council for Accreditation of Teacher Education",
@@ -13245,13 +13254,13 @@ database = {
     },
     "ND": {
         "meaning": "nDelius",
-        "description": "",
+        "description": "nDelius (National Delius) is the critical, cloud-based case management system used by the UK's National Probation Service (NPS) and Ministry of Justice (MoJ) for managing offenders in the community, tracking court orders, risks, sentence plans, and offender information, ensuring continuity of support and compliance for those under supervision",
         "department": "MoJ"
     },
     "NDA": {
-        "meaning": "Non Disclosure Agreement",
-        "description": "",
-        "department": "BEIS"
+        "meaning": "Non-Disclosure Agreement",
+        "description": "A legally binding contract that establishes a confidential relationship. The parties signing the agreement agree that sensitive information they may obtain will not be made available to any others.",
+        "department": "CS Wide"
     },
     "NDC": {
         "meaning": "National Disability Council",
@@ -13294,26 +13303,9 @@ database = {
         "department": "DfE"
     },
     "NDPB": {
-        "NDPB": {
             "meaning": "Non-Departmental Public Body",
-            "description": "A non-departmental public body is defined as a body which has a role in the processes of national government, but is not a government department or part of one, and which accordingly operates to a greater or lesser extent at arms length from ministers.Source: {GOV.UK|https://www.gov.uk/public-bodies-reform#ndpbs-and-executive-agencies} accessed 2015-06-05",
+            "description": "Literally means a bit of government that's not a department - only really used in government circles; A non-departmental public body is defined as a body which has a role in the processes of national government, but is not a government department or part of one, and which accordingly operates to a greater or lesser extent at arms length from ministers.Source: {GOV.UK|https://www.gov.uk/public-bodies-reform#ndpbs-and-executive-agencies} accessed 2015-06-05",
             "department": "Civil Service Wide"
-        },
-        "NDPB (bodies??)": {
-            "meaning": "Non-departmental public bodies",
-            "description": "Literally means a bit of government that's not a department - only really used in government circles.",
-            "department": "DLUHC"
-        },
-        "NDPB (body??)": {
-            "meaning": "Non-departmental public body",
-            "description": "",
-            "department": "DfE"
-        },
-        "NDPB (4)": {
-            "meaning": "",
-            "description": "",
-            "department": "MoJ"
-        }
     },
     "NDRB": {
         "meaning": "National Digital Resource Bank",
@@ -13378,19 +13370,9 @@ database = {
         "department": "DfE"
     },
     "NEET": {
-        "meaning": "Not in Education, Employment, or Training; Not in Employment, Education or Training; Young people not in education employment or training",
-        "description": "",
+        "meaning": "Not in Education, Employment, or Training;",
+        "description": "Young people not in education employment or training",
         "department": "DfE; MoJ"
-    },
-    "NEET (16-18)": {
-        "meaning": "Young people not in education employment or training (16-18)",
-        "description": "Young people not in education, employment or training.",
-        "department": "DfE"
-    },
-    "NEET (19-25)": {
-        "meaning": "Young people not in education employment or training (19-25)",
-        "description": "",
-        "department": "DfE"
     },
     "NEIC": {
         "meaning": "Natural England Investment Committee",
@@ -13438,16 +13420,9 @@ database = {
         "department": "DfE"
     },
     "NERT": {
-        "NERT": {
-            "meaning": "NATIONAL ECONOMIC RECOVERY TASKFORCE",
-            "description": "",
-            "department": "DIT"
-        },
-        "NERT (taskforce??)": {
-            "meaning": "National Economic Recovery Taskforce",
-            "description": "",
-            "department": "DLUHC"
-        }
+        "meaning": "National Economic Recovery Taskforce",
+        "description": "",
+        "department": "DLUHC"
     },
     "NES": {
         "meaning": "National Employer Service",
@@ -13505,16 +13480,9 @@ database = {
         "department": "DfE"
     },
     "NFR": {
-        "NFR": {
-            "meaning": "Non Functional Requirements",
-            "description": "",
-            "department": "DfE"
-        },
-        "NFR (requirements??)": {
-            "meaning": "Non-Functional Requirements",
-            "description": "",
-            "department": "MoJ"
-        }
+        "meaning": "Non Functional Requirements",
+        "description": "",
+        "department": "DfE"
     },
     "NFS": {
         "meaning": "National File Standard",
@@ -13542,16 +13510,9 @@ database = {
         "department": "DfE"
     },
     "NGO": {
-        "NGO": {
-            "meaning": "Non-government organisations",
-            "description": "",
-            "department": "Civil Service Wide"
-        },
-        "NGO (organisation??)": {
-            "meaning": "Non-governmental organisation",
-            "description": "",
-            "department": "DfE"
-        }
+        "meaning": "Non-government organisations",
+        "description": "",
+        "department": "Civil Service Wide"
     },
     "NGOV": {
         "meaning": "",
@@ -13646,12 +13607,12 @@ database = {
     "NHSX": {
         "meaning": "User Experience",
         "description": "",
-        "department": "NHSx"
+        "department": "NHS"
     },
     "NHSXers": {
         "meaning": "NHSX Staff",
         "description": "",
-        "department": "NHSx"
+        "department": "NHS"
     },
     "NI": {
         "meaning": "Northen Ireland",
@@ -13669,8 +13630,8 @@ database = {
         "department": "BEIS"
     },
     "NIC": {
-        "meaning": "National Insurance Contribution",
-        "description": "",
+        "meaning": "National Insurance Contributions",
+        "description": "A tax on earnings paid by employees and employers in the UK to fund state benefits, including the State Pension and the NHS.",
         "department": "HMRC"
     },
     "NICCEA": {
@@ -13724,16 +13685,9 @@ database = {
         "department": "BEIS"
     },
     "NINO": {
-        "NINO": {
-            "meaning": "National Insurance Number",
-            "description": "",
-            "department": "DWP / HMRC"
-        },
-        "NINO (number??)": {
-            "meaning": "National Insurance number",
-            "description": "",
-            "department": "MoJ"
-        }
+        "meaning": "National Insurance Number",
+        "description": "",
+        "department": "DWP / HMRC"
     },
     "NIO": {
         "meaning": "Northern Ireland Office",
@@ -13816,16 +13770,9 @@ database = {
         "department": "DfE"
     },
     "NLP": {
-        "NLP": {
-            "meaning": "Natural Language Processing",
-            "description": "Natural language processing (NLP) is an interdisciplinary subfield of computer science and linguistics.",
-            "department": "DfE"
-        },
-        "NLP (programming??)": {
-            "meaning": "Neurolinguistic programming",
-            "description": "",
-            "department": "Not Limited to CS"
-        }
+        "meaning": "Natural Language Processing",
+        "description": "Natural language processing (NLP) is an interdisciplinary subfield of computer science and linguistics.",
+        "department": "DfE"
     },
     "NLS": {
         "meaning": "National Literacy Strategy",
@@ -15212,28 +15159,23 @@ database = {
         "description": "The Progress 8 measure is a new secondary school accountability system. It aims to encourage schools to teach a broad curriculum and reward schools that teach all pupils well. It will measure pupils progress across 8 subjects from age 11 to 16. Source: {GOV.UK|https://www.gov.uk/government/publications/progress-8-school-performance-measure} accessed 2016-02-03",
         "department": "DfE"
     },
-    "PA": {
-        "PA": {
-            "meaning": "Personal Assistant",
-            "description": "",
-            "department": "DfE"
-        },
-        "PA (assistant??)": {
-            "meaning": "Personal assistant",
-            "description": "",
-            "department": "Not Limited to CS"
-        },
-        "PA (authority??)": {
-            "meaning": "Planning Authority",
-            "description": "",
-            "department": ""
-        },
-        "PA (away??)": {
-            "meaning": "Put Away",
-            "description": "",
-            "department": ""
-        }
+      "PA": {
+    "PA (Role)": {
+      "meaning": "Personal Assistant",
+      "description": "An employee who assists a specific person (usually an executive) with their daily administrative tasks.",
+      "department": "Business"
     },
+    "PA (Financial)": {
+      "meaning": "Per Annum",
+      "description": "Latin phrase meaning 'by the year'. Commonly used in the UK to denote annual salaries (e.g., £30k pa).",
+      "department": "Business"
+    },
+      "PA (Group)": {
+          "meaning": "Planning Authority",
+          "description": "the public body responsible for controlling development, deciding on planning applications (for buildings, extensions, land use changes), and creating local plans to guide future growth, ensuring development respects the environment and community needs",
+          "department": "Home"
+      }
+  },
     "PAC": {
         "meaning": "Public Accounts Committee",
         "description": "",
@@ -15322,7 +15264,7 @@ database = {
     "PAR": {
         "meaning": "Project Assessment Review",
         "description": "",
-        "department": "NHSx"
+        "department": "NHS"
     },
     "PAR (programme)": {
         "meaning": "Programme Analysis and Review",
@@ -15337,7 +15279,7 @@ database = {
     "PAS": {
         "meaning": "Patient Administration System",
         "description": "",
-        "department": "NHSx"
+        "department": "NHS"
     },
     "PASC": {
         "meaning": "Public Administration Select Committee",
@@ -15377,7 +15319,7 @@ database = {
     "PBC": {
         "meaning": "Programme Business Case",
         "description": "",
-        "department": "NHSx"
+        "department": "NHS"
     },
     "PBL": {
         "meaning": "Parliamentary Business and Legislation",
@@ -15395,10 +15337,15 @@ database = {
             "description": "",
             "department": "DWP"
         },
-        "PC (computers??)": {
-            "meaning": "Personal Computers",
-            "description": "",
-            "department": "DfE"
+        "PC (Computing)": {
+            "meaning": "Personal Computer",
+            "description": "Standard hardware used in office environments.",
+            "department": "Business"
+        },
+        "PC (Petty Cash)": {
+            "meaning": "Petty Cash",
+            "description": "A small amount of discretionary funds in the form of cash used for expenditures where it is not sensible to make any disbursement by cheque or card.",
+            "department": "Business"
         }
     },
     "PCA": {
@@ -15462,7 +15409,7 @@ database = {
         "PCN (network??)": {
             "meaning": "Project Critical Network",
             "description": "",
-            "department": "NHSx"
+            "department": "NHS"
         },
         "PCN (networks??)": {
             "meaning": "Project Critical Networks",
@@ -15810,12 +15757,12 @@ database = {
     "PHE": {
         "meaning": "Public Health England",
         "description": "",
-        "department": "BEIS; NHSx"
+        "department": "BEIS; NHS"
     },
     "PHR": {
         "meaning": "Public Health Records",
         "description": "",
-        "department": "NHSx"
+        "department": "NHS"
     },
     "PHSO": {
         "meaning": "Parliamentary and Health Service Ombudsman",
@@ -16127,9 +16074,16 @@ database = {
         "department": "BEIS"
     },
     "POC": {
-        "meaning": "Proof of Concept",
-        "description": "",
-        "department": "Not Limited to CS"
+        "POC (Development)": {
+            "meaning": "Proof of Concept",
+            "description": "Evidence, typically derived from an experiment or pilot project, which demonstrates that a design concept, business proposal, or so on, is feasible.",
+            "department": "Not exclusive to CS"
+        },
+        "POC (Communication)": {
+            "meaning": "Point of Contact",
+            "description": "The person or department serving as the coordinator or focal point of information concerning an activity or program.",
+            "department": "Not exclusive to CS"
+        }
     },
     "POCA": {
         "meaning": "Post Office Card Account",
@@ -16712,7 +16666,7 @@ database = {
     "PVR": {
         "meaning": "Project Validation Review",
         "description": "",
-        "department": "NHSx"
+        "department": "NHS"
     },
     "PYBT": {
         "meaning": "Princes Youth Business Trust",
@@ -16789,7 +16743,7 @@ database = {
     "PoSA": {
         "meaning": "Provision of Services Agreement",
         "description": "",
-        "department": "NHSx"
+        "department": "NHS"
     },
     "Pre Con": {
         "meaning": "Previous Conviction",
@@ -17420,7 +17374,7 @@ database = {
     "RPA": {
         "meaning": "Risk Potential Assessment; Robotic Process Automation; Rural Payments Agency",
         "description": "RPA is an executive agency, sponsored by the Department for Environment, Food & Rural Affairs",
-        "department": "Civil Service Wide; Defra; NHSx"
+        "department": "Civil Service Wide; Defra; NHS"
     },
     "RPA (academies)": {
         "meaning": "Risk protection arrangements",
@@ -17965,7 +17919,7 @@ database = {
     "SCN": {
         "meaning": "Strategic Clinical Network",
         "description": "",
-        "department": "NHSx"
+        "department": "NHS"
     },
     "SCONTO": {
         "meaning": "Scottish Council of National Training Organisations",
@@ -18788,20 +18742,17 @@ database = {
         "description": "On 01 April 2021 the Social Mobility Commission (SMC) moved to the Cabinet Office's Equalities Hub. It had been an Arm's Length Body of the DfE since 2012. The department will continue to have a close relationship with the SMC, given the important role education plays in improving social mobility and securing good opportunities for all.Source: Intranet news 2021-03-30",
         "department": "DfE"
     },
-    "SME": {
-        "meaning": "Small and Medium Enterprise",
-        "description": "",
-        "department": "DLUHC"
-    },
-    "SME (enterprises)": {
-        "meaning": "Small and medium sized enterprises",
-        "description": "",
-        "department": "DfE"
-    },
-    "SME (experts)": {
-        "meaning": "Subject Matter Experts",
-        "description": "",
-        "department": "DfE"
+    "SME":{
+        "SME": {
+            "meaning": "Small to Medium-sized Enterprise",
+            "description": "Businesses defined by their employee count and turnover. In the UK, this usually covers businesses with fewer than 250 employees.",
+            "department": "Business"
+        },
+        "SME (experts)": {
+            "meaning": "Subject Matter Experts",
+            "description": "",
+            "department": "DfE"
+        }
     },
     "SMGB": {
         "meaning": "Service Management Governance Board",
@@ -19430,7 +19381,7 @@ database = {
     "STPs": {
         "meaning": "Sustainability and Transformation Plans",
         "description": "",
-        "department": "NHSx"
+        "department": "NHS"
     },
     "STRB": {
         "meaning": "School Teachers Review Body",
@@ -19461,12 +19412,12 @@ database = {
         "SU": {
             "meaning": "Service User",
             "description": "An offender in probation parlance",
-            "department": "BEIS"
+            "department": "MOj"
         },
-        "SU (technologies??)": {
+        "SU (technologies)": {
             "meaning": "Single -Use (technologies)",
             "description": "",
-            "department": "MoJ"
+            "department": "BEIS"
         }
     },
     "SUO": {
@@ -19592,7 +19543,7 @@ database = {
     "SofS": {
         "meaning": "Secretary of State",
         "description": "",
-        "department": "NHSx"
+        "department": "NHS"
     },
     "SpAd": {
         "meaning": "Special Advisor",
@@ -19645,16 +19596,16 @@ database = {
             "description": "Used by LAA to record assessment of contract tender responses.",
             "department": "MoJ"
         },
-        "TAD (database??)": {
+        "TAD (contracts)": {
             "meaning": "Tender Assessment Database",
-            "description": "",
+            "description": "Platforms used for managing, searching, and evaluating public sector contracts and procurement data. ",
             "department": ""
         }
     },
     "TAFKADSD": {
         "meaning": "The Artists Formerly Known as the Digital Services Division",
-        "description": "Subsequently known as MOJ Digital Services.Currently known as MOJ Digital.",
-        "department": "MoJ"
+        "description": "Currently known as Government Digital Service (GDS)",
+        "department": "Funny guys"
     },
     "TAG": {
         "meaning": "TRADE ADVISORY GROUP",
@@ -19839,7 +19790,7 @@ database = {
     "TDIB": {
         "meaning": "Technology and Data Investment Board (superseded by TFPB)",
         "description": "",
-        "department": "NHSx"
+        "department": "NHS"
     },
     "TDLB": {
         "meaning": "Training and Development Lead Body Standards",
@@ -19939,7 +19890,7 @@ database = {
     "TFPB": {
         "meaning": "Technology, Finance and Performance Board",
         "description": "",
-        "department": "NHSx"
+        "department": "NHS"
     },
     "THES": {
         "meaning": "Times Higher Education Supplement",
@@ -20212,7 +20163,7 @@ database = {
     "TSB": {
         "meaning": "Technology Strategy Board",
         "description": "Innovate UK (formerly the Technology Strategy Board). Its role is to stimulate technology-enabled innovation in the areas which offer the greatest scope for boosting UK growth and productivity. Promotes, supports and invests in technology research, development and commercialisation. Spreads knowledge, bringing people together to solve problems or make new advances.Source: {GOV.UK|https://www.gov.uk/government/organisations/innovate-uk/about} accessed 2015-06-11",
-        "department": "DfE; NHSx"
+        "department": "DfE; NHS"
     },
     "TSC (schools)": {
         "meaning": "Teaching Schools Council",
@@ -20315,7 +20266,7 @@ database = {
         "TTP (programme??)": {
             "meaning": "Technology Transition Programme",
             "description": "",
-            "department": "NHSx"
+            "department": "NHS"
         },
         "TTP (project??)": {
             "meaning": "Transferring Telephony Project",
@@ -20540,8 +20491,8 @@ database = {
     },
     "UK": {
         "meaning": "United Kingdom",
-        "description": "",
-        "department": "DfE"
+        "description": "The sovereign state comprising Great Britain and Northern Ireland. Full title: The United Kingdom of Great Britain and Northern Ireland.",
+        "department": "Cabinet Office"
     },
     "UK NARIC": {
         "meaning": "National Academic Recognition Centre",
@@ -20746,9 +20697,9 @@ database = {
         "department": "DfE"
     },
     "USA": {
-        "meaning": "United States of America",
-        "description": "",
-        "department": "DfE"
+        "meaning": "United State of America",
+        "description": "Part of that big land mass to the west. Might of seen it on the news?",
+        "department": ""
     },
     "USG": {
         "meaning": "US Government",
@@ -20827,12 +20778,12 @@ database = {
     },
     "VAT": {
         "meaning": "Value Added Tax",
-        "description": "",
-        "department": "Civil Service Wide"
+        "description": "A consumption tax placed on a product whenever value is added at each stage of the supply chain and at the point of sale. In the UK, the standard rate is currently 20%.",
+        "department": "Business"
     },
     "VAWG": {
         "meaning": "Violence Against Woman and Girls",
-        "description": "The range of different ways violence is targetted at Woman and Girls and the strategies to tackle.",
+        "description": "The range of different ways violence is targeted at Woman and Girls and the strategies to tackle.",
         "department": "Civil Service Wide"
     },
     "VBS": {
@@ -21713,11 +21664,11 @@ database = {
             "description": "Regulation of drugs.",
             "department": "Health"
         },
-        "CD": {
-            "meaning": "Crown Dependency",
-            "description": "",
-            "department": ""
-        }
+          "CD": {
+            "meaning": "Crown Dependencies",
+            "description": "The Bailiwick of Jersey, the Bailiwick of Guernsey, and the Isle of Man. They are not part of the UK or the EU but are self-governing possessions of the British Crown.",
+            "department": "MoJ"
+          },
     },
     "CO": {
         "meaning": "Cabinet Office",
@@ -21942,5 +21893,75 @@ database = {
         "meaning": "Year to Date",
         "description": "Period starting from the beginning of the current year.",
         "department": "Finance"
+    },
+  "PLC": {
+    "meaning": "Public Limited Company",
+    "description": "A company whose shares may be freely sold and traded to the public. In the UK, a PLC must have a minimum share capital of £50,000.",
+    "department": "Business"
+  },
+  "AGM": {
+    "meaning": "Annual General Meeting",
+    "description": "A mandatory yearly gathering of a company's interested shareholders. At an AGM, the directors of the company present an annual report containing information for shareholders about the company's performance and strategy.",
+    "department": "Business"
+  },
+  "T&C": {
+    "meaning": "Terms and Conditions",
+    "description": "The legal agreements between a service provider and a person who wants to use that service. Essential for UK consumer law compliance.",
+    "department": "Business"
+  },
+  "ISA": {
+    "meaning": "Individual Savings Account",
+    "description": "A class of retail investment arrangements available to residents of the United Kingdom which allows for tax-free interest payments.",
+    "department": "Business"
+  },
+  "ROI": {
+      "ROI (business)":{
+        "meaning": "Return on Investment",
+        "description": "A performance measure used to evaluate the efficiency of an investment or compare the efficiency of a number of different investments. It measures the amount of return on an investment relative to the investment's cost.",
+        "department": " Business"
+      },
+    "ROI": {
+        "meaning": "Republic of Ireland",
+        "description": "The sovereign state covering the majority of the island of Ireland. In UK business contexts, 'ROI' is often used to distinguish it clearly from Northern Ireland (NI), though 'Ireland' is the official country name.",
+        "department": "FCDO"
+    },
+  },
+  "ASAP": {
+    "meaning": "As Soon As Possible",
+    "description": "Used to convey urgency in completing a task.",
+    "department": "General Communication"
+  },
+  "B2B": {
+    "meaning": "Business to Business",
+    "description": "A form of transaction between businesses, such as one involving a manufacturer and wholesaler, or a wholesaler and a retailer.",
+    "department": "Business"
+  },
+  "COB": {
+    "COB": {
+      "meaning": "Close of Business",
+      "description": "Refers to the end of the business day (usually 5:00 PM). Used to set deadlines.",
+      "department": "Business"
+    },
+    "COB (Role)": {
+      "meaning": "Chairman of the Board",
+      "description": "The highest-ranking officer in the board of directors of a corporation.",
+      "department": "CS wide"
     }
+  },
+
+  "EMEA": {
+    "meaning": "Europe, Middle East, and Africa",
+    "description": "A major geographic division used by multinational corporations for reporting and organizational structure.",
+    "department": "DBT"
+  },
+  "UKOT": {
+    "meaning": "United Kingdom Overseas Territories",
+    "description": "Fourteen territories with a constitutional link to the UK but not part of it (e.g., Bermuda, Gibraltar, Falkland Islands). They are self-governing but rely on the UK for defense and foreign relations.",
+    "department": "FCDO"
+  },
+  "MENA": {
+    "meaning": "Middle East and North Africa",
+    "description": "A grouping of countries situated in and around the Middle East and North Africa. Commonly used in economic analysis and market planning.",
+    "department": "DBT"
+  },
 }
