@@ -9,6 +9,12 @@ as a database, and only allows read interactions
 
 This is built entirely with Python
 
+# Currently
+
+So been exploring various options, and looks like Zappa is the best bet to get this thing spun up on cloud
+quickly and repeatably. Try tomorrow. If that doesn't work, I'm gonna write a goddam bash command to zip this,
+thing and have that for repeatability
+
 ## Script
 
 /ali_explain
