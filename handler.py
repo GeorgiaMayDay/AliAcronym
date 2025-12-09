@@ -40,9 +40,9 @@ def handle_app_mentions(body, say, logger):
         result = client.chat_postMessage(
             channel=channel_id,
             thread_ts=parent_comment,
-            text=friendly_response(parent_text,"mention", logger),)
+            text=friendly_response(parent_text, logger, "mention"),)
         app.logger.info("posted reply: {}".format(result))
-    except KeyError as e:
+    except KeyError:
         say(help_msg)
     except SlackApiError as e:
         app.logger.error(e)

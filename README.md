@@ -1,33 +1,13 @@
-# Slack Bot template
+# Ali-Acronym
 
-This is my slack bot template 
+An Acronym Explainer bot
 
 Initially created following this guide: https://python.plainenglish.io/lets-create-a-slackbot-cause-why-not-2972474bf5c1
 
-Hopefully going to turn into an acroymn explainer bot
+This bot allows 3 types of interaction (see script). Currently, it uses a dictionary 
+as a database, and only allows read interactions
 
-# WIP: Currently
-
-I need to add some kind of nested structure to allow for the same acronym having multiple meanings
-
-So the current thinking for this is:
-
-Okay made a reasonable database
-
-Now need to figure out to present/how to word the commands
-
-Current thoughts:
-
-/ali_explain works logically how I want it to but it needs some friendliness and human nicety
-That's the next thing and then get mention working - hopefully can demo
-
-mention is used in a thread to collect the parent message so you can break down the acronym in it
-- May allow a toggle for if you want it to reply privately or publically
-Outside of a thread it delivers a help message explaining how it used, and what /ali_explain does
-
-Make a spy logger
-
-Will probably also want to add a jargon command
+This is built entirely with Python
 
 ## Script
 

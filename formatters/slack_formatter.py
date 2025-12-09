@@ -6,12 +6,15 @@ from acronym_analysis.acronym_identifier import identify_acronym, fetch_acronym_
 from acronym_database.acronym_data import database
 from acronym_database.acronym_data_struct import AcronymDataStruct, MultiAcronymDataStruct
 
-def friendly_response(text: str, msg_type: str, logger: Logger) -> str:
+def friendly_response(text: str, logger: Logger,  msg_type: str = "") -> str:
+    returning_text = ""
     match msg_type:
         case "mention":
-            returning_text = "Okay, I've analysis the parent"
+            returning_text = "I've analysis the parent message and found the following acronyms:\n"
+        case _:
+            returning_text = "Here are the acronyms I have found: \n"
     analysis_response = extract_acronym_description_text(text, database=database, logger=logger)
-    return analysis_response
+    return returning_text + analysis_response
 
 
 
