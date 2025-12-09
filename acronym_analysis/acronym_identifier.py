@@ -1,4 +1,5 @@
 import string
+from logging import Logger
 from typing import List, Dict
 import re
 
@@ -22,11 +23,11 @@ def identify_acronym(acronym: str) -> List[str]:
     for acr in initial_acronym_scan:
         if findWholeWord(acr, acronym):
             final_acronyms.append(acr)
-    return final_acronyms
+    return list(set(final_acronyms))
 
 
-def fetch_acronym_description(acronym: str, database: Dict[str, str | Dict[str, str]]) -> None | AcronymDataStruct | MultiAcronymDataStruct:
-    acronym_data: Dict = database.get(acronym)
+def fetch_acronym_description(acronym: str, curr_database: Dict[str, str | Dict[str, str]]) -> None | AcronymDataStruct | MultiAcronymDataStruct:
+    acronym_data: Dict = curr_database.get(acronym)
     if not acronym_data:
         return None
     try:
@@ -35,7 +36,14 @@ def fetch_acronym_description(acronym: str, database: Dict[str, str | Dict[str, 
         print(acronym_data)
         return MultiAcronymDataStruct(acronym=acronym, acronym_data=acronym_data)
 
-def count_of_database(database: Dict[str, str | Dict[str, str]]) -> int:
-    return len(database)
+def get_acronyms_from_database(potential_acronyms: List[str], curr_database: Dict[str, str | Dict[str, str]], logger: Logger) -> List[AcronymDataStruct | MultiAcronymDataStruct]:
+    acronyms_in_database = []
 
-print(count_of_database(database=database))
+    for acronym in potential_acronyms:
+        result = fetch_acronym_description(acronym, curr_database)
+        if result:
+            acronyms_in_database.append(result)
+
+    logger.info(msg="These where the acronym identified")
+    logger.info(msg=acronyms_in_database)
+    return acronyms_in_database

@@ -2,8 +2,19 @@ import string
 from logging import Logger
 from typing import Dict, List
 
-from acronym_analysis.acronym_identifier import identify_acronym, fetch_acronym_description
+from acronym_analysis.acronym_identifier import identify_acronym, fetch_acronym_description, get_acronyms_from_database
+from acronym_database.acronym_data import database
 from acronym_database.acronym_data_struct import AcronymDataStruct, MultiAcronymDataStruct
+
+def friendly_response(text: str, msg_type: str, logger: Logger) -> str:
+    match msg_type:
+        case "mention":
+            returning_text = "Okay, I've analysis the parent"
+    analysis_response = extract_acronym_description_text(text, database=database, logger=logger)
+    return analysis_response
+
+
+
 
 def extract_acronym_and_get_definition(text: str, database: Dict[str, str | Dict[str, str]], logger: Logger) -> List[str]:
     returning_text = []
@@ -46,7 +57,7 @@ def determine_output_from_acronym_result(acronym_details: None | AcronymDataStru
 
 
 def extract_acronym_description_text(text: str, database: Dict[str, str | Dict[str, str]], logger: Logger) -> str:
-    return '\n'.join(extract_acronym_and_get_definition(text, database, logger))
+    return '\n\n'.join(extract_acronym_and_get_definition(text, database, logger))
 
 
 def clean_str_to_potential_acronyms(text: str) -> List[str]:
@@ -56,7 +67,7 @@ def clean_str_to_potential_acronyms(text: str) -> List[str]:
     text = text.upper()
     # 3. split by whitespace
     potential_acronym_list = text.split(" ")
-    return potential_acronym_list
+    return list(set(potential_acronym_list))
 
 
 def acronym_data_details_string(acronym_data: AcronymDataStruct) -> str:
@@ -66,14 +77,3 @@ def acronym_data_details_string(acronym_data: AcronymDataStruct) -> str:
     return answer
 
 
-def get_acronyms_from_database(potential_acronyms: List[str], database: Dict[str, str | Dict[str, str]], logger: Logger) -> List[AcronymDataStruct | MultiAcronymDataStruct]:
-    acronyms_in_database = []
-
-    for acronym in potential_acronyms:
-        result = fetch_acronym_description(acronym, database)
-        if result:
-            acronyms_in_database.append(result)
-
-    logger.info(msg="These where the acronym identified")
-    logger.info(msg=acronyms_in_database)
-    return acronyms_in_database
