@@ -29,8 +29,8 @@ greetings = ["Hi", "hi", "hello", "Hello", "help", "Help"]
 
 
 @bolt_app.event("app_mention")
-def handle_app_mentions(body, say, logger):
-    app.logger.info(body["event"])
+def handle_app_mentions(ack, body, say, logger):
+    app.logger.info("Received this body: {}".format(body["event"]))
     try:
         parent_comment = body["event"]["thread_ts"]
         channel_id = body["event"]["channel"]
@@ -38,7 +38,7 @@ def handle_app_mentions(body, say, logger):
         result = client.conversations_history(channel=channel_id, oldest=parent_comment, inclusive=True, limit=1)
         parent_text = result["messages"][0]['text']
 
-        app.logger.info("Found this the parent thread")
+        app.logger.info("Found the parent thread")
         result = client.chat_postMessage(
             channel=channel_id,
             thread_ts=parent_comment,
@@ -49,47 +49,31 @@ def handle_app_mentions(body, say, logger):
     except SlackApiError as e:
         app.logger.error(e)
         say("Sorry, I'm having some connectivity issues. Please try again in a moment")
+    ack()
 
 
 
 @bolt_app.command("/ali_explain")
 def handle_acronym_command(ack, respond, command):
-    ack()
     user_query = command['text']
     # request_url = command['response_url']
     app.logger.info(user_query)
     results = extract_acronym_and_get_definition(user_query, database)
     for acronym_details in results:
         respond(acronym_details)
-        # payload = {
-        #     "text": acronym_details,
-        #     "response_type": "ephemeral"  # or "in_channel" for public replies
-        # }
-        # requests.post(request_url, json=payload)
-
-
-# @task
-# def process_acronym(response_url: str, user_query: str):
-#     from acronym_database.acronym_data import database
-#     results = extract_acronym_and_get_definition(user_query, database)
-#     print("Called asynchronously")
-#     logging.log(logging.INFO, "Logger called asynchronously")
-#     print(results)
-
-
+    ack()
 
 @bolt_app.event("message")
-def handle_message_events(body, say, logger):
-    from acronym_database.acronym_data import database
-    logger.info(body)
-    app.logger.info(body)
+def handle_message_events(ack, body, say):
     user_msg = body["event"]["text"]
     user_channel = body["event"]["channel"]
+    app.logger.info("I have received this message: {}".format(user_msg))
     if user_msg in greetings:
         say(help_msg)
     else:
         for acronym_details in extract_acronym_and_get_definition(user_msg, database, logger=app.logger):
             say(acronym_details)
+    ack()
 
 
 @app.route("/ali_acronym/events", methods=["POST"])

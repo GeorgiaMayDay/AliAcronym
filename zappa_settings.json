@@ -13,8 +13,6 @@
         "project_name": "aliacronym",
         "runtime": "python3.13",
         "s3_bucket": "ali-acronym-zappa",
-        "keep_warm": true,
-        "keep_warm_expression": "rate(4 minutes)",
         "remote_env": "s3://ali-acronym-zappa/secret.json",
         "timeout_seconds": 60,
         "log_level": "INFO"
