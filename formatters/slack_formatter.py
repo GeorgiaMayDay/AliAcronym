@@ -1,3 +1,4 @@
+import logging
 import string
 from logging import Logger
 from typing import Dict, List
@@ -19,7 +20,9 @@ def friendly_response(text: str, logger: Logger,  msg_type: str = "") -> str:
 
 
 
-def extract_acronym_and_get_definition(text: str, database: Dict[str, str | Dict[str, str]], logger: Logger) -> List[str]:
+def extract_acronym_and_get_definition(text: str, database: Dict[str, str | Dict[str, str]], logger: Logger = logging.getLogger("task")) -> List[str]:
+    if not logger.level:
+        logger.setLevel(logging.INFO)
     returning_text = []
 
     acronyms = identify_acronym(text)
@@ -30,6 +33,8 @@ def extract_acronym_and_get_definition(text: str, database: Dict[str, str | Dict
 
     acronym_details = get_acronyms_from_database(acronyms, database, logger)
     acronym_str = ",".join(acronyms)
+
+    Logger.log("Identified acronyms: ", acronym_str)
 
     if not acronym_details:
         return [f"Sorry, I find any acronyms in the string you sent in my database. You sent: {text}"]

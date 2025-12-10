@@ -2,13 +2,15 @@
 import logging
 import os
 
+import requests
 from flask import Flask, request
 from slack_bolt import App, Say
 from slack_bolt.adapter.flask import SlackRequestHandler
 from slack_sdk import WebClient
 from slack_sdk.errors import SlackApiError
-
+from zappa.asynchronous import task
 from acronym_database.acronym_data import database
+
 from constants import help_msg
 from formatters.slack_formatter import extract_acronym_and_get_definition, \
     friendly_response
@@ -54,14 +56,31 @@ def handle_app_mentions(body, say, logger):
 def handle_acronym_command(ack, respond, command):
     ack()
     user_query = command['text']
-    print(user_query)
-    app.logger.info(command)
-    for acronym_details in extract_acronym_and_get_definition(user_query, database, logger=app.logger):
+    # request_url = command['response_url']
+    app.logger.info(user_query)
+    results = extract_acronym_and_get_definition(user_query, database)
+    for acronym_details in results:
         respond(acronym_details)
+        # payload = {
+        #     "text": acronym_details,
+        #     "response_type": "ephemeral"  # or "in_channel" for public replies
+        # }
+        # requests.post(request_url, json=payload)
+
+
+# @task
+# def process_acronym(response_url: str, user_query: str):
+#     from acronym_database.acronym_data import database
+#     results = extract_acronym_and_get_definition(user_query, database)
+#     print("Called asynchronously")
+#     logging.log(logging.INFO, "Logger called asynchronously")
+#     print(results)
+
 
 
 @bolt_app.event("message")
 def handle_message_events(body, say, logger):
+    from acronym_database.acronym_data import database
     logger.info(body)
     app.logger.info(body)
     user_msg = body["event"]["text"]
@@ -75,6 +94,7 @@ def handle_message_events(body, say, logger):
 
 @app.route("/ali_acronym/events", methods=["POST"])
 def slack_events():
+    app.logger.info("The events handler was called")
     """ Declaring the route where slack will post a request """
     return slackHandler.handle(request)
 
