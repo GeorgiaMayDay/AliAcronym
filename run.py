@@ -21,7 +21,7 @@ client = WebClient(token=slack_token)
 bolt_app = App(token=slack_token, signing_secret=slack_signing_secret)
 app = Flask(__name__)
 app.logger.setLevel(logging.INFO)
-handler = SlackRequestHandler(bolt_app)
+slackHandler = SlackRequestHandler(bolt_app)
 
 greetings = ["Hi", "hi", "hello", "Hello", "help", "Help"]
 
@@ -76,16 +76,22 @@ def handle_message_events(body, say, logger):
 @app.route("/ali_acronym/events", methods=["POST"])
 def slack_events():
     """ Declaring the route where slack will post a request """
-    return handler.handle(request)
+    return slackHandler.handle(request)
 
 @app.route("/ali_acronym/install", methods=["GET"])
 def install():
-    return handler.handle(request)
+    return slackHandler.handle(request)
 
 
 @app.route("/ali_acronym/oauth_redirect", methods=["GET"])
 def oauth_redirect():
-    return handler.handle(request)
+    return slackHandler.handle(request)
+
+@app.route("/", methods=["GET", "POST"])
+def lambda_handler(event=None, context=None):
+    app.logger.info("Lambda function invoked index()")
+
+    return "We're Live and Happening here in the Studio"
 
 
 if __name__ == '__main__':
