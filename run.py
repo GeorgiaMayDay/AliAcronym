@@ -15,34 +15,45 @@ from constants import help_msg
 from formatters.slack_formatter import extract_acronym_and_get_definition, \
     friendly_response
 
+import ssl
+import certifi
+
+ssl_context = ssl.create_default_context(cafile=certifi.where())
+
+
 slack_token = os.environ["SLACKBOT_API_TOKEN"]
 slack_signing_secret = os.environ["SLACK_SIGNING_SECRET"]
 
-client = WebClient(token=slack_token)
+client = WebClient(token=slack_token, ssl=ssl_context)
 
-bolt_app = App(token=slack_token, signing_secret=slack_signing_secret)
+bolt_app = App(token=slack_token, signing_secret=slack_signing_secret, process_before_response=True)
 app = Flask(__name__)
 app.logger.setLevel(logging.INFO)
 slackHandler = SlackRequestHandler(bolt_app)
 
-greetings = ["Hi", "hi", "hello", "Hello", "help", "Help"]
+greetings = ["hi", "hello","help", "hiya"]
 
 
 @bolt_app.event("app_mention")
 def handle_app_mentions(body, say, logger):
     app.logger.info("Received this body: {}".format(body["event"]))
+    say("Give me a moment I'm processing")
     try:
         parent_comment = body["event"]["thread_ts"]
         channel_id = body["event"]["channel"]
 
+        say("Got further")
+
         result = client.conversations_history(channel=channel_id, oldest=parent_comment, inclusive=True, limit=1)
         parent_text = result["messages"][0]['text']
+
+        say(parent_text)
 
         app.logger.info("Found the parent thread")
         result = client.chat_postMessage(
             channel=channel_id,
             thread_ts=parent_comment,
-            text=friendly_response(parent_text, logger, "mention"),)
+            text=friendly_response(parent_text, "mention"),)
         app.logger.info("posted reply: {}".format(result))
     except KeyError:
         say(help_msg)
@@ -65,9 +76,8 @@ def handle_acronym_command(ack, respond, command):
 @bolt_app.event("message")
 def handle_message_events(body, say):
     user_msg = body["event"]["text"]
-    user_channel = body["event"]["channel"]
     app.logger.info("I have received this message: {}".format(user_msg))
-    if user_msg in greetings:
+    if user_msg.lower() in greetings:
         say(help_msg)
     else:
         for acronym_details in extract_acronym_and_get_definition(user_msg, database, logger=app.logger):

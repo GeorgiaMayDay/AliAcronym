@@ -62,8 +62,8 @@ def determine_output_from_acronym_result(acronym_details: None | AcronymDataStru
         return f"That was weirdly hard: {acronym_details}"
 
 
-def extract_acronym_description_text(text: str, database: Dict[str, str | Dict[str, str]], logger: Logger) -> str:
-    return '\n\n'.join(extract_acronym_and_get_definition(text, database, logger))
+def extract_acronym_description_text(text: str, database: Dict[str, str | Dict[str, str]]) -> str:
+    return '\n\n'.join(extract_acronym_and_get_definition(text, database))
 
 
 def clean_str_to_potential_acronyms(text: str) -> List[str]:

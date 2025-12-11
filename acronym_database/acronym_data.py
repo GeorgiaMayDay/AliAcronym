@@ -984,7 +984,7 @@ database = {
     "ARA": {
         "meaning": "Annual Report and Accounts",
         "description": "",
-        "department": "DfE"
+        "department": "Civil Service Wide"
     },
     "ARAC": {
         "meaning": "Audit & Risk Assurance Committee",
