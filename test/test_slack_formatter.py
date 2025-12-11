@@ -19,6 +19,11 @@ gov_multi_part_acronyms = [
     ("AE", ["AE (civil service grade)", "AE (education)"])
 ]
 
+acronyms_in_sentence = [
+    ("Hey, Tony this is really interesting hopefully we'll get this SOW out by EOD tmr", ['EOD', 'HEY', 'HOPEFULLY', 'INTERESTING', 'REALLY', 'SOW', 'TMR', 'TONY', 'WELL']),
+    ("Yeah, the MoD really need to get a wiggle on delivering the SAT to the U.S.A", ['DELIVERING', 'MOD', 'NEED', 'REALLY', 'SAT', 'USA', 'WIGGLE', 'YEAH']),
+    ("LOL, unnecessary but also ThB", ['ALSO', 'LOL', 'THB', 'UNNECESSARY'])
+]
 
 @pytest.mark.parametrize("acronym_str, expected", gov_acronyms)
 def test_identify_acronym_and_passes_back_acronyms_details(acronym_str, expected):
@@ -32,3 +37,9 @@ def test_identify_acronym_identify_and_passes_back_acronyms_multi_part(acronym_s
     print(actual)
     assert meaning[0] in actual[0]
     assert meaning[1] in actual[0]
+
+@pytest.mark.parametrize("acronym_str, meaning", acronyms_in_sentence)
+def test_acronym_cleaner(acronym_str, meaning):
+    actual = clean_str_to_potential_acronyms(acronym_str)
+    print(actual)
+    assert meaning == actual

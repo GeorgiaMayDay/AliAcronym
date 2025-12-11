@@ -1,11 +1,14 @@
 import logging
+import re
 import string
 from logging import Logger
-from typing import Dict, List
+from typing import Dict, List, Set
 
 from acronym_analysis.acronym_identifier import identify_acronym, fetch_acronym_description, get_acronyms_from_database
 from acronym_database.acronym_data import database
 from acronym_database.acronym_data_struct import AcronymDataStruct, MultiAcronymDataStruct
+from constants import common_words
+
 
 def friendly_response(text: str,  msg_type: str = "") -> str:
     returning_text = ""
@@ -59,7 +62,7 @@ def determine_output_from_acronym_result(acronym_details: None | AcronymDataStru
             details.append(acronym_data_details_string(acronym_detail_struct))
         return details
     else:
-        return f"That was weirdly hard: {acronym_details}"
+        return f"500: Database Error on: {acronym_details}"
 
 
 def extract_acronym_description_text(text: str, database: Dict[str, str | Dict[str, str]]) -> str:
@@ -69,11 +72,12 @@ def extract_acronym_description_text(text: str, database: Dict[str, str | Dict[s
 def clean_str_to_potential_acronyms(text: str) -> List[str]:
     # 1. Remove all punctuation
     text = text.translate(str.maketrans('', '', string.punctuation))
-    # 2. Upper everything
-    text = text.upper()
-    # 3. split by whitespace
-    potential_acronym_list = text.split(" ")
-    return list(set(potential_acronym_list))
+    # 2. remove words that are very likely to just be filler words and turn into list
+    potential_acronym_list = [word for word in re.split("\W+", text) if word not in common_words]
+    # 3. upper everything
+    potential_acronym_list = map(lambda x: x.upper(), potential_acronym_list)
+    # Make sure that all the words are unique and sort the list
+    return sorted(list(set(potential_acronym_list)))
 
 
 def acronym_data_details_string(acronym_data: AcronymDataStruct) -> str:
