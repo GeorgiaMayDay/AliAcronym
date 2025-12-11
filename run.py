@@ -29,7 +29,7 @@ greetings = ["Hi", "hi", "hello", "Hello", "help", "Help"]
 
 
 @bolt_app.event("app_mention")
-def handle_app_mentions(ack, body, say, logger):
+def handle_app_mentions(body, say, logger):
     app.logger.info("Received this body: {}".format(body["event"]))
     try:
         parent_comment = body["event"]["thread_ts"]
@@ -49,7 +49,6 @@ def handle_app_mentions(ack, body, say, logger):
     except SlackApiError as e:
         app.logger.error(e)
         say("Sorry, I'm having some connectivity issues. Please try again in a moment")
-    ack()
 
 
 
@@ -64,7 +63,7 @@ def handle_acronym_command(ack, respond, command):
     ack()
 
 @bolt_app.event("message")
-def handle_message_events(ack, body, say):
+def handle_message_events(body, say):
     user_msg = body["event"]["text"]
     user_channel = body["event"]["channel"]
     app.logger.info("I have received this message: {}".format(user_msg))
@@ -73,7 +72,6 @@ def handle_message_events(ack, body, say):
     else:
         for acronym_details in extract_acronym_and_get_definition(user_msg, database, logger=app.logger):
             say(acronym_details)
-    ack()
 
 
 @app.route("/ali_acronym/events", methods=["POST"])

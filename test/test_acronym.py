@@ -12,10 +12,10 @@ good_acronyms = [
     ("BERR", {"BERR"}),
     ("MoDD", {"MoDD"}),
     ("MOD BERR", {"MOD", "BERR"}),
-    ("U.S.A", {"U.S.A"}),
-    ("U.S.A, MoD", {"U.S.A", "MoD"}),
+    ("U.S.A", {"USA"}),
+    ("U.S.A, MoD", {"USA", "MoD"}),
     ("BeDrD", {"BeDrD"}),
-    ("We currently have BA's stationed in the U.S.A working on CoW project", {"BA","U.S.A", "CoW"})
+    ("We currently have BA's stationed in the U.S.A working on CoW project", {"BA","USA", "CoW"})
 ]
 
 bad_acronyms = [

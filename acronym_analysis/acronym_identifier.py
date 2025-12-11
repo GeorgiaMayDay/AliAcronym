@@ -7,7 +7,7 @@ from acronym_database.acronym_data import database
 from acronym_database.acronym_data_struct import AcronymDataStruct, MultiAcronymDataStruct
 
 # Check tests for this
-# Should accept as acronym: Any all capital string, and
+# Should accept as acronym: Any all capital string, and words with multiple capital letters with lower case inbetween
 acronym_pattern = r"\b(?:[A-Z]{2,}[:alpha:]*)|(?:[A-Z][a-z][A-Z][A-Za-z]*)|(?:[a-zA-Z]\.){2|(?:[a-zA-Z]\.){2,}[a-zA-Z]"
 
 def findWholeWord(w, s):
@@ -22,7 +22,9 @@ def identify_acronym(acronym: str) -> List[str]:
     initial_acronym_scan = re.findall(acronym_pattern, acronym)
     for acr in initial_acronym_scan:
         if findWholeWord(acr, acronym):
+            acr = acr.translate(str.maketrans('', '', string.punctuation))
             final_acronyms.append(acr)
+    # The database has no acronyms presented as U.H so we strip . out
     return list(set(final_acronyms))
 
 
