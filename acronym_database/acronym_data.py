@@ -86,13 +86,13 @@ database = {
     },
     "A2J": {
         "meaning": "Access to Justice",
-        "description": "",
+        "description": "A fundamental principle in the legal system ensuring individuals have the ability to access legal advice, representation, and the courts to enforce their rights.",
         "department": "MoJ"
     },
     "AAC": {
         "AAC (justice)": {
             "meaning": "Administrative Appeals Court",
-            "description": "",
+            "description": "A specialist court within the Upper Tribunal of the UK judiciary that hears appeals against decisions made by lower tribunals, often regarding social security, child support, or transport.",
             "department": "MoJ"
         },
         "AAC (health)": {
@@ -109,7 +109,7 @@ database = {
     "AAN": {
         "AAN (admissions)": {
             "meaning": "Approved Admission Numbers",
-            "description": "ro",
+            "description": "The maximum number of pupils a school can admit in a specific year group, as determined by the admission authority.",
             "department": "DfE"
         },
         "AAN (apprenticeships)": {
@@ -120,7 +120,7 @@ database = {
     },
     "AAR": {
         "meaning": "After Action Review",
-        "description": "",
+        "description": "A structured review or de-brief process for analyzing what happened, why it happened, and how it can be done better by the participants and those responsible for the project or event.",
         "department": "DfE"
     },
     "AAS": {
@@ -135,7 +135,7 @@ database = {
     },
     "AAT": {
         "meaning": "Achievement and Attainment Tables",
-        "description": "",
+        "description": "Performance tables published by the Department for Education that provide information on the achievements of schools and colleges in England.",
         "department": "DfE"
     },
     "AB": {
@@ -165,12 +165,12 @@ database = {
     },
     "ABP": {
         "meaning": "Annual Business Plan",
-        "description": "",
+        "description": "A strategic document outlining a department's objectives, budget, and operational plans for the upcoming financial year.",
         "department": "DLUHC"
     },
     "ABPI": {
         "meaning": "Association of the British Pharmaceutical Industry",
-        "description": "",
+        "description": "The trade association for pharmaceutical companies in the UK, representing manufacturers of prescription medicines.",
         "department": "BEIS"
     },
     "AC": {
@@ -192,12 +192,12 @@ database = {
     },
     "ACAB": {
         "meaning": "National Association of Citizens Advice Bureaux",
-        "description": "",
+        "description": "The operating name for the national charity that supports the network of Citizens Advice Bureaux across the UK, providing advice services.",
         "department": "DfE"
     },
     "ACC": {
         "meaning": "Association of County Councils",
-        "description": "",
+        "description": "A former local government association in England and Wales representing county councils; it merged into the Local Government Association (LGA) in 1997.",
         "department": "DfE"
     },
     "ACCAC": {
@@ -207,7 +207,7 @@ database = {
     },
     "ACCT": {
         "meaning": "Assessment, care in custody and teamwork self-harm monitoring documentation",
-        "description": "",
+        "description": "The case management system used in prisons to support prisoners at risk of self-harm or suicide.",
         "department": "MoJ"
     },
     "ACE": {
@@ -239,17 +239,17 @@ database = {
     },
     "ACERT": {
         "meaning": "Advisory Council for the Education of Romany and other Travellers",
-        "description": "",
+        "description": "A human rights organisation working to ensure equal rights for Gypsies and Travellers, particularly focusing on education access and standards.",
         "department": "DfE"
     },
     "ACFHE": {
         "meaning": "Association of Colleges of Further and Higher Education",
-        "description": "",
+        "description": "A professional association that formerly represented colleges offering further and higher education in the UK.",
         "department": "DfE"
     },
     "ACG": {
         "meaning": "Annual Capital Guidelines",
-        "description": "",
+        "description": "Government guidelines issued to local authorities detailing the capital expenditure limits and allocations for the financial year.",
         "department": "DfE"
     },
     "ACL": {
@@ -260,7 +260,7 @@ database = {
         },
         "ACL (learning??)": {
             "meaning": "Adult and Community Learning",
-            "description": "",
+            "description": "Education and training opportunities for adults, often delivered by local authorities or community organisations, ranging from basic skills to leisure courses.",
             "department": "MoJ"
         }
     },
@@ -271,7 +271,7 @@ database = {
     },
     "ACM": {
         "meaning": "Association for College Management",
-        "description": "",
+        "description": "A former professional association and trade union for managers in the further education sector, which merged into the Association of Teachers and Lecturers (ATL).",
         "department": "DfE"
     },
     "ACME": {
@@ -292,18 +292,18 @@ database = {
         },
         "ACPO (officers??)": {
             "meaning": "Association of Chief Police Officers",
-            "description": "",
+            "description": "The former leadership body for police chief constables in England, Wales, and Northern Ireland; replaced by the National Police Chiefs' Council (NPCC).",
             "department": "MoJ"
         }
     },
     "ACQ": {
         "meaning": "Accountability, Curriculum and Qualifications",
-        "description": "",
+        "description": "A division or workstream within the Department for Education focused on school accountability frameworks, national curriculum standards, and qualification regulation.",
         "department": "DfE"
     },
     "ACRA": {
         "meaning": "Association of College Registrars and Administrators",
-        "description": "",
+        "description": "A professional body representing administrative and registry staff in the further and higher education college sectors.",
         "department": "DfE"
     },
     "ACS": {
@@ -320,12 +320,12 @@ database = {
     },
     "ACSES": {
         "meaning": "Annual Civil Service Employment Survey",
-        "description": "",
+        "description": "An official statistics publication providing detailed data on the UK Civil Service workforce, including demographics, pay, and location.",
         "department": "Civil Service Wide"
     },
     "ACSET": {
         "meaning": "Advisory Committee on the Supply and Education of Teachers",
-        "description": "",
+        "description": "A former advisory body providing guidance to the government on teacher supply numbers and training requirements.",
         "department": "DfE"
     },
     "ACSTT": {
@@ -340,7 +340,7 @@ database = {
     },
     "ACTOR": {
         "meaning": "Approved College and Training Organisation Register",
-        "description": "",
+        "description": "A database or register listing colleges and training providers that have been approved to deliver government-funded education and training.",
         "department": "DfE"
     },
     "ACVT": {
@@ -350,7 +350,7 @@ database = {
     },
     "AD": {
         "meaning": "Active Directory",
-        "description": "",
+        "description": "A Microsoft directory service used for domain management, including user authentication and policy enforcement within a Windows network.",
         "department": "MoJ"
     },
     "ADA": {
@@ -361,7 +361,7 @@ database = {
         },
         "ADA (authority??)": {
             "meaning": "Architecture Design Authority",
-            "description": "",
+            "description": "A governance body responsible for ensuring that IT and system architectures align with the organization's technical strategy and standards.",
             "department": "MoJ"
         }
     },
@@ -382,12 +382,12 @@ database = {
     },
     "ADD": {
         "meaning": "Analysis and Data Division",
-        "description": "",
+        "description": "A division within the department responsible for data collection, analysis, and statistical reporting to support policy and decision-making.",
         "department": "DLUHC"
     },
     "ADF": {
         "meaning": "Azure Data Factory",
-        "description": "",
+        "description": "A cloud-based data integration service from Microsoft used to create data-driven workflows for orchestrating and automating data movement and data transformation.",
         "department": "Not Limited to CS"
     },
     "ADHD": {
@@ -402,7 +402,7 @@ database = {
     },
     "ADII": {
         "meaning": "Architecture, Data, Information, Innovation",
-        "description": "",
+        "description": "A Defra group or function focused on enterprise architecture, data management strategies, and innovative technology solutions.",
         "department": "Defra"
     },
     "ADP": {
@@ -413,13 +413,13 @@ database = {
         },
         "ADP (platform??)": {
             "meaning": "Azure Data Platform",
-            "description": "",
+            "description": "A suite of data services provided by Microsoft Azure, including databases, analytics, and AI capabilities.",
             "department": "Not Limited to CS"
         }
     },
     "ADPO": {
         "meaning": "",
-        "description": "",
+        "description": "Association of Data Protection Officers",
         "department": "MoJ"
     },
     "ADR": {
@@ -441,18 +441,18 @@ database = {
     },
     "ADS": {
         "meaning": "Advice Direct Scotland",
-        "description": "",
+        "description": "A charity providing free, impartial and practical advice to citizens in Scotland on a range of issues including debt, employment, and consumer rights.",
         "department": "Not Limited to CS"
     },
     "AE": {
         "AE (civil service grade)": {
             "meaning": "Assistant Economists",
-            "description": "",
+            "description": "An entry-level or junior grade for economists within the Civil Service, often part of the Government Economic Service (GES).",
             "department": "Civil Service Wide"
         },
         "AE (education)": {
             "meaning": "Adult education",
-            "description": "",
+            "description": "Education and training opportunities provided for adults, typically post-compulsory education.",
             "department": "DfE"
         }
     },
@@ -464,7 +464,7 @@ database = {
         },
         "AEB (budget)": {
             "meaning": "Adult education budget",
-            "description": "",
+            "description": "Funding aimed at engaging adults and providing the skills and learning they need to progress into work or equip them for an apprenticeship or other learning.",
             "department": "DfE"
         }
     },
@@ -496,12 +496,12 @@ database = {
     "AEP": {
         "AEP": {
             "meaning": "Accelerated Encryption Processing",
-            "description": "",
+            "description": "Technology or hardware used to speed up encryption and decryption processes to secure data.",
             "department": "DfE"
         },
         "AEP (psychologists??)": {
             "meaning": "Association of Educational Psychologists",
-            "description": "",
+            "description": "The professional association and trade union for educational psychologists in the UK.",
             "department": "MoJ"
         }
     },
@@ -517,7 +517,7 @@ database = {
     },
     "AFET": {
         "meaning": "Anne Frank Educational Trust",
-        "description": "",
+        "description": "A trust that uses the story of Anne Frank to challenge prejudice and hatred.",
         "department": "DfE"
     },
     "AFF": {
@@ -527,17 +527,17 @@ database = {
     },
     "AFK": {
         "meaning": "Away From Keyboard",
-        "description": "",
+        "description": "Status indicating a user is temporarily unavailable.",
         "department": "MoJ"
     },
     "AFNCCF": {
         "meaning": "Anna Freud National Centre for Children and Families",
-        "description": "",
+        "description": "A children's mental health charity providing training and support for children, families and professionals.",
         "department": "DfE"
     },
     "AFPC": {
         "meaning": "Apply for Pension Credit",
-        "description": "",
+        "description": "A government service allowing individuals to apply for Pension Credit, a benefit for people over State Pension age on a low income.",
         "department": ""
     },
     "AFRD (departmental organisational unit)": {
@@ -547,7 +547,7 @@ database = {
     },
     "AGB": {
         "meaning": "Architecture governance board",
-        "description": "",
+        "description": "A body responsible for overseeing and approving IT architecture decisions and standards.",
         "department": "Defra"
     },
     "AGBIS": {
@@ -602,17 +602,17 @@ database = {
     },
     "AHRO": {
         "meaning": "",
-        "description": "",
+        "description": "Access to Human Rights Organisation (Unknown/Unverified Acronym in this context)",
         "department": ""
     },
     "AHT": {
         "meaning": "Adopted Housing Target",
-        "description": "",
+        "description": "The housing delivery target formally adopted by a local authority in its local plan.",
         "department": "DLUHC"
     },
     "AHUA": {
         "meaning": "Association of Heads of University Administration",
-        "description": "",
+        "description": "The representative body for senior university administrators in the UK.",
         "department": "DfE"
     },
     "AICE": {
@@ -622,34 +622,34 @@ database = {
     },
     "AIDS": {
         "meaning": "Acquired Immune Deficiency Syndrome",
-        "description": "",
+        "description": "A condition caused by the HIV virus.",
         "department": "Not Limited to CS"
     },
     "AIS": {
         "meaning": "Acceptance Into Service",
-        "description": "",
+        "description": "The milestone where a new IT service or system is formally accepted for operational use.",
         "department": "MoJ"
     },
     "AJTC": {
         "meaning": "Administrative Justice Tribunals Council",
-        "description": "",
+        "description": "A former non-departmental public body that supervised the administrative justice system and tribunals in the UK; abolished in 2013.",
         "department": "MoJ"
     },
     "AL": {
         "AL": {
             "meaning": "Annual Leave",
-            "description": "",
+            "description": "Paid time off work granted to employees for rest and recreation.",
             "department": ""
         },
         "AL (civil service grade)": {
             "meaning": "Assistant Librarian",
-            "description": "",
+            "description": "A professional grade within the Civil Service for library staff.",
             "department": "Civil Service Wide"
         }
     },
     "ALA": {
         "meaning": "Association of London Authorities",
-        "description": "",
+        "description": "A former association representing local authorities in London.",
         "department": "DfE"
     },
     "ALB": {
@@ -695,7 +695,7 @@ database = {
         },
         "ALP (providers??)": {
             "meaning": "Association of Learning Providers",
-            "description": "",
+            "description": "Former name of the Association of Employment and Learning Providers (AELP).",
             "department": "DfE"
         }
     },
@@ -712,17 +712,17 @@ database = {
     "ALS": {
         "ALS": {
             "meaning": "Action Learning Set",
-            "description": "",
+            "description": "A group of people who meet regularly to help each other solve problems and learn from their actions.",
             "department": "Civil Service Wide"
         },
         "ALS (learning)": {
             "meaning": "Additional learning support",
-            "description": "",
+            "description": "Funding or resources provided to help learners with learning difficulties or disabilities.",
             "department": "DfE"
         },
         "ALS (literacy)": {
             "meaning": "Additional Literacy Support",
-            "description": "",
+            "description": "Targeted support for students who need extra help with literacy skills.",
             "department": "DfE"
         }
     },
@@ -733,7 +733,7 @@ database = {
     },
     "AM": {
         "meaning": "Activity Manager",
-        "description": "",
+        "description": "A role responsible for managing specific activities or streams of work within a project or programme.",
         "department": "Cabinet Office"
     },
     "AMA": {
@@ -750,7 +750,7 @@ database = {
     },
     "AMC": {
         "meaning": "Advanced Market Commitment",
-        "description": "",
+        "description": "A binding contract to purchase a viable vaccine or drug, incentivizing manufacturers to invest in development and production capacity.",
         "department": "BEIS"
     },
     "AMCS": {
@@ -770,12 +770,12 @@ database = {
     },
     "AMGB": {
         "meaning": "Account Management Governance Board",
-        "description": "",
+        "description": "A board responsible for overseeing the governance and performance of account management functions.",
         "department": "DfE"
     },
     "AMI": {
         "meaning": "Amazon Machine Image",
-        "description": "",
+        "description": "A pre-configured virtual machine image used to create virtual servers (instances) in the Amazon Web Services (AWS) cloud.",
         "department": ""
     },
     "AMSD (departmental organisational unit)": {
@@ -795,7 +795,7 @@ database = {
     },
     "AMSUK": {
         "meaning": "Association of Muslim Schools UK",
-        "description": "",
+        "description": "A representative body for Muslim schools in the United Kingdom, providing support and advice to member schools.",
         "department": "DfE"
     },
     "AO": {
@@ -811,7 +811,7 @@ database = {
         },
         "AO (awarding)": {
             "meaning": "Awarding organisations",
-            "description": "",
+            "description": "Organisations recognised by regulators to design, develop, deliver, and award qualifications.",
             "department": "DfE"
         },
         "AO (initial teacher training)": {
@@ -827,17 +827,17 @@ database = {
     },
     "AOB": {
         "meaning": "Any Other Business",
-        "description": "",
+        "description": "An agenda item in meetings for topics not listed on the agenda.",
         "department": "Not Limited to CS"
     },
     "AOD": {
         "meaning": "Application Overview Document",
-        "description": "",
+        "description": "A document providing a high-level summary of a software application's purpose, functionality, and architecture.",
         "department": "DfE"
     },
     "AOF": {
         "meaning": "Animal Origin Free",
-        "description": "",
+        "description": "Indicates products or materials that do not contain any ingredients derived from animals.",
         "department": "BEIS"
     },
     "AONB": {
@@ -847,7 +847,7 @@ database = {
     },
     "AOP": {
         "meaning": "All Other Pupils",
-        "description": "",
+        "description": "A statistical category used in education data to group pupils who do not fall into specific target groups (e.g., non-FSM, non-SEN).",
         "department": "DfE"
     },
     "AP": {
@@ -891,17 +891,17 @@ database = {
     },
     "APCC": {
         "meaning": "Association of Police & Crime Commissioners",
-        "description": "",
+        "description": "The national body that supports Police and Crime Commissioners (PCCs) and other local policing bodies across England and Wales.",
         "department": "Home Office"
     },
     "APD": {
         "meaning": "Approved Parole Date",
-        "description": "",
+        "description": "The date set by the Parole Board for a prisoner's release on licence.",
         "department": ""
     },
     "APEL": {
         "meaning": "Accreditation of Prior Experiential Learning",
-        "description": "",
+        "description": "A process for assessing and recognising learning gained through work and life experience for academic credit.",
         "department": "DfE"
     },
     "APHA": {
@@ -911,12 +911,12 @@ database = {
     },
     "API": {
         "meaning": "Application Programming Interface",
-        "description": "",
+        "description": "A set of protocols and tools for building software applications, allowing different systems to communicate with each other.",
         "department": "Not Limited to CS"
     },
     "APL": {
         "meaning": "Accreditation of prior learning",
-        "description": "",
+        "description": "The process of recognising previous learning, whether formal or informal, towards a qualification.",
         "department": "DfE"
     },
     "APP": {
@@ -937,7 +937,7 @@ database = {
         },
         "APS (IT)": {
             "meaning": "Application Planning Systems",
-            "description": "",
+            "description": "Software or processes used to plan the development, deployment, and maintenance of applications.",
             "department": "DfE"
         },
         "APS (places)": {
@@ -947,7 +947,7 @@ database = {
         },
         "APS (population)": {
             "meaning": "Annual Population Survey",
-            "description": "",
+            "description": "A major survey of households in the UK, combining data from the Labour Force Survey (LFS) and other boosts, providing statistics on employment and other social variables.",
             "department": "ONS"
         }
     },
@@ -978,32 +978,32 @@ database = {
     },
     "AR": {
         "meaning": "Annual Report",
-        "description": "",
+        "description": "A document published annually by companies and government bodies describing their operations and financial conditions.",
         "department": "Civil Service Wide"
     },
     "ARA": {
         "meaning": "Annual Report and Accounts",
-        "description": "",
+        "description": "The combined publication of a department's Annual Report and its financial accounts for the year.",
         "department": "Civil Service Wide"
     },
     "ARAC": {
         "meaning": "Audit & Risk Assurance Committee",
-        "description": "",
+        "description": "A committee that supports the board in their responsibilities for issues of risk, control and governance and associated assurance.",
         "department": "Defra"
     },
     "ARB": {
         "meaning": "Architecture Review Board",
-        "description": "",
+        "description": "A governance body responsible for reviewing and approving technical architecture and design proposals.",
         "department": "DfE"
     },
     "ARC": {
         "meaning": "Audit and Risk Committee",
-        "description": "",
+        "description": "A committee responsible for overseeing financial reporting and risk management.",
         "department": "Civil Service Wide"
     },
     "ARD": {
         "meaning": "Automatic Release Date",
-        "description": "",
+        "description": "The date on which a prisoner must be released from custody by law.",
         "department": ""
     },
     "ARDD (departmental organisational unit)": {
@@ -1029,7 +1029,7 @@ database = {
         },
         "AS (civil service grade)": {
             "meaning": "Assistant Statisticians",
-            "description": "",
+            "description": "An entry-level grade for statisticians in the Civil Service.",
             "department": "DfE"
         },
         "AS (examinations)": {
@@ -1053,7 +1053,7 @@ database = {
     "ASC": {
         "ASC": {
             "meaning": "Adult Social Care",
-            "description": "",
+            "description": "Support provided to adults with physical or learning disabilities, or physical or mental illnesses.",
             "department": "DHSC"
         },
         "ASC (schools)": {
@@ -1063,7 +1063,7 @@ database = {
         },
         "ASC (skills)": {
             "meaning": "Adult Skills College",
-            "description": "",
+            "description": "An institution providing education and training for adults.",
             "department": "DfE"
         }
     },
@@ -1074,12 +1074,12 @@ database = {
     },
     "ASCL": {
         "meaning": "Association of School and College Leaders",
-        "description": "",
+        "description": "A professional association and trade union for all school and college leaders.",
         "department": "DfE"
     },
     "ASD": {
         "meaning": "Application Support Document (IT)",
-        "description": "",
+        "description": "Documentation providing details necessary to support and maintain a software application.",
         "department": "DfE"
     },
     "ASE": {
@@ -1089,12 +1089,12 @@ database = {
     },
     "ASELA": {
         "meaning": "Association of South Essex Local Authorities",
-        "description": "",
+        "description": "A partnership of local councils in South Essex working together to promote growth and prosperity in the region.",
         "department": "DLUHC"
     },
     "ASF": {
         "meaning": "Adoption support fund",
-        "description": "",
+        "description": "A fund available to families to pay for therapeutic services for eligible adoptive and special guardianship order families.",
         "department": "DfE"
     },
     "ASK": {
@@ -1104,7 +1104,7 @@ database = {
     },
     "ASL": {
         "meaning": "Adult Safeguarded Learning",
-        "description": "",
+        "description": "Learning for personal and community development, cultural enrichment, intellectual or creative stimulation and for enjoyment, often where there is no external qualification.",
         "department": "DfE"
     },
     "ASP": {
@@ -1119,7 +1119,7 @@ database = {
     },
     "ASR": {
         "meaning": "Approved Supplier Register",
-        "description": "",
+        "description": "A list of suppliers that have been vetted and approved to provide goods or services to the department.",
         "department": "DfE"
     },
     "AST": {
@@ -1130,7 +1130,7 @@ database = {
         },
         "AST (service)": {
             "meaning": "Area Service Teams",
-            "description": "",
+            "description": "Local teams responsible for delivering services within a specific geographical area.",
             "department": "DfE"
         },
         "AST (teachers)": {
@@ -1141,12 +1141,12 @@ database = {
     },
     "ASTO": {
         "meaning": "Adult Skills Training Organisations",
-        "description": "",
+        "description": "Organisations providing training and skills development for adults.",
         "department": "DfE"
     },
     "ASTV": {
         "meaning": "Apprenticeship Service Television",
-        "description": "",
+        "description": "A media channel or platform for communicating apprenticeship information.",
         "department": "DfE"
     },
     "ASYE": {
@@ -1157,7 +1157,7 @@ database = {
     "AT": {
         "AT": {
             "meaning": "Assisted Technology",
-            "description": "",
+            "description": "Equipment, software, or systems used to increase, maintain, or improve functional capabilities of individuals with disabilities.",
             "department": ""
         },
         "AT (academies)": {
@@ -1183,12 +1183,12 @@ database = {
     },
     "ATA": {
         "meaning": "Apprenticeship Training Agencies",
-        "description": "",
+        "description": "Organisations that recruit, employ, and arrange training for apprentices on behalf of employers.",
         "department": "DfE"
     },
     "ATAS": {
         "meaning": "Audit Trails Analysis System",
-        "description": "",
+        "description": "A system used to analyse audit logs and track user activity for security and compliance purposes.",
         "department": "DWP"
     },
     "ATIA": {
@@ -1209,13 +1209,13 @@ database = {
         },
         "ATM (moment??)": {
             "meaning": "At The Moment",
-            "description": "",
+            "description": "Common abbreviation in informal communication.",
             "department": "Not Limited to CS"
         }
     },
     "ATMP": {
         "meaning": "Advanced Therapy Medicinal Products",
-        "description": "",
+        "description": "Medicines for human use that are based on genes, tissues, or cells.",
         "department": "BEIS"
     },
     "ATO": {
@@ -1237,18 +1237,18 @@ database = {
     },
     "ATP": {
         "meaning": "Authority to Pay",
-        "description": "",
+        "description": "A formal authorisation allowing a payment to be processed.",
         "department": "DWP"
     },
     "ATR": {
         "ATR (recruitment)": {
             "meaning": "Authority to Recruit",
-            "description": "",
+            "description": "Formal permission to initiate the recruitment process for a vacancy.",
             "department": "DfE"
         },
         "ATR (register)": {
             "meaning": "Approved Technology Register",
-            "description": "",
+            "description": "A list of technologies approved for use within the department.",
             "department": "DfE"
         }
     },
@@ -1259,12 +1259,12 @@ database = {
     },
     "ATW": {
         "meaning": "Access To Work",
-        "description": "",
+        "description": "A government grant scheme to support people with a disability or health condition to get into work and stay in work.",
         "department": "DWP"
     },
     "AU": {
         "meaning": "Combined Payment",
-        "description": "",
+        "description": "A payment method or code within DWP systems.",
         "department": "DWP"
     },
     "AUA": {
@@ -1274,7 +1274,7 @@ database = {
     },
     "AV (apprenticeships)": {
         "meaning": "Apprenticeship Vacancies",
-        "description": "",
+        "description": "A service or system for listing available apprenticeship opportunities.",
         "department": "DfE"
     },
     "AVA": {
@@ -1304,7 +1304,7 @@ database = {
     },
     "AWS": {
         "meaning": "Amazon Web Services",
-        "description": "",
+        "description": "A subsidiary of Amazon that provides on-demand cloud computing platforms and APIs.",
         "department": ""
     },
     "AY": {
@@ -1319,7 +1319,7 @@ database = {
     },
     "AZ": {
         "meaning": "AstraZeneca",
-        "description": "",
+        "description": "A multinational pharmaceutical and biotechnology company.",
         "department": "BEIS"
     },
     "Acas": {
@@ -1339,7 +1339,7 @@ database = {
     },
     "Alfresco": {
         "meaning": "A document management system. Used by the courts",
-        "description": "",
+        "description": "An open-source content management system used for document management.",
         "department": "MoJ"
     },
     "Any published data has to meet the requirements of the Data Protection Act": {
@@ -1359,7 +1359,7 @@ database = {
     },
     "Asset": {
         "meaning": "Youth Justice Board assessment documentation for young people",
-        "description": "",
+        "description": "A standard assessment tool used in the youth justice system to assess the risks and needs of young people who have offended.",
         "department": ""
     },
     "BA": {
@@ -1370,12 +1370,12 @@ database = {
         },
         "BA (allowance??)": {
             "meaning": "Bereavement Allowance",
-            "description": "",
+            "description": "A weekly benefit paid to widows, widowers, or surviving civil partners who are aged 45 or over when their spouse or civil partner dies.",
             "department": "DWP"
         },
         "BA (analyst??)": {
             "meaning": "Business Analyst",
-            "description": "",
+            "description": "A role responsible for analyzing business needs and solutions.",
             "department": ""
         }
     },
@@ -1391,7 +1391,7 @@ database = {
     },
     "BACS": {
         "meaning": "Bankers Automated Clearing System",
-        "description": "",
+        "description": "A system for electronic processing of financial transactions in the UK.",
         "department": "Not Limited to CS"
     },
     "BAECE": {
@@ -1401,7 +1401,7 @@ database = {
     },
     "BAFO": {
         "meaning": "Best And Final Offer",
-        "description": "",
+        "description": "A final offer made by a supplier in a procurement process.",
         "department": ""
     },
     "BALID": {
@@ -1411,7 +1411,7 @@ database = {
     },
     "BAME": {
         "meaning": "Black, Asian and minority ethnic",
-        "description": "",
+        "description": "A terminology used in the UK to refer to members of non-white communities.",
         "department": "Civil Service Wide"
     },
     "BARDA": {
@@ -1426,17 +1426,17 @@ database = {
     },
     "BAU": {
         "meaning": "Business as Usual",
-        "description": "",
+        "description": "Standard daily operations of an organisation.",
         "department": "Not Limited to CS"
     },
     "BB": {
         "meaning": "Bereavement Benefit",
-        "description": "",
+        "description": "Financial support for those who have lost a spouse or civil partner.",
         "department": "DWP"
     },
     "BBB": {
         "meaning": "BRITISH BUSINESS BANK",
-        "description": "",
+        "description": "A government-owned economic development bank dedicated to making finance markets work better for smaller businesses.",
         "department": "DIT"
     },
     "BBR": {
@@ -1451,12 +1451,12 @@ database = {
     },
     "BBT": {
         "meaning": "Biosecurity, Borders & Trade",
-        "description": "",
+        "description": "A workstream or group within Defra focused on biosecurity and trade at the border.",
         "department": "Defra"
     },
     "BBTP": {
         "meaning": "Biosecurity, Borders and Trade Programme",
-        "description": "",
+        "description": "A Defra programme managing biosecurity and trade controls at the border.",
         "department": "Defra"
     },
     "BC": {
@@ -1483,12 +1483,12 @@ database = {
     },
     "BCC": {
         "meaning": "British Chambers of Commerce",
-        "description": "",
+        "description": "A network of accredited Chambers of Commerce across the UK.",
         "department": "DfE"
     },
     "BCE": {
         "meaning": "Business Continuity Event",
-        "description": "",
+        "description": "An incident that triggers the activation of business continuity plans.",
         "department": "Civil Service Wide"
     },
     "BCMS": {
@@ -1498,7 +1498,7 @@ database = {
     },
     "BCP": {
         "meaning": "Business Continuity Plan",
-        "description": "",
+        "description": "A plan to ensure operations can continue in the event of a disruption or disaster.",
         "department": "Civil Service Wide"
     },
     "BCR": {
@@ -1509,28 +1509,28 @@ database = {
     "BCS": {
         "BCS": {
             "meaning": "Basic Custody Screening",
-            "description": "",
+            "description": "An initial assessment of an individual entering custody.",
             "department": "Civil Service Wide"
         },
         "BCS (system??)": {
             "meaning": "Business Control System",
-            "description": "",
+            "description": "A system used to manage and control business processes.",
             "department": "MoJ"
         }
     },
     "BCST": {
         "meaning": "Basic Custody Screening Tool",
-        "description": "",
+        "description": "A tool used for the initial screening of individuals entering custody.",
         "department": "MoJ"
     },
     "BCT": {
         "meaning": "Business Continuity Team",
-        "description": "",
+        "description": "The team responsible for managing business continuity planning and response.",
         "department": "Civil Service Wide"
     },
     "BD": {
         "meaning": "Benefit Directorate",
-        "description": "",
+        "description": "A directorate within DWP responsible for benefit administration.",
         "department": "DWP"
     },
     "BDA": {
@@ -1546,65 +1546,65 @@ database = {
         },
         "BDA (authority??)": {
             "meaning": "Business Design Authority",
-            "description": "",
+            "description": "A governance body responsible for approving business designs and changes.",
             "department": "Not Limited to CS"
         }
     },
     "BDAS": {
         "meaning": "Business Data Architecture Specification",
-        "description": "",
+        "description": "A document defining the architecture of business data.",
         "department": "DfE"
     },
     "BDC": {
         "meaning": "Benefit Delivery Centre",
-        "description": "",
+        "description": "A DWP centre responsible for delivering benefits.",
         "department": "DWP"
     },
     "BDCM": {
         "meaning": "Benefit Delivery Centre Manager",
-        "description": "",
+        "description": "The manager of a Benefit Delivery Centre.",
         "department": "DWP"
     },
     "BDE": {
         "meaning": "Benefit Delivery Expert",
-        "description": "",
+        "description": "A role specializing in benefit delivery processes.",
         "department": "DWP"
     },
     "BDG": {
         "meaning": "Business Development Group",
-        "description": "",
+        "description": "A group responsible for identifying and developing business opportunities.",
         "department": ""
     },
     "BDM": {
         "BDM": {
             "meaning": "Benefit Delivery Manager",
-            "description": "",
+            "description": "A manager responsible for the delivery of benefits.",
             "department": "DWP"
         },
         "BDM (models)": {
             "meaning": "Business Data Models",
-            "description": "",
+            "description": "Models representing the structure and relationships of business data.",
             "department": "DfE"
         }
     },
     "BDO": {
         "meaning": "Benefit Delivery Officer",
-        "description": "",
+        "description": "An officer involved in the administration and delivery of benefits.",
         "department": "DWP"
     },
     "BDP": {
         "meaning": "Benefit Delivery Process",
-        "description": "",
+        "description": "The defined process for delivering benefits to claimants.",
         "department": "DWP"
     },
     "BDRG": {
         "meaning": "Benefits Document Retention Guide",
-        "description": "",
+        "description": "Guidance on the retention periods for benefit-related documents.",
         "department": "DWP"
     },
     "BDT": {
         "meaning": "Baker Dearing Educational Trust",
-        "description": "",
+        "description": "A charity that supports University Technical Colleges (UTCs).",
         "department": "DfE"
     },
     "BEC": {
@@ -1626,7 +1626,7 @@ database = {
     },
     "BEL": {
         "meaning": "Benefit Enquiry Line",
-        "description": "",
+        "description": "A telephone helpline for enquiries about benefits.",
         "department": "DWP"
     },
     "BEM": {
@@ -1667,18 +1667,18 @@ database = {
         },
         "BET (business)": {
             "meaning": "Business Engagement Team",
-            "description": "",
+            "description": "A team responsible for engaging with businesses and external stakeholders.",
             "department": ""
         }
     },
     "BEU": {
         "meaning": "Business Expert User",
-        "description": "",
+        "description": "A user with advanced knowledge of business processes, often involved in testing or requirements gathering.",
         "department": ""
     },
     "BExBI": {
         "meaning": "Business Expenditure Business Information",
-        "description": "",
+        "description": "Information related to business expenditure.",
         "department": ""
     },
     "BF": {
@@ -1700,12 +1700,12 @@ database = {
     },
     "BHD": {
         "meaning": "Bullying, Harassment and Diversity",
-        "description": "",
+        "description": "Policies and procedures addressing bullying, harassment, and diversity issues in the workplace.",
         "department": ""
     },
     "BHF": {
         "meaning": "Brownfield Housing Fund",
-        "description": "",
+        "description": "Funding to support the development of housing on brownfield sites.",
         "department": "DLUHC"
     },
     "BHLP": {
@@ -1715,7 +1715,7 @@ database = {
     },
     "BI": {
         "meaning": "Business Intelligence",
-        "description": "",
+        "description": "Strategies and technologies used for the data analysis of business information.",
         "department": ""
     },
     "BI4BG": {
@@ -1742,18 +1742,18 @@ database = {
     },
     "BIC": {
         "meaning": "Benefit Integrity Centre \u2013 No longer exists \u2013 Now CFCD Interventions",
-        "description": "",
+        "description": "Former centres focused on ensuring the integrity of benefit claims.",
         "department": ""
     },
     "BIL": {
         "BIL": {
             "meaning": "Brownfield Infrastructure and Land",
-            "description": "",
+            "description": "Funding or initiatives related to infrastructure and land development on brownfield sites.",
             "department": "DLUHC"
         },
         "BIL (level??)": {
             "meaning": "Business Impact Level",
-            "description": "",
+            "description": "A classification of the impact of a security breach or loss of service on the business.",
             "department": "DfE"
         }
     },
@@ -1770,7 +1770,7 @@ database = {
     "BIP": {
         "BIP": {
             "meaning": "Business Intelligence Platform",
-            "description": "",
+            "description": "A platform for delivering business intelligence capabilities.",
             "department": ""
         },
         "BIP (behaviour)": {
@@ -1780,13 +1780,13 @@ database = {
         },
         "BIP (departmental organisational unit)": {
             "meaning": "Business Improvement Project [Team]",
-            "description": "",
+            "description": "A team or project focused on improving business processes.",
             "department": "DfE"
         }
     },
     "BIR": {
         "meaning": "Business Incident Report",
-        "description": "",
+        "description": "A report detailing a business incident or disruption.",
         "department": ""
     },
     "BIS": {
@@ -1797,7 +1797,7 @@ database = {
         },
         "BIS (briefings)": {
             "meaning": "Briefing Information System",
-            "description": "",
+            "description": "A system used to manage briefings and information requests.",
             "department": "DfE"
         }
     },
@@ -1815,22 +1815,22 @@ database = {
     },
     "BLACC": {
         "meaning": "Bank Liaison Automation and Customer Contact",
-        "description": "",
+        "description": "A system or process for automated bank liaison and customer contact.",
         "department": ""
     },
     "BLL": {
         "meaning": "Batch Learner Linked",
-        "description": "",
+        "description": "A status or process in data management related to linking learner records in batches.",
         "department": "DfE"
     },
     "BLS": {
         "meaning": "Bank Liaison Section",
-        "description": "",
+        "description": "A section responsible for liaising with banks.",
         "department": ""
     },
     "BLU": {
         "meaning": "Batch Learner Unmerge",
-        "description": "",
+        "description": "A process for unmerging linked learner records in batches.",
         "department": "DfE"
     },
     "BMA": {
@@ -1847,32 +1847,32 @@ database = {
     },
     "BME": {
         "meaning": "Black and Minority Ethnic",
-        "description": "",
+        "description": "A terminology used to refer to people from black and minority ethnic backgrounds.",
         "department": "DfE"
     },
     "BML": {
         "meaning": "Batch Merged Learner",
-        "description": "",
+        "description": "A status indicating learner records have been merged in a batch.",
         "department": "DfE"
     },
     "BMO": {
         "meaning": "Business Management Office",
-        "description": "",
+        "description": "An office responsible for business management functions.",
         "department": "Civil Service Wide"
     },
     "BMS": {
         "meaning": "Business Management System (DHSC)",
-        "description": "",
+        "description": "A system used for managing business processes within DHSC.",
         "department": "NHS"
     },
     "BN": {
         "meaning": "Basic need (school places)",
-        "description": "",
+        "description": "Funding provided to local authorities to create new school places to meet demand.",
         "department": "DfE"
     },
     "BNG": {
         "meaning": "Biodiversity Net Gain",
-        "description": "",
+        "description": "An approach to development that leaves biodiversity in a better state than before.",
         "department": "Defra"
     },
     "BNM": {
@@ -1907,12 +1907,12 @@ database = {
     },
     "BP": {
         "meaning": "Business Partner",
-        "description": "",
+        "description": "An individual or role that partners with business units to provide support and strategic advice.",
         "department": "Civil Service Wide"
     },
     "BPAP": {
         "meaning": "Black Pupils Achievement Programme",
-        "description": "",
+        "description": "A programme aimed at raising the achievement of black pupils.",
         "department": "DfE"
     },
     "BPAT": {
@@ -1942,12 +1942,12 @@ database = {
     },
     "BPT": {
         "meaning": "Business Partner Team",
-        "description": "",
+        "description": "A team of business partners providing support to the organisation.",
         "department": ""
     },
     "BPU": {
         "meaning": "Behavioural Programmes Unit",
-        "description": "",
+        "description": "A unit focused on behavioural programmes and interventions.",
         "department": "DHSC"
     },
     "BQS": {
@@ -1957,12 +1957,12 @@ database = {
     },
     "BRAC": {
         "meaning": "Building Regulations Advisory Council",
-        "description": "",
+        "description": "An advisory body on building regulations.",
         "department": "DLUHC"
     },
     "BRB": {
         "meaning": "Be Right Back",
-        "description": "",
+        "description": "Abbreviation used in chat/messaging to indicate stepping away momentarily.",
         "department": "MoJ"
     },
     "BRE": {
@@ -1972,7 +1972,7 @@ database = {
     },
     "BRF": {
         "meaning": "Brownfield Release Fund",
-        "description": "",
+        "description": "Funding to support the release of brownfield land for development.",
         "department": "DLUHC"
     },
     "BRG": {
@@ -1989,7 +1989,7 @@ database = {
     },
     "BRM": {
         "meaning": "Business Relationship Manager",
-        "description": "",
+        "description": "A role responsible for managing the relationship between business units and service providers (e.g., IT).",
         "department": "Defra"
     },
     "BSA": {
@@ -2021,7 +2021,7 @@ database = {
     },
     "BSAS": {
         "meaning": "British Social Attitudes Survey",
-        "description": "",
+        "description": "An annual survey measuring public attitudes in Britain on various social issues.",
         "department": "DfE"
     },
     "BSCF": {
@@ -2047,7 +2047,7 @@ database = {
         },
         "BSL (levy??)": {
             "meaning": "Building Safety Levy",
-            "description": "",
+            "description": "A levy imposed to fund building safety remediation works.",
             "department": "Not Limited to CS"
         }
     },
@@ -2059,7 +2059,7 @@ database = {
         },
         "BSO (observatory??)": {
             "meaning": "Basic Skills Observatory",
-            "description": "",
+            "description": "An online resource for teachers and basic skills practitioners.",
             "department": ""
         }
     },
@@ -2071,7 +2071,7 @@ database = {
         },
         "BSP (payment??)": {
             "meaning": "Bereavement Support Payment",
-            "description": "",
+            "description": "A benefit paid to widows, widowers, or surviving civil partners who are under State Pension age.",
             "department": ""
         }
     },
@@ -2102,7 +2102,7 @@ database = {
     },
     "BTO": {
         "meaning": "Business Transformation Opportunities",
-        "description": "",
+        "description": "Opportunities identified for transforming business processes or operations.",
         "department": ""
     },
     "BU/SBU": {
@@ -2112,7 +2112,7 @@ database = {
     },
     "BUD": {
         "meaning": "Budget",
-        "description": "",
+        "description": "The annual financial statement and plan for government spending.",
         "department": "HM Treasury"
     },
     "BUS": {
@@ -2128,7 +2128,7 @@ database = {
         },
         "BV (variation??)": {
             "meaning": "Budget Variation",
-            "description": "",
+            "description": "A change or adjustment to a budget.",
             "department": ""
         }
     },
@@ -2149,12 +2149,12 @@ database = {
     },
     "BVT": {
         "meaning": "Best Version of the Truth",
-        "description": "",
+        "description": "A concept in data management referring to the most accurate and reliable version of data.",
         "department": "DfE"
     },
     "BWVC": {
         "meaning": "Body Worn Video Camera",
-        "description": "",
+        "description": "Cameras worn by police or prison officers to record interactions and evidence.",
         "department": "MoJ"
     },
     "BYC": {
@@ -2164,7 +2164,7 @@ database = {
     },
     "BYOL": {
         "meaning": "Bring Your Own (cloud) Licence",
-        "description": "",
+        "description": "A licensing model allowing organizations to use their existing software licenses in a cloud environment.",
         "department": "DfE"
     },
     "Becta": {
@@ -2174,17 +2174,17 @@ database = {
     },
     "BoE": {
         "meaning": "BANK OF ENGLAND",
-        "description": "",
+        "description": "The central bank of the United Kingdom.",
         "department": "BoE"
     },
     "BoT": {
         "meaning": "BOARD OF TRADE",
-        "description": "",
+        "description": "A government body concerned with commerce and industry.",
         "department": "DIT"
     },
     "BtR": {
         "meaning": "Build to Rent",
-        "description": "",
+        "description": "Housing specifically built for rent rather than for sale.",
         "department": "DLUHC"
     },
     "C&AG": {
@@ -2194,12 +2194,12 @@ database = {
     },
     "C&G": {
         "meaning": "City and Guilds",
-        "description": "",
+        "description": "A vocational education organisation providing qualifications.",
         "department": "DfE"
     },
     "C&P": {
         "meaning": "Claims and Payments",
-        "description": "",
+        "description": "Processes related to the administration of claims and payments.",
         "department": ""
     },
     "C&R": {
@@ -2209,7 +2209,7 @@ database = {
     },
     "C19": {
         "meaning": "COVID-19",
-        "description": "",
+        "description": "The disease caused by the novel coronavirus SARS-CoV-2.",
         "department": "Civil Service Wide"
     },
     "C4EO": {
@@ -2225,12 +2225,12 @@ database = {
         },
         "CA (Role)": {
             "meaning": "Case Admin",
-            "description": "",
+            "description": "Administrative role supporting casework.",
             "department": "HMRC"
         },
         "CA (Role - Legal)": {
             "meaning": "Clerical Assistant",
-            "description": "",
+            "description": "Junior administrative role in a legal setting.",
             "department": "MoJ"
         },
         "CA (Local Gov)": {
@@ -2252,12 +2252,12 @@ database = {
     "CAA": {
         "CAA": {
             "meaning": "Change Awareness and Adoption team",
-            "description": "",
+            "description": "A team focused on managing change and ensuring its adoption.",
             "department": "Defra"
         },
         "CAA (allowance??)": {
             "meaning": "Constant Attendance Allowance",
-            "description": "",
+            "description": "An allowance for people who need daily care and attention due to a disability.",
             "department": ""
         }
     },
@@ -2284,7 +2284,7 @@ database = {
         },
         "CAB (change)": {
             "meaning": "Change Advisory Board",
-            "description": "",
+            "description": "A group responsible for assessing and approving changes to IT services.",
             "department": "DfE"
         },
         "CAB (citizens)": {
@@ -2295,7 +2295,7 @@ database = {
     },
     "CACS": {
         "meaning": "Carer\u2019s Allowance Computer System",
-        "description": "",
+        "description": "The IT system used to administer Carer's Allowance.",
         "department": ""
     },
     "CAD (departmental organisational unit)": {
@@ -2311,7 +2311,7 @@ database = {
         },
         "CAF (people??)": {
             "meaning": "Common Assessment Framework for Children and Young People",
-            "description": "",
+            "description": "A standardized approach to assessing the needs of children and young people for services.",
             "department": ""
         }
     },
@@ -2338,7 +2338,7 @@ database = {
         },
         "CAIT (tool??)": {
             "meaning": "Child Arrangements Information Tool",
-            "description": "",
+            "description": "A tool providing information and guidance on child arrangements.",
             "department": ""
         }
     },
@@ -2349,34 +2349,34 @@ database = {
     },
     "CALC": {
         "meaning": "Computer Assisted Learning Programme Committee",
-        "description": "",
+        "description": "A committee overseeing the Computer Assisted Learning programme.",
         "department": "DfE"
     },
     "CAM": {
         "CAM": {
             "meaning": "Customer Account Management System",
-            "description": "",
+            "description": "A system for managing customer accounts.",
             "department": "DfE"
         },
         "CAM (management??)": {
             "meaning": "Customer Application Management",
-            "description": "",
+            "description": "Management of customer applications.",
             "department": ""
         }
     },
     "CAME": {
         "meaning": "Capital Annually Managed Expenditure",
-        "description": "",
+        "description": "Capital expenditure that is managed annually.",
         "department": "Civil Service Wide"
     },
     "CAMHS": {
         "meaning": "Children and adolescent mental health services",
-        "description": "",
+        "description": "NHS services that assess and treat children and young people with emotional, behavioural or mental health difficulties.",
         "department": "DfE"
     },
     "CAMlite": {
         "meaning": "Customer Account Management lite",
-        "description": "",
+        "description": "A lightweight version of the Customer Account Management system.",
         "department": ""
     },
     "CAP": {
@@ -2390,9 +2390,9 @@ database = {
             "description": "Source: The Knowledge accessed 2019-04-11",
             "department": "DfE"
         },
-        "CAP (pass??)": {
+        "CAP (pass)": {
             "meaning": "Common Access Pass",
-            "description": "",
+            "description": "A secure smartcard for civil servants allowing single-card access to multiple government sites with high encryption, managed locally by departments for specific permissions, not universal access",
             "department": ""
         }
     },
@@ -2403,12 +2403,12 @@ database = {
     },
     "CAPI": {
         "meaning": "Children affected by parental imprisonment",
-        "description": "",
+        "description": "Children who have a parent in prison, often facing specific challenges and needing support.",
         "department": "DfE"
     },
     "CAPS": {
         "meaning": "Customer Accounting and Payment System",
-        "description": "",
+        "description": "A system for managing customer accounts and payments.",
         "department": ""
     },
     "CARAT": {
@@ -2431,7 +2431,7 @@ database = {
     "CAT": {
         "CAT": {
             "meaning": "Central Activities Team; Central Admin Team",
-            "description": "",
+            "description": "A centralized team responsible for specific administrative or operational activities.",
             "department": ""
         },
         "CAT (cognitive)": {
@@ -2447,12 +2447,12 @@ database = {
     },
     "CATE": {
         "meaning": "Council for Accreditation of Teacher Education",
-        "description": "",
+        "description": "A council responsible for accrediting teacher education programs.",
         "department": "DfE"
     },
     "CATP": {
         "meaning": "Cancellation of Authority to Pay",
-        "description": "",
+        "description": "The process or status of cancelling an authority to pay.",
         "department": ""
     },
     "CATS": {
@@ -2474,13 +2474,13 @@ database = {
     },
     "CATTS": {
         "meaning": "See ATSTN",
-        "description": "",
+        "description": "Cross-reference to ATSTN (Advanced Therapies Skills Training Network).",
         "department": "BEIS"
     },
     "CAU": {
         "CAU": {
             "meaning": "Carer\u2019s Allowance Unit",
-            "description": "",
+            "description": "The unit responsible for administering Carer's Allowance.",
             "department": "DWP"
         },
         "CAU (departmental organisational unit)": {
@@ -2491,12 +2491,12 @@ database = {
     },
     "CB": {
         "meaning": "Contributory Benefit",
-        "description": "",
+        "description": "A benefit that depends on the claimant having paid sufficient National Insurance contributions.",
         "department": ""
     },
     "CBA": {
         "meaning": "Cost Benefit Analysis",
-        "description": "",
+        "description": "A systematic approach to estimating the strengths and weaknesses of alternatives.",
         "department": "Not Limited to CS"
     },
     "CBAS": {
@@ -2521,12 +2521,12 @@ database = {
     },
     "CBO": {
         "meaning": "crime billing online",
-        "description": "",
+        "description": "Online billing system for crime-related services.",
         "department": "MoJ"
     },
     "CBSFE": {
         "meaning": "Commission for Black Staff in Further Education",
-        "description": "",
+        "description": "A commission focused on issues affecting black staff in the further education sector.",
         "department": "DfE"
     },
     "CC": {
@@ -2537,22 +2537,22 @@ database = {
         },
         "CC (capital)": {
             "meaning": "Capital Challenger",
-            "description": "Source: The Knowledge accessed 2019-05-30",
+            "description": "An annual, long-distance urban walking event (around 27-28 miles) organized by the London Group of the Long Distance Walkers Association (LDWA). Source: The Knowledge accessed 2019-05-30",
             "department": "DfE"
         },
         "CC (city)": {
             "meaning": "City Challenge",
-            "description": "",
+            "description": "An urban regeneration initiative.",
             "department": "DfE"
         },
-        "CC (colleges)": {
+        "CC (College)": {
             "meaning": "Community colleges",
-            "description": "",
+            "description": "Colleges providing further education and community learning.",
             "department": "DfE"
         },
         "CC (commissioner)": {
             "meaning": "Childrens Commissioner",
-            "description": "",
+            "description": "The Children's Commissioner for England promotes and protects the rights of children.",
             "department": "DfE"
         },
         "CC (competence)": {
@@ -2569,7 +2569,7 @@ database = {
         },
         "CCA (act??)": {
             "meaning": "Consumer Credit Act",
-            "description": "",
+            "description": "Act of Parliament regulating consumer credit.",
             "department": ""
         }
     },
@@ -2590,12 +2590,12 @@ database = {
     },
     "CCD": {
         "meaning": "Contact Centre Directorate",
-        "description": "",
+        "description": "The directorate responsible for managing contact centres within HMRC.",
         "department": "HMRC"
     },
     "CCE": {
         "meaning": "Child criminal exploitation",
-        "description": "",
+        "description": "The exploitation of children for criminal purposes.",
         "department": "DfE"
     },
     "CCEA": {
@@ -2615,7 +2615,7 @@ database = {
     },
     "CCEW": {
         "meaning": "Charity Commission of England and Wales",
-        "description": "",
+        "description": "The regulator for charities in England and Wales.",
         "department": "Civil Service Wide"
     },
     "CCF": {
@@ -2625,7 +2625,7 @@ database = {
     },
     "CCH": {
         "meaning": "Customer Care Helpline",
-        "description": "",
+        "description": "A helpline for customer care queries.",
         "department": ""
     },
     "CCHC": {
@@ -2640,7 +2640,7 @@ database = {
     },
     "CCIO": {
         "meaning": "Chief Clinical Information Officer",
-        "description": "",
+        "description": "A senior role responsible for clinical information and technology.",
         "department": "NHS"
     },
     "CCJ": {
@@ -2656,23 +2656,23 @@ database = {
     "CCM": {
         "CCM": {
             "meaning": "Commercial Contract Management",
-            "description": "",
+            "description": "Management of commercial contracts.",
             "department": "Civil Service Wide"
         },
-        "CCM (management??)": {
+        "CCM (Customer)": {
             "meaning": "Customer Care Management",
-            "description": "",
+            "description": "Management of customer care services.",
             "department": ""
         }
     },
     "CCMCC": {
         "meaning": "County Court Money Claims Centre",
-        "description": "",
+        "description": "A centralized centre dealing with money claims in the County Court.",
         "department": "MoJ"
     },
     "CCMD": {
         "meaning": "Commercial and Contract Management Directorate",
-        "description": "",
+        "description": "A directorate responsible for commercial and contract management activities.",
         "department": "MoJ"
     },
     "CCMS": {
@@ -2681,9 +2681,9 @@ database = {
             "description": "LAA ERP app to replace CIS, including financial modules to manage the LAA fund. Covers all civil certificated work (i.e. civil legal representation). Allows providers to make online legal aid applications and manage cases. Allows providers and advocates to submit bills online. Allows providers and advocates to scan and upload supporting documents electronically. Allows clients to pay us in new ways, such as credit and debit cards, payment reference cards and via direct debit. CCMS has been mandatory for all civil case types since 1 April 2016. In addition, Acts as the financial accounting system of reference for LAA General Ledger, Accounts Payable, Accounts Receivable and is the system that actually makes payments to providers, and manages interactions with 3rd party Debt Recovery for CCMS cases.",
             "department": "MoJ"
         },
-        "CCMS (service??)": {
+        "CCMS (customers)": {
             "meaning": "Customer Conversion Management Service",
-            "description": "",
+            "description": "A business strategy and set of processes, often provided by specialist agencies or software (like CRM platforms), focused on maximizing the percentage of potential customers (leads or website visitors) who take a desired action, such as making a purchase, signing up for a service, or filling out a contact form.",
             "department": ""
         }
     },
@@ -2699,18 +2699,18 @@ database = {
     },
     "CCOE": {
         "meaning": "Cloud Centre of Excellence",
-        "description": "",
+        "description": "A centralized team responsible for cloud strategy and adoption.",
         "department": "Defra"
     },
     "CCP": {
         "CCP": {
             "meaning": "Change Control Process",
-            "description": "",
+            "description": "A process for managing changes to a project or system.",
             "department": "Civil Service Wide"
         },
-        "CCP (provider??)": {
+        "CCP (Child)": {
             "meaning": "Childcare Provider",
-            "description": "",
+            "description": "An individual or organization providing childcare services.",
             "department": "DfE"
         }
     },
@@ -2726,7 +2726,7 @@ database = {
     },
     "CCRC": {
         "meaning": "Criminal Cases Review Commission",
-        "description": "",
+        "description": "An independent body that reviews potential miscarriages of justice in the UK.",
         "department": "MoJ"
     },
     "CCS": {
@@ -2737,7 +2737,7 @@ database = {
         },
         "CCS (service??)": {
             "meaning": "Crown Commercial Service",
-            "description": "",
+            "description": "An executive agency of the Cabinet Office that provides commercial services to the public sector.",
             "department": "Cabinet Office"
         }
     },
@@ -2775,7 +2775,7 @@ database = {
     },
     "CCTS": {
         "meaning": "Cross Cutting Technical Services",
-        "description": "",
+        "description": "Technical services that span across multiple areas or departments.",
         "department": "Defra"
     },
     "CCU (departmental organisational unit)": {
@@ -2795,13 +2795,13 @@ database = {
     },
     "CDA": {
         "meaning": "Court data adaptor",
-        "description": "",
+        "description": "A system or component for adapting court data.",
         "department": "MoJ"
     },
     "CDC": {
         "CDC": {
             "meaning": "Change Data Capture; Change Directorate Committee",
-            "description": "",
+            "description": "Technique for capturing changes in data; committee overseeing change within a directorate.",
             "department": "MoJ"
         },
         "CDC (children)": {
@@ -2869,7 +2869,7 @@ database = {
     },
     "CDMO": {
         "meaning": "Contract Development and Manufacturing Organisation",
-        "description": "",
+        "description": "A company that serves other companies in the pharmaceutical industry on a contract basis to provide comprehensive services from drug development through drug manufacturing.",
         "department": "BEIS"
     },
     "CDO": {
@@ -2880,13 +2880,13 @@ database = {
         },
         "CDO (officer??)": {
             "meaning": "Chief Digital Officer",
-            "description": "",
+            "description": "A senior executive responsible for digital strategy and implementation.",
             "department": ""
         }
     },
     "CDR": {
         "meaning": "Critical Design Review",
-        "description": "",
+        "description": "A review to ensure the detailed design meets requirements.",
         "department": ""
     },
     "CDS": {
@@ -2902,13 +2902,13 @@ database = {
         },
         "CDT (technology??)": {
             "meaning": "Craft, design and technology",
-            "description": "",
+            "description": "A school subject involving practical skills.",
             "department": "MoJ"
         }
     },
     "CE": {
         "meaning": "Chief Executive",
-        "description": "",
+        "description": "The highest-ranking executive in an organization.",
         "department": "Not Limited to CS"
     },
     "CEC": {
@@ -2925,7 +2925,7 @@ database = {
     },
     "CED": {
         "meaning": "Claim Effective Date",
-        "description": "",
+        "description": "The date from which a claim is considered effective.",
         "department": "DWP"
     },
     "CEDC": {
@@ -2941,7 +2941,7 @@ database = {
     "CEE": {
         "CEE (certificate)": {
             "meaning": "Certificate of Extended Education",
-            "description": "",
+            "description": "An examination taken in the 1970s and 1980s.",
             "department": "DfE"
         },
         "CEE (economics)": {
@@ -2977,7 +2977,7 @@ database = {
     },
     "CEMLI": {
         "meaning": "Configuration, Extension, Modification, Localisation and Integration",
-        "description": "",
+        "description": "A framework for categorizing changes to software systems.",
         "department": "MoJ"
     },
     "CEN": {
@@ -2988,7 +2988,7 @@ database = {
     "CEO": {
         "CEO": {
             "meaning": "Court enforcement officer",
-            "description": "",
+            "description": "An officer responsible for enforcing court orders.",
             "department": "MoJ; Not Limited to CS"
         },
         "CEO (education)": {
@@ -3030,12 +3030,12 @@ database = {
     "CES": {
         "CES": {
             "meaning": "Catholic Education Service",
-            "description": "",
+            "description": "An agency of the Catholic Bishops' Conference of England and Wales promoting and supporting Catholic education.",
             "department": "DfE"
         },
         "CES (service??)": {
             "meaning": "Customer Enquiry Service",
-            "description": "",
+            "description": "A service for handling customer enquiries.",
             "department": ""
         }
     },
@@ -3052,7 +3052,7 @@ database = {
     "CET": {
         "CET": {
             "meaning": "Client Engagement Team",
-            "description": "",
+            "description": "A team focused on engaging with clients.",
             "department": ""
         },
         "CET (continuing)": {
@@ -3085,7 +3085,7 @@ database = {
     },
     "CFCD": {
         "meaning": "Counter Fraud and Compliance Department",
-        "description": "",
+        "description": "A department responsible for counter fraud and compliance activities.",
         "department": "Civil Service Wide"
     },
     "CFDP": {
@@ -3101,7 +3101,7 @@ database = {
         },
         "CFE (citizens)": {
             "meaning": "Citizen Facing Environment",
-            "description": "",
+            "description": "The environment or interface through which citizens interact with services.",
             "department": "DfE"
         },
         "CFE (colleges)": {
@@ -3132,7 +3132,7 @@ database = {
     },
     "CFM": {
         "meaning": "Coast Forecast Model",
-        "description": "",
+        "description": "A model used for forecasting coastal conditions.",
         "department": "DfE"
     },
     "CFO": {
@@ -3143,7 +3143,7 @@ database = {
         },
         "CFO (organisation??)": {
             "meaning": "Co-Financing Organisation",
-            "description": "",
+            "description": "An organisation that provides match funding for projects.",
             "department": "Not Limited to CS"
         }
     },
@@ -3189,12 +3189,12 @@ database = {
     },
     "CHAPS": {
         "meaning": "Correspondence Handling And Processing System",
-        "description": "",
+        "description": "A system used for handling and processing correspondence.",
         "department": "MoJ"
     },
     "CHB": {
         "meaning": "Child Benefit",
-        "description": "",
+        "description": "A social security payment distributed to the parents or guardians of children.",
         "department": "DWP"
     },
     "CHE": {
@@ -3216,22 +3216,17 @@ database = {
     },
     "CHED": {
         "meaning": "",
-        "description": "",
+        "description": "Common Health Entry Document (for importing goods)",
         "department": ""
     },
     "CHEG": {
         "meaning": "CHECK HOW TO EXPORT GOODS",
-        "description": "",
+        "description": "A digital service for checking rules and regulations for exporting goods.",
         "department": "DIT"
     },
     "CHERI": {
         "meaning": "Centre for Higher Education Research and Information",
         "description": "Source: The Knowledge accessed 2019-05-08",
-        "department": "DfE"
-    },
-    "CHI": {
-        "meaning": "Children of High Intelligence [support society for]",
-        "description": "CHI stands for 'The Support Society for Children of High Intelligence' and is a support organisation for the benefit of the young and intellectually gifted. Their mission is to act directly on behalf of individual children whose intelligence level is above the 98th percentile with the aim of helping them realise their potential. CHI provide: -consultancy services -counselling and support for children and parents -assessment of child's intellectual abilities -advice on how to liaise with the authorities -INSET and Teacher Training for schools and LAs collaboration with other organisations and the Department for Education LinksSource: {Website|https://www.chi-charity.org.uk/} accessed 2021-03-01Source: The Knowledge accessed 2019-05-08",
         "department": "DfE"
     },
     "CHIC": {
@@ -3241,17 +3236,17 @@ database = {
     },
     "CHIEF": {
         "meaning": "Customs Handling of Import and Export Freight system",
-        "description": "",
+        "description": "The legacy computer system used by HMRC to manage import and export customs declarations.",
         "department": "HMRC"
     },
     "CHIS": {
         "meaning": "Covert Human IntelligenceSource",
-        "description": "",
+        "description": "Individuals who provide intelligence information to authorities covertly.",
         "department": ""
     },
     "CHM": {
         "meaning": "Commission for Human Medicines",
-        "description": "",
+        "description": "An advisory non-departmental public body that advises ministers on the safety, efficacy and quality of medicinal products.",
         "department": "BEIS"
     },
     "CHS": {
@@ -3274,7 +3269,7 @@ database = {
         },
         "CI (improvement??)": {
             "meaning": "Continuous improvement",
-            "description": "",
+            "description": "An ongoing effort to improve products, services, or processes.",
             "department": "DWP / HMRC"
         },
         "CI (term??)": {
@@ -3285,12 +3280,12 @@ database = {
     },
     "CIC": {
         "meaning": "Customer Initiated Change",
-        "description": "",
+        "description": "A change request initiated by a customer.",
         "department": ""
     },
     "CIC(O)": {
         "meaning": "COVID-19 International Committee (OFFICIALS)",
-        "description": "",
+        "description": "A committee dealing with international aspects of the COVID-19 response.",
         "department": "BEIS"
     },
     "CICA": {
@@ -3323,18 +3318,18 @@ database = {
     "CIL": {
         "CIL": {
             "meaning": "Community Infrastrucutre Levy",
-            "description": "",
+            "description": "A charge which can be levied by local authorities on new development in their area.",
             "department": "DLUHC"
         },
         "CIL (leaflet??)": {
             "meaning": "Customer Information Leaflet",
-            "description": "",
+            "description": "A leaflet providing information to customers.",
             "department": ""
         }
     },
     "CILT": {
         "meaning": "CILT, the National Centre for Languages",
-        "description": "",
+        "description": "An organization supporting language learning and teaching.",
         "department": "DfE"
     },
     "CILTR": {
@@ -3349,7 +3344,7 @@ database = {
     },
     "CIO": {
         "meaning": "Chief Information Officer",
-        "description": "",
+        "description": "A senior executive responsible for information technology and computer systems.",
         "department": "NHS"
     },
     "CIOG (departmental organisational unit)": {
@@ -3369,12 +3364,12 @@ database = {
     },
     "CIPFA": {
         "meaning": "Chartered Institute of Public Finance and Accountancy",
-        "description": "",
+        "description": "The professional institute for accountants working in public services.",
         "department": "DfE"
     },
     "CIRRUS": {
         "meaning": "BEIS IT system",
-        "description": "",
+        "description": "An IT system used within the Department for Business, Energy and Industrial Strategy.",
         "department": "BEIS"
     },
     "CIS": {
@@ -3392,38 +3387,38 @@ database = {
     "CIT": {
         "CIT": {
             "meaning": "Centre for International Trade",
-            "description": "",
+            "description": "A centre focusing on international trade matters.",
             "department": ""
         },
         "CIT (technology??)": {
             "meaning": "Corporate Information Technology",
-            "description": "",
+            "description": "Information technology services supporting corporate functions.",
             "department": ""
         }
     },
     "CITB": {
         "meaning": "Construction Industry Training Board",
-        "description": "",
+        "description": "The industry training board for the construction sector in England, Scotland and Wales.",
         "department": "DfE"
     },
     "CJA": {
         "meaning": "Criminal Justice Act",
-        "description": "",
+        "description": "Act of Parliament relating to criminal justice.",
         "department": "MoJ"
     },
     "CJB": {
         "meaning": "Criminal Justice Bill",
-        "description": "",
+        "description": "A proposed law relating to criminal justice.",
         "department": "MoJ"
     },
     "CJG": {
         "meaning": "Criminal Justice Group",
-        "description": "",
+        "description": "A group within the MoJ focused on criminal justice policy and operations.",
         "department": "MoJ"
     },
     "CJRS": {
         "meaning": "Coronavirus Job Retention Scheme",
-        "description": "",
+        "description": "A government scheme to support employers in paying their employees' wages during the COVID-19 pandemic.",
         "department": "Civil Service Wide"
     },
     "CJS": {
@@ -3449,17 +3444,17 @@ database = {
     "CL": {
         "CL": {
             "meaning": "Common Law",
-            "description": "",
+            "description": "Law developed by judges through decisions of courts and similar tribunals.",
             "department": "Civil Service Wide"
         },
         "CL (labour??)": {
             "meaning": "Contingent Labour",
-            "description": "",
+            "description": "Temporary workers or contractors.",
             "department": "DWP"
         },
         "CL (loan??)": {
             "meaning": "Crisis Loan",
-            "description": "",
+            "description": "An interest-free loan for people on benefits who need help with emergency costs.",
             "department": ""
         }
     },
@@ -3471,18 +3466,18 @@ database = {
         },
         "CLA (children)": {
             "meaning": "Children Looked After",
-            "description": "",
+            "description": "Children who are in the care of the local authority.",
             "department": "DfE"
         },
         "CLA (copyright)": {
             "meaning": "Copyright Licensing Agency",
-            "description": "",
+            "description": "An agency that provides copyright licenses for organizations.",
             "department": "DfE"
         }
     },
     "CLAIT": {
         "meaning": "Computer Literacy and Information Technology",
-        "description": "",
+        "description": "A qualification in IT skills.",
         "department": "DfE"
     },
     "CLC": {
@@ -3499,7 +3494,7 @@ database = {
     },
     "CLCA": {
         "meaning": "Criminal Law Consolidation Act",
-        "description": "",
+        "description": "Legislation consolidating criminal law statutes.",
         "department": ""
     },
     "CLGU": {
@@ -3514,12 +3509,12 @@ database = {
     },
     "CLM": {
         "meaning": "Customer Liaison Manager",
-        "description": "",
+        "description": "A manager responsible for liaising with customers.",
         "department": ""
     },
     "CLP": {
         "meaning": "",
-        "description": "",
+        "description": "Classification, Labelling and Packaging (of substances and mixtures)",
         "department": ""
     },
     "CLPE": {
@@ -3535,8 +3530,8 @@ database = {
         },
         "CM (manager??)": {
             "meaning": "Custodial Manager",
-            "description": "",
-            "department": ""
+            "description": "A senior prison officer role responsible for managing a wing or unit within a prison.",
+            "department": "MoJ"
         }
     },
     "CMA": {
@@ -3547,28 +3542,28 @@ database = {
         },
         "CMA (approval??)": {
             "meaning": "Conditional Marketing Approval",
-            "description": "",
+            "description": "A type of approval for medicines or products that are needed urgently, granted before all clinical data is available.",
             "department": "DfE"
         }
     },
     "CMB": {
         "meaning": "Change Management Board",
-        "description": "",
+        "description": "A governance body responsible for reviewing and approving changes to IT systems or business processes to ensure minimal disruption.",
         "department": ""
     },
     "CMC": {
         "meaning": "Chemistry, manufacturing and control",
-        "description": "E",
+        "description": "Activities in the drug development process that ensure the quality and consistency of the pharmaceutical product.",
         "department": "BEIS"
     },
     "CMCP": {
         "meaning": "Contract Management Capability Programme",
-        "description": "",
+        "description": "A cross-government initiative to improve the skills and capability of staff managing government contracts.",
         "department": "DfE"
     },
     "CMDB": {
         "meaning": "Configuration Management Database",
-        "description": "",
+        "description": "A repository that acts as a data warehouse for information technology (IT) installations. It holds data relating to a collection of IT assets (commonly referred to as configuration items (CI)), as well as to describe relationships between such assets.",
         "department": "DfE"
     },
     "CME": {
@@ -3585,7 +3580,7 @@ database = {
     },
     "CMEC": {
         "meaning": "Child Maintenance and Enforcement Commission",
-        "description": "",
+        "description": "A former non-departmental public body in the UK responsible for the child support system. It was replaced by the Child Maintenance Service.",
         "department": ""
     },
     "CMF": {
@@ -3595,7 +3590,7 @@ database = {
     },
     "CMG": {
         "meaning": "Child Maintainance Group",
-        "description": "",
+        "description": "The division within the Department for Work and Pensions responsible for the statutory child maintenance schemes.",
         "department": "DWP"
     },
     "CMO": {
@@ -3606,26 +3601,26 @@ database = {
     "CMP": {
         "CMP": {
             "meaning": "Child Maintenance Premium",
-            "description": "",
+            "description": "An amount of child maintenance that a parent with care on benefits is allowed to keep before their benefits are reduced.",
             "department": "BEIS"
         },
         "CMP (plan??)": {
             "meaning": "Contract Management Plan",
-            "description": "",
+            "description": "A document outlining how a contract will be managed, including roles, responsibilities, and performance monitoring.",
             "department": "DWP"
         }
     },
     "CMPAT": {
         "meaning": "Customer Materials, Procedures and Advice Team",
-        "description": "",
+        "description": "A team responsible for creating and maintaining guidance, procedures, and communications for customers.",
         "department": ""
     },
     "CMS": {
-            "CMS (Technology)": {
-              "meaning": "Content Management System",
-              "description": "Software used to manage the creation and modification of digital content (e.g., WordPress, Drupal).",
-              "department": "CS Wide"
-            },
+        "CMS (Technology)": {
+            "meaning": "Content Management System",
+            "description": "Software used to manage the creation and modification of digital content (e.g., WordPress, Drupal).",
+            "department": "CS Wide"
+        },
         "CMS (service)": {
             "meaning": "Child Maintenance Service",
             "description": "set up for all parents across the UK in order to provide for child living costs. This includes parents who are divorced, separated or who were never in a relationship.",
@@ -3634,17 +3629,17 @@ database = {
     },
     "CMSP": {
         "meaning": "Core Maths Support Programme (2014-2017)",
-        "description": "",
+        "description": "A programme aimed at improving the teaching and uptake of Core Maths qualifications.",
         "department": "DfE"
     },
     "CMT": {
         "meaning": "Customer Management Team",
-        "description": "",
+        "description": "A team responsible for managing relationships and service delivery to customers.",
         "department": ""
     },
     "CN": {
         "meaning": "Clerical Notification",
-        "description": "",
+        "description": "A manual or paper-based notification process used when digital systems are unavailable or not applicable.",
         "department": ""
     },
     "CNA": {
@@ -3664,12 +3659,12 @@ database = {
     },
     "CNIO": {
         "meaning": "Chief Nursing Information Officer",
-        "description": "",
+        "description": "A senior nursing leadership role responsible for the strategic use of information and technology to improve patient care.",
         "department": "NHS"
     },
     "CNP": {
         "meaning": "Customer Notification Process",
-        "description": "",
+        "description": "The standard process followed to notify customers of decisions, changes, or required actions.",
         "department": ""
     },
     "COA": {
@@ -3679,12 +3674,12 @@ database = {
     },
     "COBAP": {
         "meaning": "Corporate Banking and Methods of Payment Group",
-        "description": "",
+        "description": "A group within a department responsible for managing banking relationships and payment methods.",
         "department": ""
     },
     "COBR": {
         "meaning": "Cabinet Office Briefing Room",
-        "description": "",
+        "description": "Often referred to as COBRA. The location for high-level coordination meetings in response to national emergencies or major crises.",
         "department": "MoJ"
     },
     "COF": {
@@ -3700,7 +3695,7 @@ database = {
         },
         "COI (interest??)": {
             "meaning": "Conflict of Interest",
-            "description": "",
+            "description": "A situation where a person or organization is involved in multiple interests, financial or otherwise, and serving one interest could involve working against another.",
             "department": "DfE"
         }
     },
@@ -3716,12 +3711,12 @@ database = {
     },
     "COO": {
         "meaning": "Chief Operating Officer",
-        "description": "",
+        "description": "A senior executive responsible for managing the day-to-day operations of an organization.",
         "department": "Defra; Not Limted to CS"
     },
     "COP": {
         "meaning": "Climate Change Conference of the Parties",
-        "description": "",
+        "description": "The supreme decision-making body of the United Nations Framework Convention on Climate Change (UNFCCC), meeting annually.",
         "department": "DLUHC"
     },
     "COPs": {
@@ -3741,7 +3736,7 @@ database = {
     },
     "COSHH": {
         "meaning": "Control of substances hazardous to health",
-        "description": "",
+        "description": "The law that requires employers to control substances that are hazardous to health.",
         "department": "DfE"
     },
     "COTS": {
@@ -3751,17 +3746,17 @@ database = {
     },
     "COVAX": {
         "meaning": "COVID-19 Vaccines Global Access facility",
-        "description": "",
+        "description": "A global initiative aimed at equitable access to COVID-19 vaccines.",
         "department": "BEIS"
     },
     "COVER": {
         "meaning": "COVID Variant Emergency Response",
-        "description": "",
+        "description": "A group or initiative focused on responding to new variants of the COVID-19 virus.",
         "department": "BEIS"
     },
     "COVID-O": {
         "meaning": "Cabinet Committee - COVID",
-        "description": "",
+        "description": "A Cabinet committee established to handle operational decisions regarding the COVID-19 pandemic.",
         "department": "BEIS"
     },
     "CP": {
@@ -3810,12 +3805,12 @@ database = {
     },
     "CPAB": {
         "meaning": "Corporate Personal Acting Body",
-        "description": "",
+        "description": "An organization authorized to act on behalf of a claimant in personal matters.",
         "department": ""
     },
     "CPB": {
         "meaning": "Central Pensions Branch",
-        "description": "",
+        "description": "A centralized unit within a department responsible for pension administration.",
         "department": ""
     },
     "CPC": {
@@ -3869,22 +3864,22 @@ database = {
     },
     "CPIA": {
         "meaning": "Criminal Procedure and Investigations Act",
-        "description": "",
+        "description": "Legislation that governs the disclosure of unused material in criminal cases.",
         "department": ""
     },
     "CPM": {
         "meaning": "Child Protection Management",
-        "description": "",
+        "description": "Systems or processes for managing child protection cases and data.",
         "department": "MoJ"
     },
     "CPMO": {
         "meaning": "Change Portfolio Management Office",
-        "description": "",
+        "description": "A centralized function responsible for overseeing the portfolio of change programmes and projects within an organization.",
         "department": "Civil Service Wide"
     },
     "CPMS": {
         "meaning": "Change Programme Management System",
-        "description": "",
+        "description": "An IT system used to track, manage, and report on change programmes.",
         "department": "Civil Service Wide"
     },
     "CPO": {
@@ -3895,29 +3890,29 @@ database = {
         },
         "CPO (officer??)": {
             "meaning": "Community Probation Officer",
-            "description": "",
+            "description": "A probation officer who works with offenders in the community.",
             "department": "MoJ"
         },
         "CPO (orders??)": {
             "meaning": "Community Punishment Orders",
-            "description": "",
+            "description": "A sentence requiring an offender to perform unpaid work in the community.",
             "department": ""
         },
         "CPO (order??)": {
             "meaning": "Compulsory Purchase Order",
-            "description": "",
+            "description": "A legal function that allows certain bodies which need to obtain land or property to do so without the consent of the owner.",
             "department": ""
         }
     },
     "CPP": {
         "CPP": {
             "meaning": "Common Payments Package",
-            "description": "",
+            "description": "A standardized system or set of tools for processing payments.",
             "department": "MoJ"
         },
         "CPP (project??)": {
             "meaning": "common platform project",
-            "description": "",
+            "description": "A major digital change programme to provide a single case management system for the criminal justice system.",
             "department": ""
         }
     },
@@ -3929,7 +3924,7 @@ database = {
         },
         "CPR (registers)": {
             "meaning": "Child protection registers",
-            "description": "",
+            "description": "A confidential list of all children in the local area who have been identified as being at risk of significant harm.",
             "department": "DfE"
         }
     },
@@ -3946,18 +3941,18 @@ database = {
         },
         "CPS LP": {
             "meaning": "Central Payment System Local Payment",
-            "description": "",
+            "description": "A local payment function within the Central Payment System.",
             "department": ""
         }
     },
     "CPT": {
         "meaning": "Central Prosecution Team (Scotland)",
-        "description": "",
+        "description": "A specialist team within the prosecution service handling specific types of cases.",
         "department": ""
     },
     "CPTMS": {
         "meaning": "Central Processing Team Management Service",
-        "description": "",
+        "description": "A management layer or service for overseeing central processing teams.",
         "department": ""
     },
     "CPTPP": {
@@ -3972,7 +3967,7 @@ database = {
     },
     "CPVE": {
         "meaning": "Certificate of Pre-Vocational Education",
-        "description": "",
+        "description": "A qualification for students aged 16+ designed to prepare them for work or further vocational study.",
         "department": "DfE"
     },
     "CQC": {
@@ -3982,17 +3977,17 @@ database = {
     },
     "CQFW": {
         "meaning": "",
-        "description": "",
+        "description": "Credit and Qualifications Framework for Wales",
         "department": ""
     },
     "CQSW": {
         "meaning": "Certificate of Qualification in Social Work",
-        "description": "",
+        "description": "A former professional qualification for social workers in the UK.",
         "department": "DfE"
     },
     "CR": {
         "meaning": "Change Request",
-        "description": "",
+        "description": "A formal proposal for an alteration to some product or system.",
         "department": "MoJ"
     },
     "CRAC": {
@@ -4018,23 +4013,23 @@ database = {
         },
         "CRC (company??)": {
             "meaning": "Community Rehabilitation Company",
-            "description": "",
+            "description": "Private sector suppliers that managed low to medium risk offenders from 2014 to 2021.",
             "department": ""
         }
     },
     "CRCC": {
         "meaning": "Certificate in the Residential Care of Children",
-        "description": "",
+        "description": "A qualification for those working in residential childcare settings.",
         "department": "DfE"
     },
     "CRCCYP": {
         "meaning": "Certificate in the Residential Care of Children and Young People",
-        "description": "",
+        "description": "A qualification for those working in residential care with children and young people.",
         "department": "DfE"
     },
     "CRD": {
         "meaning": "Conditional Release Date",
-        "description": "",
+        "description": "The date on which a prisoner is released from custody subject to conditions/licence.",
         "department": "MoJ"
     },
     "CRE": {
@@ -4054,7 +4049,7 @@ database = {
     },
     "CRG": {
         "meaning": "Customer Representative Group",
-        "description": "",
+        "description": "A group formed to represent the views and interests of customers.",
         "department": ""
     },
     "CRIP": {
@@ -4069,20 +4064,20 @@ database = {
     },
     "CRL": {
         "meaning": "Computer Record Location",
-        "description": "",
+        "description": "A specific location or address where a computer record is stored.",
         "department": ""
     },
     "CRM": {
-          "CRM": {
+        "CRM": {
             "meaning": "Customer Relationship Management",
             "description": "A technology for managing all your company's relationships and interactions with customers and potential customers.",
             "department": "CS Wide"
-          },
+        },
         "CRM (role)": {
             "meaning": "Client Relationship Manager / Customer Relations Manager",
-            "description": "",
+            "description": "A role focused on managing the relationship with clients or customers.",
             "department": ""
-        },
+        }
     },
     "CRM12": {
         "meaning": "",
@@ -4097,7 +4092,7 @@ database = {
         },
         "CRN (number??)": {
             "meaning": "Child/Customer Reference Number",
-            "description": "",
+            "description": "A unique identifier assigned to a child or customer record.",
             "department": ""
         }
     },
@@ -4120,7 +4115,7 @@ database = {
     },
     "CRP": {
         "meaning": "Conference Room Pilot",
-        "description": "",
+        "description": "A method used to validate a software solution against business requirements in a workshop setting.",
         "department": "MoJ"
     },
     "CRS": {
@@ -4131,7 +4126,7 @@ database = {
         },
         "CRS (services??)": {
             "meaning": "Commissioned Rehabilitative Services",
-            "description": "",
+            "description": "Services commissioned to support the rehabilitation of offenders.",
             "department": ""
         }
     },
@@ -4143,13 +4138,13 @@ database = {
         },
         "CRT (team??)": {
             "meaning": "Complaints Resolution Team",
-            "description": "",
+            "description": "A team dedicated to resolving complaints.",
             "department": ""
         }
     },
     "CRU": {
         "meaning": "Compensation Recovery Unit",
-        "description": "",
+        "description": "A unit within the DWP that recovers social security benefits paid as a result of an accident, injury or disease from compensation payments.",
         "department": ""
     },
     "CRWBL": {
@@ -4165,17 +4160,17 @@ database = {
         },
         "CS (service??)": {
             "meaning": "Courts Service",
-            "description": "",
+            "description": "The agency responsible for the administration of courts (now HMCTS).",
             "department": ""
         },
         "CS (system??)": {
             "meaning": "Computer System",
-            "description": "",
+            "description": "General term for an IT system.",
             "department": "MoJ"
         },
         "CS (group??)": {
             "meaning": "Corporate Services Group",
-            "description": "",
+            "description": "A group providing central support services like HR, Finance, and IT.",
             "department": "Not Limited to CS"
         }
     },
@@ -4192,12 +4187,12 @@ database = {
         },
         "CSA (customer)": {
             "meaning": "Customer Service Agent",
-            "description": "",
+            "description": "A frontline employee dealing directly with customer queries.",
             "department": "Civil Service Wide"
         },
         "CSA (abuse)": {
             "meaning": "Child sexual abuse",
-            "description": "",
+            "description": "The abuse of a child involving sexual activities.",
             "department": "DfE"
         },
         "CSA (assistant)": {
@@ -4206,9 +4201,9 @@ database = {
             "department": "DfE"
         }
     },
-    "CSAR (departmental organisational unit)": {
+    "CSAR": {
         "meaning": "Children's Services Analysis and Research",
-        "description": "",
+        "description": "A division within DfE responsible for research and analysis related to children's services.",
         "department": "DfE"
     },
     "CSC": {
@@ -4225,7 +4220,7 @@ database = {
     },
     "CSCF": {
         "meaning": "Civil Service Competency Framework",
-        "description": "",
+        "description": "A framework setting out the skills, knowledge and behaviours expected of civil servants (replaced by Success Profiles).",
         "department": "Civil Service Wide"
     },
     "CSCI": {
@@ -4235,7 +4230,7 @@ database = {
     },
     "CSCP": {
         "meaning": "Compare School and College Performance",
-        "description": "",
+        "description": "A DfE service allowing users to compare the performance of schools and colleges in England.",
         "department": "DfE"
     },
     "CSCS": {
@@ -4243,7 +4238,7 @@ database = {
         "description": "Source: The Knowledge accessed 2019-05-30",
         "department": "DfE"
     },
-    "CSCSG (departmental organisational unit)": {
+    "CSCSG": {
         "meaning": "Children's Services, Communications and Strategy Group",
         "description": "Year(s) active (where known): 2021-",
         "department": "DfE"
@@ -4253,15 +4248,15 @@ database = {
         "description": "Many departments have a customer service directorate",
         "department": "Civil Service Wide"
     },
-    "CSDSD (departmental organisational unit)": {
+    "CSDSD": {
         "meaning": "Children's Services and Departmental Strategy Directorate",
         "description": "Year(s) active (where known): 2013",
         "department": "DfE"
     },
-    "CSE:": {
+    "CSE": {
         "CSE (examinations)": {
             "meaning": "Certificate of Secondary Education",
-            "description": "",
+            "description": "A former secondary education qualification in the UK.",
             "department": "DfE"
         },
         "CSE (exploitation)": {
@@ -4270,9 +4265,9 @@ database = {
             "department": "DfE"
         }
     },
-    "CSEC (departmental organisational unit)": {
+    "CSEC": {
         "meaning": "Children's Services, Equalities and Communications",
-        "description": "",
+        "description": "A directorate or group within the Department for Education.",
         "department": "DfE"
     },
     "CSEN": {
@@ -4280,7 +4275,7 @@ database = {
         "description": "A network open to all civil servants interested in developing their knowledge and capability in environmental policy. https://www.civilserviceenvironmentnetwork.org/",
         "department": "Civil Service Wide"
     },
-    "CSENS (departmental organisational unit)": {
+    "CSENS": {
         "meaning": "Childcare, Special Educational Needs and Children's Strategy",
         "description": "Year(s) active (where known): 2013",
         "department": "DfE"
@@ -4293,13 +4288,13 @@ database = {
         },
         "CSEP (policy??)": {
             "meaning": "Civil Service Expert Policy",
-            "description": "",
+            "description": "A specialized policy unit within the Civil Service.",
             "department": ""
         }
     },
     "CSF": {
         "meaning": "Critical Success Factor",
-        "description": "",
+        "description": "An element that is necessary for an organization or project to achieve its mission.",
         "department": "NHS"
     },
     "CSG": {
@@ -4310,14 +4305,14 @@ database = {
         },
         "CSG (groups??)": {
             "meaning": "Customer Scrutiny Groups",
-            "description": "",
+            "description": "Groups of customers who review and scrutinise the performance of a service provider.",
             "department": "MoJ"
         }
     },
     "CSHR": {
         "CSHR": {
             "meaning": "Civil Service Human Resources",
-            "description": "",
+            "description": "The central HR function for the Civil Service.",
             "department": "BEIS"
         },
         "CSHR Profession": {
@@ -4328,12 +4323,12 @@ database = {
     },
     "CSIE": {
         "meaning": "Certificate for Studies on Inclusive Education",
-        "description": "",
+        "description": "A qualification focusing on inclusive education practices.",
         "department": "DfE"
     },
     "CSIP": {
         "meaning": "Challenge Support Intervention Plan",
-        "description": "",
+        "description": "A plan designed to support and intervene in underperforming areas or services.",
         "department": "MoJ"
     },
     "CSL": {
@@ -4348,7 +4343,7 @@ database = {
     },
     "CSM": {
         "meaning": "Customer Service Manager",
-        "description": "",
+        "description": "A role responsible for overseeing the delivery of customer service.",
         "department": ""
     },
     "CSN": {
@@ -4384,29 +4379,19 @@ database = {
         },
         "CSP (provider??)": {
             "meaning": "Client Service Provider",
-            "description": "",
+            "description": "An organization or individual that provides services to a client.",
             "department": "DfE"
         }
     },
     "CSPSSA": {
         "meaning": "Child Support Pensions and Social Security Act",
-        "description": "",
+        "description": "Legislation from 2000 dealing with child support, pensions, and social security matters.",
         "department": "DWP"
     },
     "CSR": {
         "meaning": "Civil Service Resourcing; Comprehensive Spending Review; Corporate Staff Rostering",
         "description": "A system used in prisons to detail staff. Also known as My Detail or InVision WFM; The previous name for the Government Recruitment Service (GRS)",
         "department": "Civil Service Wide; HMT; MoJ"
-    },
-    "CSR (spending)": {
-        "meaning": "Comprehensive Spending Review",
-        "description": "",
-        "department": "DfE"
-    },
-    "CSR (student)": {
-        "meaning": "Continuous Student Record",
-        "description": "Source: The Knowledge accessed 2019-05-29",
-        "department": "DfE"
     },
     "CSRA": {
         "meaning": "Cell Share Risk Assessment",
@@ -4430,48 +4415,18 @@ database = {
     },
     "CSS": {
         "meaning": "Charter Standard Statement",
-        "description": "",
+        "description": "A statement outlining standards to be met.",
         "department": ""
     },
     "CSS (social services)": {
         "meaning": "Certificate in Social Services",
-        "description": "",
+        "description": "A former qualification for social services staff.",
         "department": "DfE"
     },
     "CST": {
         "meaning": "Chief Secretary to the Treasury; Civil Service Talent; Customer Service Target; Customer Services Team",
-        "description": "",
+        "description": "Various meanings depending on context: The second most senior minister in HM Treasury; The team managing talent within the CS; Targets for customer service performance; Teams delivering customer service.",
         "department": "BEIS"
-    },
-    "CST (Christian schools)": {
-        "meaning": "Christian Schools Trust",
-        "description": "Source: The Knowledge accessed 2019-05-30",
-        "department": "DfE"
-    },
-    "CST (care)": {
-        "meaning": "Care Standards Tribunal",
-        "description": "",
-        "department": "DfE"
-    },
-    "CST (departmental organisational unit)": {
-        "meaning": "Communications Support Team",
-        "description": "",
-        "department": "DfE"
-    },
-    "CST (minister)": {
-        "meaning": "Chief Secretary to the Treasury",
-        "description": "",
-        "department": "DLUHC"
-    },
-    "CST (science)": {
-        "meaning": "Council for Science and Technology",
-        "description": "\"The Council for Science and Technology (CST) advises the Prime Minister on science and technology policy issues across government. The council is an expert committee, supported by a secretariat in the Government Office for Science.\"",
-        "department": "DSIT"
-    },
-    "CST (teachers)": {
-        "meaning": "Curriculum Support Teachers",
-        "description": "Source: The Knowledge accessed 2019-05-30",
-        "department": "DfE"
     },
     "CSTRs": {
         "meaning": "Community Sentence Treatment Requirements",
@@ -4480,7 +4435,7 @@ database = {
     },
     "CSU": {
         "meaning": "Commissioning Support Unit",
-        "description": "",
+        "description": "NHS bodies that provide support services to Clinical Commissioning Groups (CCGs), such as finance, HR, and procurement.",
         "department": "NHS"
     },
     "CSV (volunteers)": {
@@ -4495,17 +4450,17 @@ database = {
     },
     "CSWAT/S": {
         "meaning": "Civil Service Workplace Adjustments Team / Service",
-        "description": "",
+        "description": "A central service providing workplace adjustments for disabled civil servants.",
         "department": "BEIS"
     },
     "CSWW": {
         "meaning": "Childrens Social Work Workforce",
-        "description": "",
+        "description": "Refers to the body of professionals working in social work for children and families.",
         "department": "DfE"
     },
     "CT": {
         "meaning": "Correspondence Team",
-        "description": "",
+        "description": "A team responsible for handling official correspondence from the public, MPs, or other organizations.",
         "department": "DWP"
     },
     "CTB": {
@@ -4515,33 +4470,8 @@ database = {
     },
     "CTC": {
         "meaning": "Countdown To Change",
-        "description": "",
+        "description": "A phrase or project name likely referring to a preparation period before a major change implementation.",
         "department": ""
-    },
-    "CTC (clearance)": {
-        "meaning": "Counter Terrorism Clearance",
-        "description": "a security clearance level, as seen in the Tech Scorecard : \"Anyone with administrative or operational access to production systems... has CTC-level clearance\"",
-        "department": "Civil Service Wide"
-    },
-    "CTC (colleges)": {
-        "meaning": "City technology colleges",
-        "description": "Independently managed, non-fee-paying schools in urban areas for pupils of all abilities aged 11 to 18. Virtually all have now become academies.Source: {GOV.UK|https://www.gov.uk/types-of-school/city-technology-colleges} accessed 2015-06-02",
-        "department": "DfE"
-    },
-    "CTC (communities)": {
-        "meaning": "Communities that Care",
-        "description": "Source: The Knowledge accessed 2019-05-29",
-        "department": "DfE"
-    },
-    "CTC (tax credit)": {
-        "meaning": "Child Tax Credit",
-        "description": "",
-        "department": "HMRC"
-    },
-    "CTDS": {
-        "meaning": "County Training and Development Services",
-        "description": "Source: The Knowledge accessed 2019-04-02",
-        "department": "DfE"
     },
     "CTF": {
         "CTF": {
@@ -4551,7 +4481,7 @@ database = {
         },
         "CTF (file??)": {
             "meaning": "Common transfer file",
-            "description": "",
+            "description": "A standard file format used to transfer pupil data between schools.",
             "department": "HMRC"
         }
     },
@@ -4562,17 +4492,17 @@ database = {
     },
     "CTO (job role)": {
         "meaning": "Chief Technology Officer",
-        "description": "",
+        "description": "A senior executive with responsibility for an organization's technological needs and research and development.",
         "department": "Civil Service Wide"
     },
     "CTO (order)": {
         "meaning": "Compulsory Treatment Order",
-        "description": "",
+        "description": "A legal order requiring a person to undergo medical treatment, typically for mental health issues.",
         "department": ""
     },
     "CTS": {
         "meaning": "Core Technology Services team",
-        "description": "",
+        "description": "A team responsible for managing and maintaining the fundamental technology infrastructure of an organization.",
         "department": "MoJ"
     },
     "CTSW": {
@@ -4592,7 +4522,7 @@ database = {
     },
     "CUED": {
         "meaning": "Common Update and Enquiry Dialogue",
-        "description": "",
+        "description": "An interface or process for updating and querying data across benefit administration systems.",
         "department": ""
     },
     "CUREE": {
@@ -4600,26 +4530,26 @@ database = {
         "description": "Centre for the Use of Research and Evidence in Education (CUREE) works at the leading edge of research and evidence-informed educational policy and practice. Our mission centres on promoting the use of evidence by building bridges between academic research and professional practice. CUREE support practice-driven action research, develop tools for Continuing Professional Development (CPD), for organisational leadership and for teaching and learning. They believe in modelling good practice in everything they do and their work in consultancy, advice, development and training in the use of research and evidence is consistently informed by the principles underpinning effective coaching and mentoring in education. CUREE work in collaboration with a range of individuals and organisations. Their clients include national organisations such as the General Teaching Council for England (GTC), the government, in particular the Department for Education and the Department for Business, Innovation and Skills, the National College for School Leadership (NCSL), the Quality Improvement Agency (QIA) and Qualifications and Curriculum Development Agency (QCDA). They also work with schools, networks and Local Authorities across the country.Source: The Knowledge accessed 2019-04-12",
         "department": "DfE"
     },
-    "CV"
-    :{"CV": {
-        "meaning": "Contract Variation",
-        "description": "",
-        "department": "Civil Service Wide"
-    },
-    "CV (business)": {
-        "meaning": "Curriculum Vitae",
-        "description": "A document used when applying for jobs. In the UK, 'CV' is the standard term, whereas 'Resume' is rarely used.",
-        "department": "Business"
-    },
+    "CV": {
+        "CV": {
+            "meaning": "Contract Variation",
+            "description": "A formal change to the terms of a contract.",
+            "department": "Civil Service Wide"
+        },
+        "CV (business)": {
+            "meaning": "Curriculum Vitae",
+            "description": "A document used when applying for jobs. In the UK, 'CV' is the standard term, whereas 'Resume' is rarely used.",
+            "department": "Business"
+        }
     },
     "CVA": {
         "meaning": "Cerebro-vascular Accident",
-        "description": "",
+        "description": "The medical term for a stroke.",
         "department": ""
     },
     "CVCC": {
         "meaning": "Court Video Conference Centre",
-        "description": "",
+        "description": "A facility enabling court appearances to be conducted via video link.",
         "department": "MoJ"
     },
     "CVCP": {
@@ -4629,7 +4559,7 @@ database = {
     },
     "CVS": {
         "meaning": "Council for Voluntary Service",
-        "description": "",
+        "description": "A local umbrella body that supports, promotes, and develops local voluntary and community action.",
         "department": "DfE"
     },
     "CWA": {
@@ -4677,101 +4607,19 @@ database = {
         "description": "2004-10. A single, strategic, overarching plan for all local services to children and young people to be produced by all areas. The Coalition Government announced plans to abolish in November 2010.",
         "department": "DfE"
     },
-    "Cafcass": {
-        "meaning": "Children and Family Court Advisory and Support Service",
-        "description": "Cafcass represents children in family court cases. We make sure that children's voices are heard and decisions are taken in their best interests.Source: {Cafcass|https://www.cafcass.gov.uk/about-cafcass.aspx} accessed 2015-10-27",
-        "department": "MoJ"
-    },
-    "CfBT": {
-        "meaning": "Centre for British Teachers",
-        "description": "Source: The Knowledge accessed 2019-04-12",
-        "department": "DfE"
-    },
-    "CoA": {
-        "meaning": "Certificate of Achievement",
-        "description": "Source: The Knowledge accessed 2019-05-30",
-        "department": "DfE"
-    },
-    "CoC": {
-        "meaning": "Change of Circumstances",
-        "description": "",
-        "department": ""
-    },
-    "CoCo": {
-        "meaning": "Code of Connection",
-        "description": "Usually associated with the PSN. An agreed standard ('code') for network communication.",
-        "department": "MoJ"
-    },
-    "CoE": {
-        "CoE": {
-            "meaning": "Centre of Excellence",
-            "description": "",
-            "department": ""
-        },
-        "CoE (entitlement??)": {
-            "meaning": "Certificate of Entitlement",
-            "description": "",
-            "department": ""
-        }
-    },
-    "CoLRiC": {
-        "meaning": "Council for Learning Resources in Colleges",
-        "description": "CoLRiC is an independent organisation which was established in 1993 by a small group of librarians working in the further education sector. To this day we remain dedicated to enhancing and maintaining the quality of learning resources services in further education colleges, including sixth form colleges and the HE in FE sector. Membership has grown to nearly 200 college learning resources services throughout the United Kingdom and Northern Ireland.Source: {CoLRiC website|https://www.colric.org.uk/about/index.php} accessed 2019-05-30",
-        "department": "DfE"
-    },
-    "CoP": {
-        "meaning": "College of Policing; Court of Protection",
-        "description": "",
-        "department": "Home Office"
-    },
-    "CoP (codes)": {
-        "meaning": "Codes of practice",
-        "description": "",
-        "department": "DfE"
-    },
-    "CoP (communities)": {
-        "meaning": "Communities of practice",
-        "description": "Groups with a common interest in a discipline or problem, who generally use electronic communication.",
-        "department": "DfE"
-    },
-    "CoVE": {
-        "meaning": "Centres of Vocational Excellence",
-        "description": "The Centres of Vocational Excellence (CoVE) programme, along with the National Skills Academies, is central to the Learning and Skills Council's aim to improve and develop skills for employers that are needed to underpin business success and economic competitiveness. These programmes are focused on delivering vocational skills that meet particular sector and industry needs through the development and delivery of high quality, specialist training across a range of sectors.  CoVE Network The CoVE Network of around 400 approved centres was completed in January 2006, but the programme continues to evolve to meet changing circumstances and priorities in the world of vocational training.  CoVE Specialist Development Groups The Centres of Vocational Excellence (CoVE) Specialist Development Groups (SDGs) support best practice. They aim to ensure that all CoVEs develop their provision to meet the CoVE criteria and develop strategies to support continuous improvement in the quality of vocational education and training. CoVE SDGs are made up of groups of CoVEs and cover all CoVE specialisms, such as catering, childcare, retail and logistics. The first CoVE SDGs were set up by the Learning and Skills Development Agency in 2002 as part of the CoVE programme. Source: The Knowledge accessed 2019-05-30",
-        "department": "DfE"
-    },
-    "Cohort, \u2018Core Cohort\u2019": {
-        "meaning": "Prisoners who are lower risk and assigned to a Key Worker and CRC",
-        "description": "",
-        "department": "MoJ"
-    },
-    "Cohort, \u2018Specialised Cohort\u2019": {
-        "meaning": "Prisoners who are higher risk and are assigned to Key Worker and a Prison Offender Manager (POM)",
-        "description": "",
-        "department": "MoJ"
-    },
-    "Comms": {
-        "meaning": "Communications",
-        "description": "",
-        "department": "Civil Service Wide"
-    },
-    "ConfEd": {
-        "meaning": "Confederation of Education Service Managers",
-        "description": "The Association of Chief Education Officers, the Society of Education Officers and the Society of Chief Inspectors and Advisers merged to form the Confederation of Education Service Managers (ConfEd). Source Education Journal issue 63 2002Source: The Knowledge accessed 2019-05-30",
-        "department": "DfE"
-    },
     "Custody Assistant": {
         "meaning": "subcontracted staff in custody",
-        "description": "",
+        "description": "Support staff employed by a subcontractor to work within custody suites, assisting with the care and processing of detainees.",
         "department": "MoJ"
     },
     "Custody Officer": {
         "meaning": "police staff",
-        "description": "",
+        "description": "A designated officer responsible for the welfare and secure detention of individuals in police custody.",
         "department": "MoJ"
     },
     "CxD": {
         "meaning": "Chancellor's Departments (APA, DMO, GAD, HMRC, HMT, NS&I, OBR)",
-        "description": "",
+        "description": "These departments typically include: \n APA: Army Personnel Administration (likely outdated or specific internal reference) \n DMO: Debt Management Office \n GAD: Government Actuary's Department \n HMRC: His Majesty's Revenue and Customs \n HMT: His Majesty's Treasury \n NS&I: National Savings and Investments \n OBR: Office for Budget Responsibility \This classification groups a number of non-ministerial departments and executive agencies that report directly to the Chancellor of the Exchequer and His Majesty's Treasury ",
         "department": "CO"
     },
     "D": {
@@ -4789,7 +4637,7 @@ database = {
         "description": "",
         "department": "Civil Service Wide"
     },
-    "D.Y.O.": {
+    "DYO": {
         "meaning": "Deter Young Cohort Offender",
         "description": "",
         "department": "MoJ"
@@ -4809,7 +4657,7 @@ database = {
             "meaning": "Devolved Administrations",
             "description": "Refers collectively to the governments of Scotland, Wales, and Northern Ireland, which have legislative powers devolved from the UK Parliament.",
             "department": "DLUHC"
-        },
+        }
     },
     "DAAT": {
         "meaning": "Decision Appeals and Assurance Team",
@@ -5458,7 +5306,7 @@ database = {
     },
     "DLF": {
         "meaning": "Demand Led Funding",
-        "description": "Demand Led Funding Business Definition DEFINITION 1. Demand led funding (DLF) is a new funding model, reflecting the principle that learner (or employer) demand and choice should directly affect the amount of funding earned by providers. DETAILED DESCRIPTION 2. Under the DLF model, providers earn money based on actual delivery. Following the tendering process, approved providers will agree an allocation value with the LSC prior to the start of the year. However, the provider's actual budget will depend on learner demand, as the reconciliation arrangements will recover funding from those providers that fail to deliver their agreed allocations. 3. Demand Led Funding is split into three models: 16-18 Learner Responsive Adult Learner Responsive Employer Learner Responsive Last date modified: 7th November 2008Source: {The National Archives|https://webarchive.nationalarchives.gov.uk/20140104152747/https://www.thedataservice.org.uk/datadictionary/businessdefinitions/Demand+Led+Funding.htm} accessed 2019-08-01",
+        "description": "Demand Led Funding Business Definition \n\n DEFINITION 1. Demand led funding (DLF) is a new funding model, reflecting the principle that learner (or employer) demand and choice should directly affect the amount of funding earned by providers. \n\n  DETAILED DESCRIPTION 2. Under the DLF model, providers earn money based on actual delivery. Following the tendering process, approved providers will agree an allocation value with the LSC prior to the start of the year. However, the provider's actual budget will depend on learner demand, as the reconciliation arrangements will recover funding from those providers that fail to deliver their agreed allocations. \n\n 3. Demand Led Funding is split into three models: 16-18 Learner Responsive Adult Learner Responsive Employer Learner Responsive Last date modified: 7th November 2008Source: {The National Archives|https://webarchive.nationalarchives.gov.uk/20140104152747/https://www.thedataservice.org.uk/datadictionary/businessdefinitions/Demand+Led+Funding.htm} accessed 2019-08-01",
         "department": "DfE"
     },
     "DLHE": {
@@ -8506,17 +8354,17 @@ database = {
         "description": "A public\u2013private global health partnership committed to increasing access to immunisation in poor countries. Once a vaccine is ready, GAVI will work to make it available in low income countries.",
         "department": "BEIS"
     },
-    "GB":{
     "GB": {
-        "meaning": "Great Britain",
-        "description": "The geographic island comprising England, Scotland, and Wales. Crucially, this excludes Northern Ireland. Often used in 'GB-only' regulations versus 'UK-wide' ones.",
-        "department": "ONS"
-    },
-    "GB (governing)": {
-        "meaning": "Governing Bodies",
-        "description": "",
-        "department": "DfE"
-    },
+        "GB": {
+            "meaning": "Great Britain",
+            "description": "The geographic island comprising England, Scotland, and Wales. Crucially, this excludes Northern Ireland. Often used in 'GB-only' regulations versus 'UK-wide' ones.",
+            "department": "ONS"
+        },
+        "GB (governing)": {
+            "meaning": "Governing Bodies",
+            "description": "",
+            "department": "DfE"
+        }
     },
     "GBE": {
         "meaning": "Great British Energy",
@@ -12018,7 +11866,7 @@ database = {
         "description": "",
         "department": "DLUHC"
     },
-    "LTD":{
+    "LTD": {
         "LTD": {
             "meaning": "Late Transfer Date",
             "description": "",
@@ -12028,7 +11876,7 @@ database = {
             "meaning": "Private Limited Company",
             "description": "A company structure where the owners' liability is limited to the value of their shares. It is a distinct legal entity separate from its owners.",
             "department": "Business"
-        },
+        }
     },
     "LTHSE": {
         "meaning": "Long Term High Security Estates",
@@ -13101,7 +12949,7 @@ database = {
         "department": "DfE"
     },
     "NCA": {
-        "NCA (crime)":{
+        "NCA (crime)": {
             "meaning": "National Crime Agency",
             "description": "",
             "department": "NCA"
@@ -13115,7 +12963,7 @@ database = {
             "meaning": "National Childminding Association",
             "description": "",
             "department": "DfE"
-        },
+        }
     },
     "NCATE": {
         "meaning": "National Council for Accreditation of Teacher Education",
@@ -13303,9 +13151,9 @@ database = {
         "department": "DfE"
     },
     "NDPB": {
-            "meaning": "Non-Departmental Public Body",
-            "description": "Literally means a bit of government that's not a department - only really used in government circles; A non-departmental public body is defined as a body which has a role in the processes of national government, but is not a government department or part of one, and which accordingly operates to a greater or lesser extent at arms length from ministers.Source: {GOV.UK|https://www.gov.uk/public-bodies-reform#ndpbs-and-executive-agencies} accessed 2015-06-05",
-            "department": "Civil Service Wide"
+        "meaning": "Non-Departmental Public Body",
+        "description": "Literally means a bit of government that's not a department - only really used in government circles; A non-departmental public body is defined as a body which has a role in the processes of national government, but is not a government department or part of one, and which accordingly operates to a greater or lesser extent at arms length from ministers.Source: {GOV.UK|https://www.gov.uk/public-bodies-reform#ndpbs-and-executive-agencies} accessed 2015-06-05",
+        "department": "Civil Service Wide"
     },
     "NDRB": {
         "meaning": "National Digital Resource Bank",
@@ -15159,23 +15007,23 @@ database = {
         "description": "The Progress 8 measure is a new secondary school accountability system. It aims to encourage schools to teach a broad curriculum and reward schools that teach all pupils well. It will measure pupils progress across 8 subjects from age 11 to 16. Source: {GOV.UK|https://www.gov.uk/government/publications/progress-8-school-performance-measure} accessed 2016-02-03",
         "department": "DfE"
     },
-      "PA": {
-    "PA (Role)": {
-      "meaning": "Personal Assistant",
-      "description": "An employee who assists a specific person (usually an executive) with their daily administrative tasks.",
-      "department": "Business"
+    "PA": {
+        "PA (Role)": {
+            "meaning": "Personal Assistant",
+            "description": "An employee who assists a specific person (usually an executive) with their daily administrative tasks.",
+            "department": "Business"
+        },
+        "PA (Financial)": {
+            "meaning": "Per Annum",
+            "description": "Latin phrase meaning 'by the year'. Commonly used in the UK to denote annual salaries (e.g., \u00a330k pa).",
+            "department": "Business"
+        },
+        "PA (Group)": {
+            "meaning": "Planning Authority",
+            "description": "the public body responsible for controlling development, deciding on planning applications (for buildings, extensions, land use changes), and creating local plans to guide future growth, ensuring development respects the environment and community needs",
+            "department": "Home"
+        }
     },
-    "PA (Financial)": {
-      "meaning": "Per Annum",
-      "description": "Latin phrase meaning 'by the year'. Commonly used in the UK to denote annual salaries (e.g., £30k pa).",
-      "department": "Business"
-    },
-      "PA (Group)": {
-          "meaning": "Planning Authority",
-          "description": "the public body responsible for controlling development, deciding on planning applications (for buildings, extensions, land use changes), and creating local plans to guide future growth, ensuring development respects the environment and community needs",
-          "department": "Home"
-      }
-  },
     "PAC": {
         "meaning": "Public Accounts Committee",
         "description": "",
@@ -18742,7 +18590,7 @@ database = {
         "description": "On 01 April 2021 the Social Mobility Commission (SMC) moved to the Cabinet Office's Equalities Hub. It had been an Arm's Length Body of the DfE since 2012. The department will continue to have a close relationship with the SMC, given the important role education plays in improving social mobility and securing good opportunities for all.Source: Intranet news 2021-03-30",
         "department": "DfE"
     },
-    "SME":{
+    "SME": {
         "SME": {
             "meaning": "Small to Medium-sized Enterprise",
             "description": "Businesses defined by their employee count and turnover. In the UK, this usually covers businesses with fewer than 250 employees.",
@@ -21542,7 +21390,7 @@ database = {
         "description": "Formal term from UK Government Orange Book: Management of Risk - Principles and Concepts.",
         "department": "MoJ"
     },
-      "are": {
+    "are": {
         "meaning": "denotes a description",
         "description": "Formal term from UK Government Orange Book: Management of Risk - Principles and Concepts.",
         "department": "MoJ"
@@ -21664,11 +21512,11 @@ database = {
             "description": "Regulation of drugs.",
             "department": "Health"
         },
-          "CD": {
+        "CD": {
             "meaning": "Crown Dependencies",
             "description": "The Bailiwick of Jersey, the Bailiwick of Guernsey, and the Isle of Man. They are not part of the UK or the EU but are self-governing possessions of the British Crown.",
             "department": "MoJ"
-          },
+        }
     },
     "CO": {
         "meaning": "Cabinet Office",
@@ -21894,74 +21742,73 @@ database = {
         "description": "Period starting from the beginning of the current year.",
         "department": "Finance"
     },
-  "PLC": {
-    "meaning": "Public Limited Company",
-    "description": "A company whose shares may be freely sold and traded to the public. In the UK, a PLC must have a minimum share capital of £50,000.",
-    "department": "Business"
-  },
-  "AGM": {
-    "meaning": "Annual General Meeting",
-    "description": "A mandatory yearly gathering of a company's interested shareholders. At an AGM, the directors of the company present an annual report containing information for shareholders about the company's performance and strategy.",
-    "department": "Business"
-  },
-  "T&C": {
-    "meaning": "Terms and Conditions",
-    "description": "The legal agreements between a service provider and a person who wants to use that service. Essential for UK consumer law compliance.",
-    "department": "Business"
-  },
-  "ISA": {
-    "meaning": "Individual Savings Account",
-    "description": "A class of retail investment arrangements available to residents of the United Kingdom which allows for tax-free interest payments.",
-    "department": "Business"
-  },
-  "ROI": {
-      "ROI (business)":{
-        "meaning": "Return on Investment",
-        "description": "A performance measure used to evaluate the efficiency of an investment or compare the efficiency of a number of different investments. It measures the amount of return on an investment relative to the investment's cost.",
-        "department": " Business"
-      },
+    "PLC": {
+        "meaning": "Public Limited Company",
+        "description": "A company whose shares may be freely sold and traded to the public. In the UK, a PLC must have a minimum share capital of \u00a350,000.",
+        "department": "Business"
+    },
+    "AGM": {
+        "meaning": "Annual General Meeting",
+        "description": "A mandatory yearly gathering of a company's interested shareholders. At an AGM, the directors of the company present an annual report containing information for shareholders about the company's performance and strategy.",
+        "department": "Business"
+    },
+    "T&C": {
+        "meaning": "Terms and Conditions",
+        "description": "The legal agreements between a service provider and a person who wants to use that service. Essential for UK consumer law compliance.",
+        "department": "Business"
+    },
+    "ISA": {
+        "meaning": "Individual Savings Account",
+        "description": "A class of retail investment arrangements available to residents of the United Kingdom which allows for tax-free interest payments.",
+        "department": "Business"
+    },
     "ROI": {
-        "meaning": "Republic of Ireland",
-        "description": "The sovereign state covering the majority of the island of Ireland. In UK business contexts, 'ROI' is often used to distinguish it clearly from Northern Ireland (NI), though 'Ireland' is the official country name.",
+        "ROI (business)": {
+            "meaning": "Return on Investment",
+            "description": "A performance measure used to evaluate the efficiency of an investment or compare the efficiency of a number of different investments. It measures the amount of return on an investment relative to the investment's cost.",
+            "department": " Business"
+        },
+        "ROI": {
+            "meaning": "Republic of Ireland",
+            "description": "The sovereign state covering the majority of the island of Ireland. In UK business contexts, 'ROI' is often used to distinguish it clearly from Northern Ireland (NI), though 'Ireland' is the official country name.",
+            "department": "FCDO"
+        }
+    },
+    "ASAP": {
+        "meaning": "As Soon As Possible",
+        "description": "Used to convey urgency in completing a task.",
+        "department": "General Communication"
+    },
+    "B2B": {
+        "meaning": "Business to Business",
+        "description": "A form of transaction between businesses, such as one involving a manufacturer and wholesaler, or a wholesaler and a retailer.",
+        "department": "Business"
+    },
+    "COB": {
+        "COB": {
+            "meaning": "Close of Business",
+            "description": "Refers to the end of the business day (usually 5:00 PM). Used to set deadlines.",
+            "department": "Business"
+        },
+        "COB (Role)": {
+            "meaning": "Chairman of the Board",
+            "description": "The highest-ranking officer in the board of directors of a corporation.",
+            "department": "CS wide"
+        }
+    },
+    "EMEA": {
+        "meaning": "Europe, Middle East, and Africa",
+        "description": "A major geographic division used by multinational corporations for reporting and organizational structure.",
+        "department": "DBT"
+    },
+    "UKOT": {
+        "meaning": "United Kingdom Overseas Territories",
+        "description": "Fourteen territories with a constitutional link to the UK but not part of it (e.g., Bermuda, Gibraltar, Falkland Islands). They are self-governing but rely on the UK for defense and foreign relations.",
         "department": "FCDO"
     },
-  },
-  "ASAP": {
-    "meaning": "As Soon As Possible",
-    "description": "Used to convey urgency in completing a task.",
-    "department": "General Communication"
-  },
-  "B2B": {
-    "meaning": "Business to Business",
-    "description": "A form of transaction between businesses, such as one involving a manufacturer and wholesaler, or a wholesaler and a retailer.",
-    "department": "Business"
-  },
-  "COB": {
-    "COB": {
-      "meaning": "Close of Business",
-      "description": "Refers to the end of the business day (usually 5:00 PM). Used to set deadlines.",
-      "department": "Business"
-    },
-    "COB (Role)": {
-      "meaning": "Chairman of the Board",
-      "description": "The highest-ranking officer in the board of directors of a corporation.",
-      "department": "CS wide"
+    "MENA": {
+        "meaning": "Middle East and North Africa",
+        "description": "A grouping of countries situated in and around the Middle East and North Africa. Commonly used in economic analysis and market planning.",
+        "department": "DBT"
     }
-  },
-
-  "EMEA": {
-    "meaning": "Europe, Middle East, and Africa",
-    "description": "A major geographic division used by multinational corporations for reporting and organizational structure.",
-    "department": "DBT"
-  },
-  "UKOT": {
-    "meaning": "United Kingdom Overseas Territories",
-    "description": "Fourteen territories with a constitutional link to the UK but not part of it (e.g., Bermuda, Gibraltar, Falkland Islands). They are self-governing but rely on the UK for defense and foreign relations.",
-    "department": "FCDO"
-  },
-  "MENA": {
-    "meaning": "Middle East and North Africa",
-    "description": "A grouping of countries situated in and around the Middle East and North Africa. Commonly used in economic analysis and market planning.",
-    "department": "DBT"
-  },
 }
