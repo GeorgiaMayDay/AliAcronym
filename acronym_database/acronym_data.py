@@ -4619,7 +4619,7 @@ database = {
     },
     "CxD": {
         "meaning": "Chancellor's Departments (APA, DMO, GAD, HMRC, HMT, NS&I, OBR)",
-        "description": "These departments typically include: \n APA: Army Personnel Administration (likely outdated or specific internal reference) \n DMO: Debt Management Office \n GAD: Government Actuary's Department \n HMRC: His Majesty's Revenue and Customs \n HMT: His Majesty's Treasury \n NS&I: National Savings and Investments \n OBR: Office for Budget Responsibility \This classification groups a number of non-ministerial departments and executive agencies that report directly to the Chancellor of the Exchequer and His Majesty's Treasury ",
+        "description": "These departments typically include: \n APA: Army Personnel Administration (likely outdated or specific internal reference) \n DMO: Debt Management Office \n GAD: Government Actuary's Department \n HMRC: His Majesty's Revenue and Customs \n HMT: His Majesty's Treasury \n NS&I: National Savings and Investments \n OBR: Office for Budget Responsibility \n This classification groups a number of non-ministerial departments and executive agencies that report directly to the Chancellor of the Exchequer and His Majesty's Treasury ",
         "department": "CO"
     },
     "D": {
@@ -4629,22 +4629,22 @@ database = {
     },
     "D&E": {
         "meaning": "Diversity and Equality",
-        "description": "",
+        "description": "Strategies and policies aimed at promoting equal opportunity and representation within the workforce.",
         "department": "Civil Service Wide"
     },
     "D&I": {
         "meaning": "DIVERSITY & INCLUSION",
-        "description": "",
+        "description": "The practice of creating a workforce that reflects society and a culture where everyone feels they belong.",
         "department": "Civil Service Wide"
     },
-    "DYO": {
+    "DYO.": {
         "meaning": "Deter Young Cohort Offender",
-        "description": "",
+        "description": "A specific scheme or classification within the youth justice system aimed at preventing reoffending among young people.",
         "department": "MoJ"
     },
     "D3B": {
         "meaning": "Digital, Design and Delivery Board",
-        "description": "",
+        "description": "Governance board overseeing digital transformation and service design assurance.",
         "department": "Defra"
     },
     "DA": {
@@ -4661,12 +4661,12 @@ database = {
     },
     "DAAT": {
         "meaning": "Decision Appeals and Assurance Team",
-        "description": "",
+        "description": "A team within DWP responsible for reviewing benefit decisions and handling appeals before they reach a tribunal.",
         "department": "DWP"
     },
     "DAC": {
         "meaning": "Data Analysis Capability",
-        "description": "",
+        "description": "A team or function dedicated to analysing data to support policy making and operational delivery.",
         "department": "DfE"
     },
     "DACDOT": {
@@ -4676,7 +4676,7 @@ database = {
     },
     "DACU": {
         "meaning": "Data Access and Compliance Unit",
-        "description": "",
+        "description": "The unit responsible for handling Freedom of Information (FOI) requests, Subject Access Requests (SARs), and ensuring data protection compliance.",
         "department": "MoJ"
     },
     "DADA": {
@@ -4686,17 +4686,17 @@ database = {
     },
     "DAE (departmental organisational unit)": {
         "meaning": "Directorate of Army Education",
-        "description": "",
+        "description": "The branch responsible for the education and training of Army personnel.",
         "department": "DfE"
     },
     "DAG": {
         "meaning": "Data Advisory Group",
-        "description": "",
+        "description": "A group providing advice and governance on data standards, sharing, and quality.",
         "department": "DfE"
     },
     "DAGC": {
         "meaning": "Design Approvals and Governance Council",
-        "description": "",
+        "description": "A governance body that approves technical or service designs to ensure they meet required standards.",
         "department": ""
     },
     "DAL": {
@@ -4716,7 +4716,7 @@ database = {
     },
     "DAP": {
         "meaning": "Death Arrears Payee",
-        "description": "",
+        "description": "The person nominated or entitled to receive any outstanding benefit payments due to a deceased claimant.",
         "department": ""
     },
     "DARAC": {
@@ -4751,12 +4751,12 @@ database = {
     },
     "DARU": {
         "meaning": "Data Assurance Reporting Unit",
-        "description": "",
+        "description": "A unit responsible for ensuring data quality and reporting accuracy.",
         "department": "MoJ"
     },
     "DAS": {
         "meaning": "Direct Appointment Scheme",
-        "description": "",
+        "description": "A recruitment scheme allowing departments to appoint individuals directly to roles without a full open competition, often used for specialist skills or diversity initiatives.",
         "department": "Civil Service Wide"
     },
     "DAS (Apprenticeships)": {
@@ -4771,17 +4771,17 @@ database = {
     },
     "DASD": {
         "meaning": "Data & Analytical Services Division",
-        "description": "",
+        "description": "The division within the Ministry of Justice responsible for providing data analysis, statistics, and research to support policy and operations.",
         "department": "MoJ"
     },
     "DBC": {
         "meaning": "Disability Benefits Centre",
-        "description": "",
+        "description": "Regional centres responsible for processing claims for disability-related benefits.",
         "department": "DWP"
     },
     "DBR": {
         "meaning": "Detailed Business Requirement",
-        "description": "",
+        "description": "A document specifying the in-depth business needs for a project or system, often following high-level requirements.",
         "department": ""
     },
     "DBS": {
@@ -4797,28 +4797,28 @@ database = {
         },
         "DBS (3)": {
             "meaning": "",
-            "description": "",
+            "description": "Disclosure and Barring Service (context of criminal record checks).",
             "department": "MoJ"
         }
     },
     "DBT": {
         "meaning": "Department for Business and Trade",
-        "description": "",
+        "description": "The UK government department formed in 2023, responsible for economic growth, trade, and investment.",
         "department": "DBT"
     },
     "DC": {
         "meaning": "Direct Commissioning",
-        "description": "",
+        "description": "A process where the government directly contracts for the construction of housing or other infrastructure.",
         "department": "DLUHC"
     },
     "DCA": {
         "meaning": "Delivery Confidence Assessment",
-        "description": "",
+        "description": "An assessment, often by the IPA, of the likelihood of a project delivering its objectives on time and to budget.",
         "department": "DLUHC"
     },
     "DCAM": {
         "meaning": "Data Collection and Matching",
-        "description": "",
+        "description": "Processes or systems used to gather data from various sources and match records (e.g., matching pupil records across different databases).",
         "department": "DfE"
     },
     "DCATCH": {
@@ -4833,12 +4833,12 @@ database = {
     },
     "DCFS": {
         "meaning": "Data Collections and Funding System",
-        "description": "",
+        "description": "A system used by the DfE/ESFA to manage data collections from education providers and calculate funding allocations.",
         "department": "DfE"
     },
     "DCI": {
         "meaning": "Departmental Central Index",
-        "description": "",
+        "description": "A centralized database or index used to track individuals or entities across a department's various systems.",
         "department": ""
     },
     "DCLG": {
@@ -4848,7 +4848,7 @@ database = {
     },
     "DCM": {
         "meaning": "District Comms Manager",
-        "description": "",
+        "description": "A communications manager role operating at a district level.",
         "department": ""
     },
     "DCMS (1997\u20132017, 2023\u2013present)": {
@@ -4858,17 +4858,17 @@ database = {
     },
     "DCMS (2017\u20132023)": {
         "meaning": "Department for Digital, Culture, Media and Sport",
-        "description": "Dated 3 July 2017: In a move that acknowledges the way the Departments remit has evolved, the Prime Minister and Culture Secretary Karen Bradley have agreed a departmental name change. The Department will continue to be referred to as DCMS in all communications, but is now the department for Digital, Culture, Media and Sport.Source: {GOV.UK|https://www.gov.uk/governmentews/change-of-name-for-dcms} accessed 2017-07-31",
+        "description": "Dated 3 July 2017: In a move that acknowledges the way the Departments remit has evolved, the Prime Minister and Culture Secretary Karen Bradley have agreed a departmental name change. The Department will continue to be referred to as DCMS in all communications, but is now the department for Digital, Culture, Media and Sport.Source: {GOV.UK|https://www.gov.uk/governmentewsew-change-of-name-for-dcms} accessed 2017-07-31",
         "department": "Civil Service Wide"
     },
     "DCMS (data)": {
         "meaning": "Data Collections Management System",
-        "description": "",
+        "description": "A system used to manage the scheduling, collection, and processing of data returns.",
         "department": "DfE"
     },
     "DCMU": {
         "meaning": "Digital Case Management Unit (England and Wales)",
-        "description": "",
+        "description": "A unit handling the digital processing and management of legal cases.",
         "department": ""
     },
     "DCO": {
@@ -4884,18 +4884,18 @@ database = {
         },
         "DCP (professional??)": {
             "meaning": "Dental Care Professional",
-            "description": "",
+            "description": "A qualified professional working in dental care, such as a nurse or hygienist.",
             "department": "DfE"
         },
         "DCP (point??)": {
             "meaning": "District Control Point",
-            "description": "",
+            "description": "A designated point for managing control or communications within a district.",
             "department": ""
         }
     },
     "DCPU": {
         "meaning": "Disability Contact and Processing Unit",
-        "description": "",
+        "description": "A unit handling contact and processing for disability-related claims or services.",
         "department": ""
     },
     "DCR": {
@@ -4906,12 +4906,12 @@ database = {
     "DCS": {
         "DCS": {
             "meaning": "Directors of childrens services",
-            "description": "",
+            "description": "Senior local authority officers responsible for education and children's social services.",
             "department": "DfE"
         },
         "DCS (service??)": {
             "meaning": "Disability and Carer\u2019s Service",
-            "description": "",
+            "description": "The part of DWP responsible for disability benefits and Carer's Allowance.",
             "department": ""
         }
     },
@@ -4927,17 +4927,17 @@ database = {
     },
     "DCST": {
         "meaning": "Digital Customer Service Team",
-        "description": "",
+        "description": "A team within HMRC focused on providing and improving digital support for customers.",
         "department": "HMRC"
     },
     "DCT": {
         "meaning": "Direct Credit Transfer",
-        "description": "",
+        "description": "A method of paying benefits or salaries directly into a bank account.",
         "department": ""
     },
     "DCT (departmental organisational unit)": {
         "meaning": "Digital Communications Team",
-        "description": "",
+        "description": "A team responsible for managing digital communications channels and content.",
         "department": "DfE"
     },
     "DCU (departmental organisational unit)": {
@@ -4947,22 +4947,22 @@ database = {
     },
     "DD": {
         "meaning": "Deputy Director",
-        "description": "",
+        "description": "A senior civil service grade (SCS1), typically leading a division.",
         "department": "Civil Service Wide"
     },
     "DDA": {
         "meaning": "Disability Discrimination Act",
-        "description": "",
+        "description": "Legislation aimed at ending discrimination against people with disabilities (mostly replaced by the Equality Act 2010).",
         "department": "Civil Service Wide"
     },
     "DDA 1995": {
         "meaning": "Disability Discrimination Act 1995",
-        "description": "",
+        "description": "The original act making it unlawful to discriminate against people in respect of their disabilities.",
         "department": "DfE"
     },
     "DDA 2005": {
         "meaning": "Disability Discrimination Act 2005",
-        "description": "",
+        "description": "An amendment to the 1995 Act, introducing a positive duty on public bodies to promote equality.",
         "department": "DfE"
     },
     "DDAn": {
@@ -4972,7 +4972,7 @@ database = {
     },
     "DDB": {
         "meaning": "Digital Delivery Board (superseded by TFPB)",
-        "description": "",
+        "description": "A board previously responsible for overseeing digital delivery projects.",
         "department": "NHS"
     },
     "DDC": {
@@ -4983,7 +4983,7 @@ database = {
         },
         "DDC (conversion??)": {
             "meaning": "Digital Document Conversion",
-            "description": "",
+            "description": "The process of digitizing paper records.",
             "department": ""
         }
     },
@@ -4994,17 +4994,17 @@ database = {
     },
     "DDGB": {
         "meaning": "Departmental Data Governance Board",
-        "description": "",
+        "description": "A high-level board ensuring data is managed and used effectively across the department.",
         "department": "DfE"
     },
     "DDL": {
         "meaning": "Digital Driving License",
-        "description": "",
+        "description": "A digital version of the driving license.",
         "department": "DfT"
     },
     "DDN": {
         "meaning": "District Delivery Network",
-        "description": "",
+        "description": "A network for delivering services at a district level.",
         "department": ""
     },
     "DDTS": {
@@ -5019,7 +5019,7 @@ database = {
     },
     "DDaT": {
         "meaning": "Digital, Data and Technology",
-        "description": "",
+        "description": "The government profession for people working in digital, data and technology roles.",
         "department": "Civil Service Wide"
     },
     "DE (employment)": {
@@ -5034,7 +5034,7 @@ database = {
     },
     "DE&S": {
         "meaning": "Defence Equipment and Support (part of MoD)",
-        "description": "",
+        "description": "The organisation responsible for the procurement and support of defence equipment.",
         "department": "MoD"
     },
     "DEA": {
@@ -5059,7 +5059,7 @@ database = {
     },
     "DEI": {
         "meaning": "Data Engineering Integration",
-        "description": "",
+        "description": "Processes or teams focused on integrating data engineering practices.",
         "department": "DfE"
     },
     "DEL": {
@@ -5074,17 +5074,17 @@ database = {
     },
     "DEL (learning)": {
         "meaning": "Distributed and Electronic Learning",
-        "description": "",
+        "description": "Learning that is delivered remotely or via electronic means.",
         "department": "DfE"
     },
     "DELLS": {
         "meaning": "Department for Education Lifelong Learning and Skills",
-        "description": "",
+        "description": "A former department within the Welsh Government responsible for education and skills.",
         "department": "DfE"
     },
     "DELNI": {
         "meaning": "Department of Employment and Learning Northern Ireland",
-        "description": "",
+        "description": "A former Northern Ireland government department responsible for further and higher education and employment.",
         "department": "DfE"
     },
     "DELTA group": {
@@ -5099,7 +5099,7 @@ database = {
     },
     "DENI": {
         "meaning": "Department of Education for Northern Ireland",
-        "description": "",
+        "description": "The government department responsible for education in Northern Ireland.",
         "department": "DfE"
     },
     "DEP": {
@@ -5109,7 +5109,7 @@ database = {
     },
     "DERM": {
         "meaning": "District External Relations Manager",
-        "description": "",
+        "description": "A manager responsible for external relations at a district level.",
         "department": ""
     },
     "DES": {
@@ -5129,12 +5129,12 @@ database = {
     },
     "DEU": {
         "meaning": "Digital Economy Unit",
-        "description": "",
+        "description": "A unit focused on policy relating to the digital economy.",
         "department": "DSIT"
     },
     "DEX": {
         "meaning": "Dialogue Expert",
-        "description": "",
+        "description": "A role or function involving expertise in managing dialogue or communications.",
         "department": ""
     },
     "DExEU": {
@@ -5149,22 +5149,22 @@ database = {
     },
     "DFA": {
         "meaning": "Delegated Financial Authority",
-        "description": "",
+        "description": "The authority given to an individual to approve financial transactions up to a certain limit.",
         "department": "Civil Service Wide"
     },
     "DFC": {
         "meaning": "Devolved formula capital",
-        "description": "",
+        "description": "Capital funding allocated to schools to spend on their own priorities.",
         "department": "DfE"
     },
     "DFD": {
         "meaning": "Data Flow Diagram",
-        "description": "",
+        "description": "A graphical representation of the \"flow\" of data through an information system.",
         "department": "MoJ"
     },
     "DG": {
         "meaning": "Director General",
-        "description": "",
+        "description": "A senior civil service grade (SCS3), overseeing a group of directorates.",
         "department": "Civil Service Wide; Defra"
     },
     "DG (civil service grade)": {
@@ -5174,12 +5174,12 @@ database = {
     },
     "DG (governance)": {
         "meaning": "Data Governance",
-        "description": "",
+        "description": "The overall management of the availability, usability, integrity and security of data.",
         "department": "DfE"
     },
     "DGB": {
         "meaning": "Data Governance Board",
-        "description": "",
+        "description": "A board responsible for setting data governance policies and standards.",
         "department": "DfE"
     },
     "DGDT (departmental organisational unit)": {
@@ -5189,12 +5189,12 @@ database = {
     },
     "DGI": {
         "meaning": "Disadvantage Gap Index",
-        "description": "",
+        "description": "A measure of the attainment gap between disadvantaged pupils and their peers.",
         "department": "DfE"
     },
     "DGL": {
         "meaning": "Defra Group Leaders",
-        "description": "",
+        "description": "Senior leadership group across the Defra family of bodies.",
         "department": "Defra"
     },
     "DGVT": {
@@ -5209,12 +5209,12 @@ database = {
     },
     "DHB": {
         "meaning": "Disability Handbook",
-        "description": "",
+        "description": "Guidance for decision makers on disability benefits.",
         "department": ""
     },
     "DHP": {
         "meaning": "Discretionary Housing Payment",
-        "description": "",
+        "description": "Extra financial help for people on Housing Benefit or Universal Credit who need help with rent.",
         "department": ""
     },
     "DHSC": {
@@ -5229,17 +5229,17 @@ database = {
     },
     "DIA": {
         "meaning": "Diversity Impact Assessment",
-        "description": "",
+        "description": "An assessment to ensure policies or projects do not disproportionately affect groups with protected characteristics.",
         "department": ""
     },
     "DIB": {
         "meaning": "Divisional Implementation Board",
-        "description": "",
+        "description": "A board responsible for implementing projects or changes within a specific division.",
         "department": "MoJ"
     },
     "DIC": {
         "meaning": "death in custody",
-        "description": "",
+        "description": "A death that occurs while an individual is in state custody (prison, police station, etc.).",
         "department": "MoJ"
     },
     "DIS (data)": {
@@ -5264,7 +5264,7 @@ database = {
     },
     "DIT": {
         "meaning": "Department for International Trade",
-        "description": "",
+        "description": "Former department responsible for trade agreements and investment. Replaced by DBT in 2023.",
         "department": "DIT"
     },
     "DIUS": {
@@ -5279,23 +5279,23 @@ database = {
     },
     "DL": {
         "meaning": "Draft Letter",
-        "description": "",
+        "description": "A draft response or communication prepared for approval.",
         "department": "DWP"
     },
     "DLACS": {
         "meaning": "Disability Living Allowance Computer System",
-        "description": "",
+        "description": "The legacy IT system used for administering Disability Living Allowance.",
         "department": "DWP"
     },
     "DLC": {
         "DLC": {
             "meaning": "Delegated Legislation Committee",
-            "description": "",
+            "description": "A parliamentary committee that considers secondary legislation.",
             "department": "Civil Service Wide"
         },
         "DLC (lifecycle??)": {
             "meaning": "Delivery lifecycle",
-            "description": "",
+            "description": "The stages involved in delivering a project or service.",
             "department": "DfE"
         }
     },
@@ -5306,12 +5306,12 @@ database = {
     },
     "DLF": {
         "meaning": "Demand Led Funding",
-        "description": "Demand Led Funding Business Definition \n\n DEFINITION 1. Demand led funding (DLF) is a new funding model, reflecting the principle that learner (or employer) demand and choice should directly affect the amount of funding earned by providers. \n\n  DETAILED DESCRIPTION 2. Under the DLF model, providers earn money based on actual delivery. Following the tendering process, approved providers will agree an allocation value with the LSC prior to the start of the year. However, the provider's actual budget will depend on learner demand, as the reconciliation arrangements will recover funding from those providers that fail to deliver their agreed allocations. \n\n 3. Demand Led Funding is split into three models: 16-18 Learner Responsive Adult Learner Responsive Employer Learner Responsive Last date modified: 7th November 2008Source: {The National Archives|https://webarchive.nationalarchives.gov.uk/20140104152747/https://www.thedataservice.org.uk/datadictionary/businessdefinitions/Demand+Led+Funding.htm} accessed 2019-08-01",
+        "description": "1. Demand led funding (DLF) is a new funding model, reflecting the principle that learner (or employer) demand and choice should directly affect the amount of funding earned by providers. \n Under the DLF model, providers earn money based on actual delivery. Following the tendering process, approved providers will agree an allocation value with the LSC prior to the start of the year. However, the provider's actual budget will depend on learner demand, as the reconciliation arrangements will recover funding from those providers that fail to deliver their agreed allocations. \n Demand Led Funding is split into three models: 16-18 Learner Responsive Adult Learner Responsive Employer Learner Responsive \n Source: {The National Archives|https://webarchive.nationalarchives.gov.uk/20140104152747/https://www.thedataservice.org.uk/datadictionary/businessdefinitions/Demand+Led+Funding.htm} accessed 2019-08-01",
         "department": "DfE"
     },
     "DLHE": {
         "meaning": "Destinations of leavers from higher education",
-        "description": "",
+        "description": "A survey collecting information on what higher education graduates do after they leave university/college.",
         "department": "DfE"
     },
     "DLO": {
@@ -5322,13 +5322,13 @@ database = {
         },
         "DLO (outcomes??)": {
             "meaning": "Desirable Learning Outcomes",
-            "description": "",
+            "description": "Goals or standards set for educational achievement.",
             "department": "Royal Mail"
         }
     },
     "DLR": {
         "meaning": "Docklands Light Railway Transport",
-        "description": "",
+        "description": "Automated light metro system serving the Docklands area of London.",
         "department": "DLUHC"
     },
     "DLS": {
@@ -5343,12 +5343,12 @@ database = {
     },
     "DMA": {
         "meaning": "Decision Making and Appeals",
-        "description": "",
+        "description": "The function within DWP responsible for making decisions on benefit claims and handling appeals.",
         "department": "DWP"
     },
     "DMACR": {
         "meaning": "Decision Making and Appeals case recorder",
-        "description": "",
+        "description": "System used to record details of decision making and appeals cases.",
         "department": "DWP"
     },
     "DMAP": {
@@ -5358,12 +5358,12 @@ database = {
     },
     "DMAPT": {
         "meaning": "Decision Making, Appeals and Procedures Team",
-        "description": "",
+        "description": "A team responsible for guidance and procedures related to benefit decisions and appeals.",
         "department": ""
     },
     "DMAS": {
         "meaning": "Decision Making and Appeals Service",
-        "description": "",
+        "description": "The service handling benefit decisions and appeals.",
         "department": "DWP"
     },
     "DMD (departmental organisational unit)": {
@@ -5373,12 +5373,12 @@ database = {
     },
     "DMF": {
         "meaning": "Departmental Monetary Fund",
-        "description": "",
+        "description": "A fund managed by a department for specific monetary purposes.",
         "department": "DLUHC"
     },
     "DMG": {
         "meaning": "Decision Makers Guide",
-        "description": "",
+        "description": "Guidance used by DWP decision makers to ensure consistent application of benefit laws.",
         "department": "DWP"
     },
     "DMO": {
@@ -5388,34 +5388,34 @@ database = {
     },
     "DMPG": {
         "meaning": "Decision Makers Procedural Guide",
-        "description": "",
+        "description": "Procedural guidance for decision makers.",
         "department": ""
     },
     "DMS": {
         "DMS": {
             "meaning": "Data Matching Service",
-            "description": "",
+            "description": "A service to identify and match data records across different systems.",
             "department": "DfE"
         },
         "DMS (studies??)": {
             "meaning": "Diploma in Management Studies",
-            "description": "",
+            "description": "A postgraduate management qualification.",
             "department": ""
         }
     },
     "DMU": {
         "meaning": "Decision Making Unit",
-        "description": "",
+        "description": "A unit responsible for making official decisions on cases.",
         "department": ""
     },
     "DMVO": {
         "meaning": "Decision Maker Visiting Officers",
-        "description": "",
+        "description": "Officers who visit claimants to gather information for decision making.",
         "department": ""
     },
     "DN": {
         "meaning": "",
-        "description": "",
+        "description": "Often refers to 'Do Not' or 'Director's Note' or 'Dispensation Notice' - context usually DLUHC planning.",
         "department": "DLUHC"
     },
     "DNE": {
@@ -5430,49 +5430,49 @@ database = {
     },
     "DO": {
         "meaning": "District Office",
-        "description": "",
+        "description": "Local office of a department or agency.",
         "department": "DWP"
     },
     "DOAB": {
         "meaning": "Digital Oversight and Approvals Board",
-        "description": "",
+        "description": "Board responsible for overseeing digital projects and approving spend/plans.",
         "department": "NHS"
     },
     "DOB": {
         "meaning": "Date of Birth",
-        "description": "",
+        "description": "The date a person was born.",
         "department": "Not Limited to CS"
     },
     "DOC": {
         "DOC": {
             "meaning": "Date of Claim",
-            "description": "",
+            "description": "The date a benefit claim is made.",
             "department": "DWP"
         },
         "DOC (centre??)": {
             "meaning": "Departmental Operations Centre",
-            "description": "",
+            "description": "A central hub for managing departmental operations, often during incidents.",
             "department": "DfE"
         }
     },
     "DOD": {
         "meaning": "Dater of Death",
-        "description": "",
+        "description": "The date a person died.",
         "department": "Not Limited to CS"
     },
     "DOE": {
         "meaning": "Department of the Environment",
-        "description": "",
+        "description": "Former UK government department.",
         "department": "DfE"
     },
     "DOH": {
         "meaning": "Department of Health",
-        "description": "",
+        "description": "Former name of DHSC.",
         "department": "DHSC"
     },
     "DOI": {
         "meaning": "Digital Office Infrastructure",
-        "description": "",
+        "description": "IT infrastructure supporting office operations.",
         "department": "DWP"
     },
     "DOM1/Dom1": {
@@ -5482,7 +5482,7 @@ database = {
     },
     "DOSN": {
         "meaning": "District One Service Network",
-        "description": "",
+        "description": "A network for service delivery in a specific district.",
         "department": ""
     },
     "DP": {
@@ -5493,38 +5493,38 @@ database = {
         },
         "DP (protection??)": {
             "meaning": "Data Protection",
-            "description": "",
+            "description": "Laws and practices regarding the protection of personal data.",
             "department": "DWP"
         },
         "DP (payment??)": {
             "meaning": "Direct Payment",
-            "description": "",
+            "description": "Payments made directly to individuals to pay for their care or support.",
             "department": "Defra"
         },
         "DP (premium??)": {
             "meaning": "Disability Premium",
-            "description": "",
+            "description": "An extra amount of money added to Income Support or Jobseeker's Allowance for disabled people.",
             "department": "Not Limited to CS"
         }
     },
     "DPA": {
         "meaning": "Data Protection Act; Defense Production Act",
-        "description": "",
+        "description": "UK legislation governing data protection (DPA 2018); US legislation (DPA).",
         "department": "BEIS; MoJ; Not Limited to CS"
     },
     "DPA 1984": {
         "meaning": "Data Protection Act 1984",
-        "description": "",
+        "description": "Early UK data protection legislation.",
         "department": "DfE"
     },
     "DPA 1998": {
         "meaning": "Data Protection Act 1998",
-        "description": "",
+        "description": "Previous UK data protection legislation, repealed by DPA 2018.",
         "department": "DfE"
     },
     "DPAD": {
         "meaning": "Direct Payment After Death",
-        "description": "",
+        "description": "Procedures for handling direct payments after a recipient has died.",
         "department": ""
     },
     "DPAS": {
@@ -5544,22 +5544,22 @@ database = {
     },
     "DPIA": {
         "meaning": "Data Protection Impact Assessment",
-        "description": "",
+        "description": "A process to identify and minimise the data protection risks of a project.",
         "department": "Defra; NHS"
     },
     "DPLO": {
         "meaning": "Data Protection Liaison Officer",
-        "description": "",
+        "description": "Officer responsible for data protection issues within a specific area.",
         "department": ""
     },
     "DPM": {
         "meaning": "Deputy Prime Minister",
-        "description": "",
+        "description": "The deputy head of government.",
         "department": "No 10"
     },
     "DPO": {
         "meaning": "Data Protection Officer",
-        "description": "",
+        "description": "A required role under GDPR responsible for overseeing data protection strategy and implementation.",
         "department": "Civil Service Wide; DLUHC"
     },
     "DPR (data)": {
@@ -5574,12 +5574,12 @@ database = {
     },
     "DPRRD": {
         "meaning": "Detention Post Recall Release Date",
-        "description": "",
+        "description": "The date a prisoner is released after being recalled to custody.",
         "department": "MoJ"
     },
     "DPRS": {
         "meaning": "Direct Payment Registration System",
-        "description": "",
+        "description": "System for registering direct payments.",
         "department": ""
     },
     "DPS": {
@@ -5601,7 +5601,7 @@ database = {
     },
     "DPTC": {
         "meaning": "Disabled Persons Tax Credit",
-        "description": "",
+        "description": "A tax credit for working people with a disability.",
         "department": ""
     },
     "DQ": {
@@ -5612,7 +5612,7 @@ database = {
         },
         "DQ (question??)": {
             "meaning": "Draft Question",
-            "description": "",
+            "description": "A question drafted for parliamentary or internal use.",
             "department": "HMCTS"
         }
     },
@@ -5629,17 +5629,17 @@ database = {
         },
         "DR (recovery??)": {
             "meaning": "Disaster Recovery",
-            "description": "",
+            "description": "Policies and procedures to enable the recovery or continuation of vital technology infrastructure and systems following a natural or human-induced disaster.",
             "department": "MoJ"
         },
         "DR (resolution??)": {
             "meaning": "Dispute Resolution",
-            "description": "",
+            "description": "Processes for resolving disputes.",
             "department": ""
         },
         "DR (retention??)": {
             "meaning": "Document Retention",
-            "description": "",
+            "description": "Policies on how long documents are kept.",
             "department": ""
         }
     },
@@ -5661,28 +5661,28 @@ database = {
     "DRO": {
         "DRO": {
             "meaning": "Departmental Record Officer",
-            "description": "",
+            "description": "Officer responsible for departmental records management.",
             "department": "DLUHC"
         },
         "DRO (office??)": {
             "meaning": "Departmental Records Office",
-            "description": "",
+            "description": "The office managing departmental records.",
             "department": "DfE"
         },
         "DRO (officer??)": {
             "meaning": "Departmental Records Officer",
-            "description": "",
+            "description": "Officer responsible for departmental records.",
             "department": ""
         }
     },
     "DRP": {
         "meaning": "Data Retention Policy",
-        "description": "",
+        "description": "Policy governing how long data is retained.",
         "department": "DfE"
     },
     "DRS": {
         "meaning": "Document Repository System",
-        "description": "",
+        "description": "System for storing documents.",
         "department": ""
     },
     "DRY": {
@@ -5708,18 +5708,18 @@ database = {
         },
         "DSA (allowances??)": {
             "meaning": "Disabled Students Allowances",
-            "description": "",
+            "description": "Allowances to help students with disabilities cover extra costs.",
             "department": "MoJ"
         }
     },
     "DSAP": {
         "meaning": "Data Sharing Approval Board",
-        "description": "",
+        "description": "Board that approves data sharing agreements.",
         "department": "DfE"
     },
     "DSAT": {
         "meaning": "Data Self-Assessment Toolkit",
-        "description": "",
+        "description": "Toolkit for self-assessing data management or quality.",
         "department": "DfE"
     },
     "DSCC": {
@@ -5739,12 +5739,12 @@ database = {
     },
     "DSDS": {
         "meaning": "Defence Solicitor Deployment Service",
-        "description": "",
+        "description": "Service for deploying defence solicitors.",
         "department": "MoJ"
     },
     "DSE": {
         "meaning": "Display Screen Equipment",
-        "description": "",
+        "description": "Equipment such as computer monitors; regulations apply to their safe use.",
         "department": "Not Limited to CS"
     },
     "DSF": {
@@ -5755,12 +5755,12 @@ database = {
     "DSG": {
         "DSG": {
             "meaning": "Dedicated schools grants",
-            "description": "",
+            "description": "A grant given to local authorities to fund schools.",
             "department": "DfE"
         },
         "DSG (group??)": {
             "meaning": "Digital Steering Group",
-            "description": "",
+            "description": "A steering group for digital initiatives.",
             "department": "MoJ"
         }
     },
@@ -5781,7 +5781,7 @@ database = {
     },
     "DSMB": {
         "meaning": "Data and Safety Monitoring Board",
-        "description": "",
+        "description": "An independent group of experts that monitors patient safety and treatment efficacy data while a clinical trial is ongoing.",
         "department": "BEIS"
     },
     "DSO": {
@@ -5835,12 +5835,12 @@ database = {
     },
     "DST": {
         "meaning": "Department Security Team",
-        "description": "",
+        "description": "Team responsible for departmental security.",
         "department": ""
     },
     "DST (data)": {
         "meaning": "Data Service Transformation",
-        "description": "",
+        "description": "Programme or initiative to transform data services.",
         "department": "DfE"
     },
     "DST (directorate)": {
@@ -5860,12 +5860,12 @@ database = {
     },
     "DT": {
         "meaning": "Design and technology",
-        "description": "",
+        "description": "A school subject.",
         "department": "DfE"
     },
     "DTA": {
         "meaning": "Development Trajectory Assessment",
-        "description": "",
+        "description": "An assessment of development trajectory.",
         "department": "Cabinet Office"
     },
     "DTI": {
@@ -5875,27 +5875,27 @@ database = {
     },
     "DTO": {
         "meaning": "Detention Training Order",
-        "description": "",
+        "description": "A sentence for young people aged 12-17, combining custody and supervision.",
         "department": "MoJ"
     },
     "DTP": {
         "meaning": "Digital Transformation Portfolio",
-        "description": "",
+        "description": "A portfolio of digital transformation projects.",
         "department": "NHS"
     },
     "DTR": {
         "meaning": "Database of Teacher Records",
-        "description": "",
+        "description": "A database containing records of teachers.",
         "department": "DfE"
     },
     "DTRG": {
         "meaning": "Digital Technology Review Group",
-        "description": "",
+        "description": "A group reviewing digital technology.",
         "department": "MoJ"
     },
     "DTTP": {
         "meaning": "Database of Trainee Teachers and Providers",
-        "description": "",
+        "description": "A database holding information on trainee teachers and training providers.",
         "department": "DfE"
     },
     "DU (departmental organisational unit)": {
@@ -5916,28 +5916,28 @@ database = {
         },
         "DV (visit??)": {
             "meaning": "Domiciliary Visit",
-            "description": "",
+            "description": "A visit to a client's home, usually by a health or social care professional.",
             "department": ""
         }
     },
     "DVLA": {
         "meaning": "Driver and Vehicle Licensing Agency (part of DfT)",
-        "description": "",
+        "description": "The executive agency responsible for maintaining a database of drivers and vehicles in Great Britain.",
         "department": "DfT"
     },
     "DVSA": {
         "meaning": "Driver and Vehicle Standards Agency",
-        "description": "",
+        "description": "Executive agency responsible for driver and vehicle standards.",
         "department": "DfT"
     },
     "DWA": {
         "meaning": "Disability Working Allowance",
-        "description": "",
+        "description": "A former benefit for people with disabilities who were working.",
         "department": ""
     },
     "DWG": {
         "meaning": "Delivery Working Group",
-        "description": "",
+        "description": "A group focused on delivery issues.",
         "department": "Defra"
     },
     "DWP": {
@@ -5952,18 +5952,20 @@ database = {
     },
     "DevOps": {
         "meaning": "Development Operations",
-        "description": "",
+        "description": "A set of practices that combines software development (Dev) and IT operations (Ops).",
         "department": "DfE"
     },
     "DfE": {
-        "meaning": "Department for Education",
-        "description": "Following the General Election of May 2010 the Department for Children, Schools and Families was renamed Department for Education. This title had previously been used from 1992-1995.",
-        "department": "DfE"
-    },
-    "DfE (NI)": {
-        "meaning": "Department for the Economy, Northern Ireland",
-        "description": "",
-        "department": "BEIS"
+        "DfE": {
+            "meaning": "Department for Education",
+            "description": "Following the General Election of May 2010 the Department for Children, Schools and Families was renamed Department for Education. This title had previously been used from 1992-1995.",
+            "department": "DfE"
+        },
+        "DfE (NI)": {
+            "meaning": "Department for the Economy, Northern Ireland",
+            "description": "The devolved Northern Ireland government department responsible for economic policy.",
+            "department": "BEIS"
+        }
     },
     "DfEE": {
         "meaning": "Department for Education and Employment",
@@ -5977,7 +5979,7 @@ database = {
     },
     "DfID": {
         "meaning": "Department for International Development",
-        "description": "",
+        "description": "Former UK government department responsible for administering overseas aid. Merged into FCDO in 2020.",
         "department": "FCDO"
     },
     "DiSSCo": {
@@ -5987,22 +5989,22 @@ database = {
     },
     "Dip sampling": {
         "meaning": "A quality control process used by police forces in which a representative proportion of files are selected and inspected",
-        "description": "",
+        "description": "A method of quality assurance or audit involving checking a sample of cases or files.",
         "department": "MoJ"
     },
     "DoSF": {
         "meaning": "Department of State functions",
-        "description": "",
-        "department": "DfE"
+        "description": "Functions carried out by a Department of State.",
+        "department": "CS Wide"
     },
     "DoaP": {
         "meaning": "Department on a Page",
-        "description": "Source: The Knowledge accessed 2019-06-03",
-        "department": "DfE"
+        "description": "A dedicated digital space (like an intranet page or website section) that acts as a central hub for a specific organizational unit, showcasing its purpose, services, team, resources (forms, FAQs, news), and contact info, essentially serving as a 'shop window' for that department's functions to employees or customers.",
+        "department": "CS Wide"
     },
     "DvH": {
         "meaning": "Delivery Hub (formerly known as the Portfolio Office)",
-        "description": "",
+        "description": "A central function supporting project and programme delivery.",
         "department": "NHS"
     },
     "E": {
