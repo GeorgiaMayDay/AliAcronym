@@ -7,17 +7,15 @@ from acronym_analysis.acronym_identifier import identify_acronym, fetch_acronym_
 from acronym_database.acronym_data import database
 from acronym_database.acronym_data_struct import AcronymDataStruct, MultiAcronymDataStruct
 
-def friendly_response(text: str, logger: Logger,  msg_type: str = "") -> str:
+def friendly_response(text: str,  msg_type: str = "") -> str:
     returning_text = ""
     match msg_type:
         case "mention":
             returning_text = "I've analysis the parent message and found the following acronyms:\n"
         case _:
             returning_text = "Here are the acronyms I have found: \n"
-    analysis_response = extract_acronym_description_text(text, database=database, logger=logger)
+    analysis_response = extract_acronym_description_text(text, database=database)
     return returning_text + analysis_response
-
-
 
 
 def extract_acronym_and_get_definition(text: str, database: Dict[str, str | Dict[str, str]], logger: Logger = logging.getLogger("task")) -> List[str]:
@@ -79,9 +77,9 @@ def clean_str_to_potential_acronyms(text: str) -> List[str]:
 
 
 def acronym_data_details_string(acronym_data: AcronymDataStruct) -> str:
-    description = acronym_data.description if acronym_data.description else "Unfortunately, I don't have a description"
+    description = acronym_data.description if acronym_data.description else "Unfortunately, I don't have a description."
     department = acronym_data.department if acronym_data.department else "CS Wide"
-    answer = f" {acronym_data.acronym} means {acronym_data.meaning}. {description}. And it's used in the {department}"
+    answer = f" {acronym_data.acronym} means {acronym_data.meaning}. {description} And it's used in the {department}"
     return answer
 
 

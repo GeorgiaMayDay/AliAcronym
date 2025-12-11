@@ -11300,15 +11300,15 @@ database = {
         }
     },
     "LAA": {
-        "LAA": {
+        "LAA (Legal)": {
             "meaning": "Legal Aid Agency",
-            "description": "Local area agreements (LAAs) were three-year action plans for achieving better outcomes, developed by councils with their partners in local strategic partnerships. Their abolition was announced in October 2010.",
-            "department": "DfE"
-        },
-        "LAA (agreements??)": {
-            "meaning": "Local Area Agreements",
-            "description": "The new LSC",
+            "description": "The Legal Aid Agency provides both civil and criminal legal aid and gives advice to people that need help dealing with their legal problems. The agency is responsible for ensuring that legal aid services from both solicitors and barristers are made readily available to the general public.",
             "department": "MoJ"
+        },
+        "LAA": {
+            "meaning": "Local Area Agreements",
+            "description": "Local area agreements (LAAs) were three-year action plans for achieving better outcomes, developed by councils with their partners in local strategic partnerships. Their abolition was announced in October 2010.",
+            "department": ""
         }
     },
     "LAAC": {

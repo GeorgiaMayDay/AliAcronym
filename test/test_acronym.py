@@ -53,8 +53,7 @@ def test_fetch_acronym_description_simple_use(acronym_str, expected):
     actual = fetch_acronym_description(acronym_str, curr_database=test_database)
     assert actual.meaning == expected
 
-
-def test_fetch_acronym_description_simple_use():
+def test_fetch_acronym_description_repeated_acronyms():
     actual = identify_acronym("MOD, MOD, NHS, AE -- NHS")
     assert len(actual) == 3
 
