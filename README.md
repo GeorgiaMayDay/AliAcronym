@@ -7,15 +7,29 @@ Initially created following this guide: https://python.plainenglish.io/lets-crea
 This bot allows 3 types of interaction (see script). Currently, it uses a dictionary 
 as a database, and only allows read interactions
 
-This is built entirely with Python
+This is built entirely with Python, using the SlackBolt and Flask frameworks
 
 # Currently
 
-So been exploring various options, and looks like Zappa is the best bet to get this thing spun up on cloud
-quickly and repeatably. Try tomorrow. If that doesn't work, I'm gonna write a goddam bash command to zip this,
-thing and have that for repeatability
+Async issues with instance messaging and mentions :( 
 
-## Script
+## How to deploy
+
+This is currently connected to a personal aws account, 
+so can only be deployed by someone with those credentials.
+
+This is deployed using [Zappa](https://github.com/zappa/Zappa?tab=readme-ov-file) 
+which means the bot logic is in a [Lambda](https://docs.aws.amazon.com/lambda/latest/dg/welcome.html)
+in AWS, connected to a API gateway.
+
+The settings for which can be found in zappa_settings.json
+
+You can deploy it with 
+``
+zappa update dev
+``
+
+## Bot Script
 
 /ali_explain
 - If it recognises 1 acronym and has 1 definition in the database (ex: MOD)
