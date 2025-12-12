@@ -80,7 +80,7 @@ def handle_message_events(body, say):
     if user_msg.lower() in greetings:
         say(help_msg)
     else:
-        for acronym_details in extract_acronym_and_get_definition(user_msg, database, logger=app.logger):
+        for acronym_details in extract_acronym_and_get_definition(user_msg, database):
             say(acronym_details)
 
 

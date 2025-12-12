@@ -2,9 +2,9 @@ import logging
 import re
 import string
 from logging import Logger
-from typing import Dict, List, Set
+from typing import Dict, List
 
-from acronym_analysis.acronym_identifier import identify_acronym, fetch_acronym_description, get_acronyms_from_database
+from acronym_analysis.acronym_identifier import identify_acronym, get_acronyms_from_database
 from acronym_database.acronym_data import database
 from acronym_database.acronym_data_struct import AcronymDataStruct, MultiAcronymDataStruct
 from constants import common_words
@@ -76,7 +76,7 @@ def clean_str_to_potential_acronyms(text: str) -> List[str]:
     potential_acronym_list = [word for word in re.split("\W+", text) if word not in common_words]
     # 3. upper everything
     potential_acronym_list = map(lambda x: x.upper(), potential_acronym_list)
-    # Make sure that all the words are unique and sort the list
+    # 4. Make sure that all the words are unique and sort the list
     return sorted(list(set(potential_acronym_list)))
 
 

@@ -3,11 +3,9 @@ from logging import Logger
 from typing import List, Dict
 import re
 
-from acronym_database.acronym_data import database
 from acronym_database.acronym_data_struct import AcronymDataStruct, MultiAcronymDataStruct
 
-# Check tests for this
-# Should accept as acronym: Any all capital string, and words with multiple capital letters with lower case inbetween
+# Should accept as acronym: Any all capital string, any word broken up by full-stops, and words with multiple capital letters with lower case inbetween
 acronym_pattern = r"\b(?:[A-Z]{2,}[:alpha:]*)|(?:[A-Z][a-z][A-Z][A-Za-z]*)|(?:[a-zA-Z]\.){2|(?:[a-zA-Z]\.){2,}[a-zA-Z]"
 
 def findWholeWord(w, s):

@@ -3,9 +3,8 @@ import re
 
 import pytest
 
-from acronym_database.acronym_data_struct import AcronymDataStruct
 from formatters.slack_formatter import extract_acronym_and_get_definition, \
-    clean_str_to_potential_acronyms, get_acronyms_from_database
+    clean_str_to_potential_acronyms
 from test.utils import test_database
 
 gov_acronyms = [

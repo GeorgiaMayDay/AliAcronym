@@ -3,8 +3,5 @@ slack_sdk==3.39.0
 flask==3.1.2
 slack-bolt==1.27.0
 
-# Fix dependancy so lambda plays nice
-#urllib3<2.0.0
-
 # Testing
 pytest>= 9.0.1

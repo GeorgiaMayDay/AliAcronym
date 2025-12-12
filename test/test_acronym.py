@@ -2,7 +2,6 @@ from logging import Logger
 
 import pytest
 from acronym_analysis.acronym_identifier import identify_acronym, fetch_acronym_description, get_acronyms_from_database
-from acronym_database.acronym_data import database
 from acronym_database.acronym_data_struct import AcronymDataStruct, MultiAcronymDataStruct
 from formatters.slack_formatter import clean_str_to_potential_acronyms
 from test.utils import test_database

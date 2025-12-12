@@ -9,9 +9,20 @@ as a database, and only allows read interactions
 
 This is built entirely with Python, using the SlackBolt and Flask frameworks
 
-# Currently
+## Features
 
-Async issues with instance messaging and mentions :( 
+### Done
+- A slash command (/ali_explain) that you can follow with a a string 
+and it'll return the details of an acronym or jargon it finds
+- If you mention the bot in a thread, it'll give a public explanation
+of any acronyms it find
+- You can DM the bot, to get the same processing as the /command
+
+### Potential Features
+- Try sending the 
+
+
+
 
 ## How to deploy
 
